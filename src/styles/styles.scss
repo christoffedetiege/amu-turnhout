@@ -1,0 +1,93 @@
+@import "./base/colors/colors";
+@import "./base/font/font";
+@import "./home/home";
+@import "./base/navigation/navigation";
+@import "./base/modules/modules";
+@import "./base/layout/textLayout";
+
+
+html {
+  //background: url("/../assets/background/background.png")
+  background: url("/../assets/background/zwartlaken.jpg")
+
+  /*
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.hipwallpaper.com%2Fi%2F8%2F49%2FKpy2XW.jpg&imgrefurl=https%3A%2F%2Fhipwallpaper.com%2Fbackgrounds-for-html%2F&tbnid=WjWsWlqQdvDbDM&vet=10CB4QMyhxahcKEwigppuo6ojxAhUAAAAAHQAAAAAQRg..i&docid=mzT9nmm84oXskM&w=1280&h=800&q=html%20black%20background&ved=0CB4QMyhxahcKEwigppuo6ojxAhUAAAAAHQAAAAAQRg
+
+  https://www.ispsd.com/60-free-black-grunge-background/
+
+https://wallpapersafari.com/black-background-images/
+
+https://www.google.com/search?q=html+black+background&rlz=1C1GCEJ_enBE854BE854&sxsrf=ALeKk03XuOLR6Sx287XdFo-_9Xi3i2nV4A:1623182571302&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjOksWk6ojxAhWHDGMBHVyjBvYQ_AUoAXoECAEQAw&biw=1920&bih=969#imgrc=WjWsWlqQdvDbDM
+
+https://hipwallpaper.com/backgrounds-for-html/
+
+https://hipwallpaper.com/view/3kLlJR
+
+https://livewallpaperhd.com/black-background-better-for-eyes-967/
+
+http://wallpaperswide.com/black_background_2-wallpapers.html
+
+https://www.ispsd.com/60-free-black-grunge-background/
+
+
+  */
+}
+
+body {
+
+  color: $font-color;
+  font-family: $font;
+  margin: 0;
+
+  // background-image: url("/../assets/background/vrouw.jpg");
+}
+
+
+@media (min-width: 900px) {
+  .vrouw {
+     display: none;
+  }
+
+  .logo {
+    position: fixed;   bottom: 30px; right: 30px;
+  }
+
+  .only_mobile{
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo_desktop{
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo img{
+    width: 200px;
+  }
+
+  .vrouw {
+    display: flex;
+    justify-content: center;
+  }
+
+  .vrouw img{
+    width: 350px;
+  }
+
+}
+
+.subtitel{
+  text-align: left;
+}
+
+
+
+
+
+
