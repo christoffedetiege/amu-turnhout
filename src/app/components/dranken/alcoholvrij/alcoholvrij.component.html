@@ -1,0 +1,6 @@
+<div *ngIf="aperoBierFris" class="box">
+  <div class="title">Alcoholvrije aperitief</div>
+  <div class="content">
+    <app-kaart-item *ngFor="let item of aperoBierFris.alcoholVrijeAperitief" [kaartItem]="item"></app-kaart-item>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<div *ngIf="gins" class="box">
+  <div class="title">Gin</div>
+  <div class="content">
+    <div class="kaartitem" *ngFor="let gin of gins">
+      <p class="item">
+        <span *ngIf="gin.gin">{{gin.gin}}<br/></span>
+        <span *ngIf="gin.oorsprong">{{gin.oorsprong}}<br/> </span>
+        <span *ngIf="gin.smaak">{{gin.smaak}} <br/></span>
+        <span *ngIf="gin.tonic">{{gin.tonic}} <br/></span>
+      </p>
+
+      <p class="prijs">
+        {{gin.prijs | currency: 'EUR'}}
+      </p>
+
+    </div>
+  </div>
+
+</div>

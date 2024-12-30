@@ -1,0 +1,14 @@
+<div *ngIf="whiskeys" class="box">
+  <div class="title">Whisky</div>
+  <div class="content">
+    <p class="subtitel">Unpeated</p>
+    <app-kaart-item *ngFor="let w of whiskeys.unpeated" [kaartItem]="w"></app-kaart-item>
+    <p class="subtitel">Peated</p>
+    <app-kaart-item *ngFor="let w of whiskeys.peated" [kaartItem]="w"></app-kaart-item>
+    <br/>
+    <div class="text_align_right">
+      5cl/glas
+    </div>
+  </div>
+
+</div>

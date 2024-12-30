@@ -1,0 +1,76 @@
+<!--<app-aperitiefhapjes></app-aperitiefhapjes>-->
+<div *ngIf="aperoBierFris" class="box">
+  <div class="title">Aperitief</div>
+  <div class="content">
+    <app-kaart-item *ngFor="let item of aperoBierFris.aperitief" [kaartItem]="item"></app-kaart-item>
+    <div class="text_align_right">
+      8cl/glas
+    </div>
+  </div>
+</div>
+
+<div *ngIf="aperoBierFris" class="box">
+  <div class="title">Eens iets anders</div>
+  <div class="content">
+    <app-kaart-item *ngFor="let item of aperoBierFris.eensIetsAnders" [kaartItem]="item"></app-kaart-item>
+  </div>
+</div>
+
+<div *ngIf="gins" class="box">
+  <div class="title">Gins</div>
+  <div class="content">
+    <div class="kaartitem" *ngFor="let gin of gins">
+      <p class="item">
+        <span *ngIf="gin.gin">{{gin.gin}}<br/></span>
+        <span *ngIf="gin.oorsprong">{{gin.oorsprong}}<br/> </span>
+        <span *ngIf="gin.smaak">{{gin.smaak}} <br/></span>
+        <span *ngIf="gin.tonic">{{gin.tonic}} <br/></span>
+      </p>
+
+      <p class="prijs">
+        {{gin.prijs | currency: 'EUR'}}
+      </p>
+
+    </div>
+  </div>
+</div>
+
+<div *ngIf="aperoBierFris" class="box">
+  <div class="title">Stoere bubbels</div>
+  <div class="content">
+
+    <p class="subtitel">Blond</p>
+    <app-kaart-item *ngFor="let item of aperoBierFris.stoerBubbelsBlond" [kaartItem]="item"></app-kaart-item>
+
+<!--    <p class="subtitel">Amber</p>-->
+<!--    <app-kaart-item *ngFor="let item of aperoBierFris.stoerBubbelsAmber" [kaartItem]="item"></app-kaart-item>-->
+
+    <p class="subtitel">Geuze</p>
+    <app-kaart-item *ngFor="let item of aperoBierFris.stoerBubbelsBlondGeuze" [kaartItem]="item"></app-kaart-item>
+
+    <p class="subtitel">Kriek</p>
+    <app-kaart-item *ngFor="let item of aperoBierFris.stoerBubbelsKriek" [kaartItem]="item"></app-kaart-item>
+
+    <p class="subtitel">Donker</p>
+    <app-kaart-item *ngFor="let item of aperoBierFris.stoerBubbelsDonker" [kaartItem]="item"></app-kaart-item>
+
+    <p class="subtitel">Stout </p>
+    <app-kaart-item *ngFor="let item of aperoBierFris.stoerBubbelsStout" [kaartItem]="item"></app-kaart-item>
+
+
+  </div>
+</div>
+
+<div *ngIf="aperoBierFris" class="box">
+  <div class="title">Frisdrank</div>
+  <div class="content">
+
+    <p class="subtitel">Water</p>
+    <app-kaart-item *ngFor="let item of aperoBierFris.waters" [kaartItem]="item"></app-kaart-item>
+
+    <p class="subtitel">Frisdranken</p>
+    <app-kaart-item *ngFor="let item of aperoBierFris.frisdranken" [kaartItem]="item"></app-kaart-item>
+
+  </div>
+</div>
+

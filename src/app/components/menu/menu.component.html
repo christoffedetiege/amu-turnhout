@@ -1,0 +1,100 @@
+<!--<div class="box">-->
+<!--  <div class="title">Valentijn</div>-->
+<!--  <div class="content">-->
+<!--    <strong>Valentijn woensdag 14 februari</strong> <br/>-->
+<!--    <p><strong>Valentijnsmenu 6 gangen 60 €</strong><br/>6 verrassings amukes (incl. dessert)<br/>6 glazen begeleidende wijn 36 €<br/>(aankomst tussen 18.30 uur  en 19.00 uur)</p>-->
+
+<!--  </div>-->
+
+<!--</div>-->
+<div class="box">
+  <div class="title">Menu</div>
+  <div class="content">
+    <p>
+      We vertellen ons verhaal door u een 5, 6 of 10 gangen menu te bereiden, waar het eerlijk – puur product ten volle spreekt.
+    </p>
+    <br/>
+    <div style="font-size: large">Amu Lunch 4 gangen 40 €  <div style="font-size: small"> Lunch tussen 12.00u. en 14.00 u. <br/> 4 verrassings Amukes (incl. dessert)</div></div>
+    <br/>
+    <div style="font-size: large">Amu Lunch 3 gangen 32,5 €  <div style="font-size: small"> Lunch tussen 12.00u. en 14.00 u. <br/> 3 verrassings Amukes (excl. dessert) </div></div>
+    <br/>
+    <div style="font-size: large">Amu Happyness 99 € <div style="font-size: small">Te bestellen tot 20.00u.<br/>10 verrassings Amukes (incl. dessert) <br/>10 glazen begeleidende wijnen 65 €</div></div>
+    <br/>
+    <div style="font-size: large">Amu Free Style 66 €<div style="font-size: small">6 verrassings Amukes (excl. dessert)<br/>6 glazen begeleidende wijnen 39 €</div></div>
+    <br/>
+    <div style="font-size: large">Bib Gourmand 55 € <div style="font-size: small"> 5 verrassings Amukes (incl. dessert)<br/>5 glazen begeleidende wijnen 32.5 €</div></div>
+    <br/>
+    <div style="font-size: large">Thirsty – Thursday 96 € <div style="font-size: small">Iedere donderdag 6 verrassings Amukes (excl. dessert) met aangepaste wijnen</div></div>
+    <br/>
+    <div style="font-size: large">Greedy Monday 75 €<div style="font-size: small">Iedere maandag 8 verrassings Amukes (incl. dessert)<br/>8 glazen begeleidende wijnen 52 €</div></div>
+    <br/>
+
+<!--    <span style="font-size: 25px; font-weight: bold">Valentijn</span><br/>-->
+<!--    <span style="font-size: larger">Loving Tuesday  51 €</span><br/><span style="font-size: smaller"> 14 februari 6 liefdevolle Amukes incl. dessert </span><br/><br/>-->
+<!--    <span style="font-size: larger">Luxury Loving Tuesday 97 €</span><br/><span style="font-size: smaller"> 14 februari 6 liefdevolle Amukes incl. dessert, laat je verwennen van het begin tot het einde incl. dranken</span><br/>-->
+
+    <br/>
+    <br/>
+
+
+    <p>Menu steeds per tafel te nemen.</p>
+
+    <p>
+      Ons verhaal is culinair compleet, waardoor er geen wijzigingen of aanpassingen
+      mogelijk zijn. Zijn er levensbedreigende allergenen ( schaal, schelp, noten,… ) gelieve dit bij uw reservatie te melden, zodat we uw aanpassingen kunnen garanderen.
+      Indien dit niet vooraf vermeld wordt, zijn wij genoodzaakt de menu te beperken tot
+      maximum 5 gerechten.
+    </p>
+<!--    <p>-->
+<!--      Al onze suggestie wijnen zijn aangepast aan onze gerechten, zo kan u zelf een keuze-->
+<!--      maken uit het voorgestelde assortiment, ook kan u zich laten begeleiden door ons-->
+<!--      team, wij helpen u graag verder om zo ten volle te kunnen genieten.-->
+<!--    </p>-->
+    <p>
+      Bij het samenstellen van het menu wordt de aandacht gelegd op de kwaliteit van het
+      product en kan daardoor dagelijks gewijzigd worden.
+    </p>
+
+    <p>
+      Al onze menu’s worden samengesteld door chef Marjanne uit onderstaande gerechten.
+    </p>
+
+  </div>
+
+
+</div>
+
+
+
+<div *ngIf="amukes" class="box">
+  <div class="title">Amukes</div>
+  <div class="content">
+
+<!--    <app-kaart-item *ngFor="let item of amukes" [kaartItem]="item"></app-kaart-item>-->
+    <product *ngFor="let product of menuproducuten" [item]="product" ></product>
+    <br/>
+    <div style="text-align: left">
+      Iedere 2 maanden vernieuwen we het menu, om zo ieder seizoen product aan bod te
+      laten komen
+    </div>
+    <br/>
+ <div style="text-align: left">
+   Supplement brood 3,50 € <br/>
+   Amukes 26 € per stuk indien u deze apart wenst te bestellen
+ </div>
+
+
+  </div>
+</div>
+
+<div *ngIf="desserten" class="box">
+  <div class="title">Desserten</div>
+  <div class="content">
+    <app-kaart-item *ngFor="let item of desserten" [kaartItem]="item"></app-kaart-item>
+    <br/>
+    <div style="font-size: large">Suggestie digestief</div>
+    <app-kaart-item *ngFor="let item of suggestieDigestief" [kaartItem]="item"></app-kaart-item>
+  </div>
+  <br/>
+
+</div>

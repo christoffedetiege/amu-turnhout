@@ -1,0 +1,43 @@
+<div class="box">
+  <div class="title">Digestieven</div>
+  <div class="content">
+    <app-kaart-item *ngFor="let item of digestieven" [kaartItem]="item"></app-kaart-item>
+    <div class="text_align_right">
+      8cl/glas
+    </div>
+  </div>
+
+</div>
+
+<div class="box">
+  <div class="title">Dessertwijnen</div>
+  <div class="content">
+    <app-wijn-kaart-item *ngFor="let item of dessertwijnen" [wijn]="item"  ></app-wijn-kaart-item>
+    <div class="text_align_right">
+      10cl/glas
+    </div>
+    <br/>
+    <app-wijn-kaart-item2 *ngFor="let item of dessertWijnen2" [wijn]="item"></app-wijn-kaart-item2>
+  </div>
+</div>
+
+<div class="box">
+  <div class="title">Grappa Collectie Marolo</div>
+  <div class="content">
+    <app-kaart-item *ngFor="let item of grappa" [kaartItem]="item"  ></app-kaart-item>
+    <div class="text_align_right">
+      5cl/glas
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="box">
+  <div class="title">Digestieven gemengd</div>
+  <div class="content">
+    <app-kaart-item *ngFor="let item of digestievengemengd" [kaartItem]="item"></app-kaart-item>
+  </div>
+</div>
+

@@ -1,0 +1,23 @@
+<div class="box" *ngIf="warmedranken">
+  <div class="title">Warme dranken</div>
+  <div class="content">
+
+    <p class="subtitel">Ons aanbod Vergnano koffie</p>
+    <app-kaart-item *ngFor="let item of warmedranken.vergnano" [kaartItem]="item"></app-kaart-item>
+
+    <p class="subtitel">Koffie varianten</p>
+    <app-kaart-item *ngFor="let item of warmedranken.koffievarianten" [kaartItem]="item"></app-kaart-item>
+
+    <p class="subtitel">Koffie met een wolkje room</p>
+    <app-kaart-item *ngFor="let item of warmedranken.koffieMetWolkjeRoom" [kaartItem]="item"></app-kaart-item>
+
+    <p class="subtitel">Bio & Fair Trade thee assortiment</p>
+    <app-kaart-item *ngFor="let item of warmedranken.theebio" [kaartItem]="item"></app-kaart-item>
+
+    <p class="subtitel">Verse thee</p>
+    <app-kaart-item *ngFor="let item of warmedranken.theevers" [kaartItem]="item"></app-kaart-item>
+
+
+
+  </div>
+</div>
