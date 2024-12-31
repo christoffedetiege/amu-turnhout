@@ -19,7 +19,6 @@ import {WarmedrankenComponent} from './components/dranken/warmedranken/warmedran
 import {DigestievenComponent} from './components/dranken/digestieven/digestieven.component';
 import {KaartItemComponent} from './components/kaart-item/kaart-item.component';
 import {DessertwijnenComponent} from './components/dranken/dessertwijnen/dessertwijnen.component';
-import {WijnKaartItemComponent} from './components/wijn/template-wijn-kaart-item/wijn-kaart-item.component';
 import {WhiskeyComponent} from './components/dranken/whiskey/whiskey.component';
 import {GinComponent} from './components/dranken/gin/gin.component';
 import {ParkingComponent} from './components/parking/parking.component';
@@ -27,11 +26,16 @@ import {WijnKaartItemComponent} from './components/wijn/template-wijn-kaart-item
 import {ProductComponent} from './components/product/product.component';
 import {BierSuggestiesComponent} from './components/dranken/bier-suggesties/bier-suggesties.component';
 import {KaartItemDrankComponent} from './components/dranken/kaart-item-drank/kaart-item-drank.component';
-import {MineraleComponent} from './components/minerale/minerale.component';
 import {AlcoholvrijComponent} from './components/dranken/alcoholvrij/alcoholvrij.component';
 import {HttpClientModule} from '@angular/common/http';
 import {GeslotenComponent} from './components/gesloten/gesloten.component';
-import {WijnkaartTemplateComponent} from "./components/wijn/template-wijnkaart/wijnkaart-template.component";
+import {WijnkaartTemplateComponent} from './components/wijn/template-wijnkaart/wijnkaart-template.component';
+import {
+  TemplateDrankKaartComponent
+} from './components/dranken/template/template-drankkaart/template-drankkaart..component';
+import {
+  TemplateDrankkaartItemComponent
+} from './components/dranken/template/template-drankkaart-item/template-drankkaart-item.component';
 
 
 @NgModule({
@@ -63,9 +67,10 @@ import {WijnkaartTemplateComponent} from "./components/wijn/template-wijnkaart/w
     ProductComponent,
     BierSuggestiesComponent,
     KaartItemDrankComponent,
-    MineraleComponent,
     AlcoholvrijComponent,
-    WijnkaartTemplateComponent
+    WijnkaartTemplateComponent,
+    TemplateDrankKaartComponent,
+    TemplateDrankkaartItemComponent
   ],
   imports: [
     BrowserModule,

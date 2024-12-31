@@ -1,20 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import { DrankService } from '../../services/drank.service';
-import { AperoBierFris } from '../../model/aperoBierFris';
+import {Component, Input, OnInit} from '@angular/core';
+import {DrankKaart} from '../../../model/kaartitems-drank/drankkaart';
 
 @Component({
   selector: 'app-alcoholvrij',
-  templateUrl: './alcoholvrij.component.html'
+  template: '<app-template-drankkaart [drankkaart]="drankKaart"></app-template-drankkaart>'
 })
-export class AlcoholvrijComponent implements OnInit {
-
-  constructor(private drankService: DrankService) { }
-  aperoBierFris!: AperoBierFris;
-  ngOnInit(): void {
-    this.drankService.getAperBierFris()
-      .subscribe((aperBierFris: AperoBierFris) => {
-        this.aperoBierFris = aperBierFris;
-      });
-  }
-
+export class AlcoholvrijComponent {
+  @Input() drankKaart!: DrankKaart;
+  constructor() { }
 }

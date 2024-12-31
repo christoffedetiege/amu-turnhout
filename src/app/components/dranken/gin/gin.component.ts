@@ -1,20 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import {DrankService} from '../../services/drank.service';
-import {Gin} from '../../model/gin';
+import {Component, Input, OnInit} from '@angular/core';
+import {DrankKaart} from '../../../model/kaartitems-drank/drankkaart';
 
 @Component({
   selector: 'app-gin',
-  templateUrl: './gin.component.html'
+  template: '<app-template-drankkaart [drankkaart]="drankKaart"></app-template-drankkaart>'
 })
-export class GinComponent implements OnInit {
-  gins!: Gin[];
-  constructor(private drankservice: DrankService) { }
-
-  ngOnInit(): void {
-    this.drankservice.getGin()
-      .subscribe((gins: Gin[]) => {
-        this.gins = gins;
-      });
-  }
-
+export class GinComponent {
+  @Input() drankKaart!: DrankKaart;
+  constructor() { }
 }

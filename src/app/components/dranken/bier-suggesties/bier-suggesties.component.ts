@@ -1,21 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import { DrankService } from '../../services/drank.service';
-import { KaartitemDrank } from '../../model/kaartitem2drank';
+import {Component, Input} from '@angular/core';
+import {DrankKaart} from '../../../model/kaartitems-drank/drankkaart';
 
 @Component({
   selector: 'app-bier-suggesties',
-  templateUrl: './bier-suggesties.component.html'
+  template: '<app-template-drankkaart [drankkaart]="drankKaart"></app-template-drankkaart>'
 })
-export class BierSuggestiesComponent implements OnInit {
+export class BierSuggestiesComponent {
+  @Input() drankKaart!: DrankKaart;
+  constructor() { }
 
-  bierSuggesties!: KaartitemDrank[];
-  constructor(private drankenService: DrankService) { }
-
-  ngOnInit(): void {
-    this.drankenService.getBierSuggesties()
-      .subscribe((biersuggestie: KaartitemDrank[]) => {
-        this.bierSuggesties = biersuggestie;
-      })
-  }
 
 }

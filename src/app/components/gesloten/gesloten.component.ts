@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-gesloten',
-  templateUrl: './gesloten.component.html',
-  styleUrls: ['./gesloten.component.css']
+  templateUrl: './gesloten.component.html'
 })
 export class GeslotenComponent implements OnInit {
 

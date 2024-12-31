@@ -4,7 +4,6 @@ import {HomeComponent} from './components/home/home.component';
 import {MenuComponent} from './components/menu/menu.component';
 import {DrankenComponent} from './components/dranken/dranken.component';
 import {AlcoholvrijComponent} from './components/dranken/alcoholvrij/alcoholvrij.component';
-import {MineraleComponent} from './components/minerale/minerale.component';
 import {AperitievenComponent} from './components/dranken/aperitieven/aperitieven.component';
 import {WijnsuggestieComponent} from './components/wijn/wijnsuggestie/wijnsuggestie.component';
 import {BierSuggestiesComponent} from './components/dranken/bier-suggesties/bier-suggesties.component';
@@ -23,7 +22,6 @@ const routes: Routes = [
   { path: 'menu', component: MenuComponent },
   { path: 'dranken', component: DrankenComponent },
   { path: 'alcoholvrij', component: AlcoholvrijComponent },
-  { path: 'minerale', component: MineraleComponent },
   { path: 'aperitief', component: AperitievenComponent },
   { path: 'wijnsuggestie', component: WijnsuggestieComponent },
   { path: 'biersuggestie', component: BierSuggestiesComponent },

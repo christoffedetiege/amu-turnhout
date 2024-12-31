@@ -1,11 +1,11 @@
 import {Component, Input} from '@angular/core';
-import {WijnKaart} from '../../../model/kaaartitems-wijn/wijnkaart';
+import {DrankKaart} from '../../../../model/kaartitems-drank/drankkaart';
 
 @Component({
-  selector: 'app-template-drankkaart.',
+  selector: 'app-template-drankkaart',
   templateUrl: './template-drankkaart.component.html'
 })
-export class DrankKaartTemplateComponent {
-  @Input() wijnkaart!: WijnKaart;
+export class TemplateDrankKaartComponent {
+  @Input() drankkaart!: DrankKaart;
   constructor() { }
 }

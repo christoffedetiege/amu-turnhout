@@ -1,28 +1,13 @@
-import { Component, OnInit } from '@angular/core';
-import {DrankService} from '../../services/drank.service';
-import {AperoBierFris} from '../../model/aperoBierFris';
-import { Gin } from '../../model/gin';
+import {Component, Input, OnInit} from '@angular/core';
+import {DrankKaart} from '../../../model/kaartitems-drank/drankkaart';
 
 
 @Component({
   selector: 'app-aperitieven',
-  templateUrl: './aperitieven.component.html'
+  template: '<app-template-drankkaart [drankkaart]="drankKaart"></app-template-drankkaart>'
 })
-export class AperitievenComponent implements OnInit {
-
-  constructor(private drankService: DrankService) { }
-  aperoBierFris!: AperoBierFris;
-  gins!: Gin[];
-
-  ngOnInit(): void {
-    this.drankService.getAperBierFris()
-      .subscribe((aperBierFris: AperoBierFris) => {
-        this.aperoBierFris = aperBierFris;
-      });
-    this.drankService.getGin()
-      .subscribe((gins: Gin[]) => {
-        this.gins = gins;
-      });
-  }
+export class AperitievenComponent {
+  @Input() drankKaart!: DrankKaart;
+  constructor() { }
 
 }

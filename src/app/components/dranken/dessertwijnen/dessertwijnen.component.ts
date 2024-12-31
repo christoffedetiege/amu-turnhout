@@ -1,28 +1,12 @@
-import {Component, OnInit} from '@angular/core';
-import {DrankService} from '../../services/drank.service';
-import {Wijn} from '../../model/wijn';
-import {Wijn2} from '../../model/wijn2';
+import {Component, Input} from '@angular/core';
+import {DrankKaart} from '../../../model/kaartitems-drank/drankkaart';
 
 @Component({
   selector: 'app-dessertwijnen',
-  templateUrl: './dessertwijnen.component.html'
+  template: '<app-template-drankkaart [drankkaart]="drankKaart"></app-template-drankkaart>'
 })
-export class DessertwijnenComponent implements OnInit {
-  dessertWijnen!: Wijn[];
-  dessertWijnen2!: Wijn2[];
-
-  constructor(private drankService: DrankService) {
+export class DessertwijnenComponent {
+  @Input() drankKaart!: DrankKaart;
+  constructor() {
   }
-
-  ngOnInit(): void {
-    this.drankService.getDessertWijn()
-      .subscribe((dessertwijn: Wijn[]) => {
-        this.dessertWijnen = dessertwijn;
-      });
-    this.drankService.getDessertWijn2()
-      .subscribe((dessertwijn2: Wijn2[]) => {
-        this.dessertWijnen2 = dessertwijn2;
-      });
-  }
-
 }

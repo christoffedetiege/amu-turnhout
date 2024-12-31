@@ -4,8 +4,7 @@ declare var $: any;
 
 @Component({
   selector: 'app-naviagation',
-  templateUrl: './naviagation.component.html',
-  styleUrls: ['./naviagation.component.css']
+  templateUrl: './naviagation.component.html'
 })
 
 export class NaviagationComponent implements OnInit {

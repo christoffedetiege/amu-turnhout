@@ -1,13 +1,13 @@
-<div *ngIf="wijnkaart" class="box">
-  <div *ngFor="let rubriek of wijnkaart.rubrieken" class="rubriek">
-    <div class="title">{{ rubriek.rubriek }}</div>
+<div *ngIf="drankkaart" class="box">
+  <div *ngFor="let rubriek of drankkaart.rubrieken" class="rubriek">
+    <div class="title">{{ rubriek.titel }}</div>
     <div class="content">
-      <div *ngFor="let subrubriek of rubriek.subRubrieken">
-        <p class="subtitel">{{ subrubriek.subrubriek }}</p>
-        <app-wijn-kaart-item
-          *ngFor="let wijn of subrubriek.wijnen"
-          [wijn]="wijn">
-        </app-wijn-kaart-item>
+      <div *ngFor="let subrubriek of rubriek.items">
+        <p class="subtitel">{{ subrubriek.titel }}</p>
+        <app-template-drankkaart-item
+          *ngFor="let item of subrubriek.items"
+          [item]="item">
+        </app-template-drankkaart-item>
       </div>
     </div>
   </div>
