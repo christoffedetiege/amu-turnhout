@@ -3,6 +3,7 @@ import {Observable} from 'rxjs';
 import {HttpClient} from '@angular/common/http';
 import {WijnKaart} from '../model/kaaartitems-wijn/wijnkaart';
 import {DrankKaart} from '../model/kaartitems-drank/drankkaart';
+import {DrankkaartItem} from "../model/kaartitems-drank/drankkaart-item";
 
 
 @Injectable({
@@ -50,8 +51,8 @@ export class DrankService {
   public getDessertWijn2(): Observable<DrankKaart> {
     return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/dessertwijnen2.json');
   }
-  public getSuggestieDigestief(): Observable<DrankKaart> {
-    return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/suggestiedigestief.json');
+  public getSuggestieDigestief(): Observable<DrankkaartItem[]> {
+    return this.http.get<DrankkaartItem[]>(this.ASSETS_DATA_URL + '/suggestiedigestief.json');
   }
   public getBierSuggesties(): Observable<DrankKaart> {
     return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/biersuggesties.json');

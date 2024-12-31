@@ -1,0 +1,38 @@
+[
+  {
+    "titel": "cognac - ginger ale - limoen",
+    "omschrijving": "",
+    "fles": {},
+    "glas": {
+      "prijs": "13",
+      "volume": ""
+    }
+  },
+  {
+    "titel": "Zizi Coin - Coin (cointreau, citroensap)",
+    "omschrijving": "",
+    "fles": {},
+    "glas": {
+      "prijs": "13",
+      "volume": ""
+    }
+  },
+  {
+    "titel": "The Last Word (maraschino likeur, gin, elexir d'Anvers, coitreau)",
+    "omschrijving": "",
+    "fles": {},
+    "glas": {
+      "prijs": "14.50",
+      "volume": ""
+    }
+  },
+  {
+    "titel": "Espresso Martini",
+    "omschrijving": "",
+    "fles": {},
+    "glas": {
+      "prijs": "14",
+      "volume": ""
+    }
+  }
+]

@@ -39,9 +39,17 @@
 }
 
 
+.product {text-align: center}
+
+
+.titel {font-size: 1.2em}
+.prijs {font-size: 1.2em}
+
 .kaartitem {margin: 10px; padding: 0;}
 .kaartitem p{margin: 0; padding: 0;}
+.kaartitem .titel {text-align: left; width: 85%; display: inline-block}
 .kaartitem .item {text-align: left; width: 85%; display: inline-block}
+.kaartitem .item .titel {text-align: left; width: 85%; display: inline-block}
 .kaartitem .prijs {text-align: right; width: 14%; display: inline-block}
 
 
