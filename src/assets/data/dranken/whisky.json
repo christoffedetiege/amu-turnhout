@@ -1,0 +1,85 @@
+{
+  "rubrieken": [
+    {
+      "titel": "Whisky",
+      "items": [
+        {
+          "titel": "Unpeated",
+          "items": [
+            {
+              "titel": "Teeling Single Grain",
+              "omschrijving1": "Deze Ierse Whisky rijpt op Californische Cabarnet Sauvignon vaten, dit geeft de Whisky een warm kruidige en zoetere toets. Single Grain benadrukt hier zeker de kwaliteit.",
+              "omschrijving2": "Afdronk van toast, druiven en gekruide boter maken het geheel af.",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "10.5",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Balblair 15y",
+              "omschrijving1": "Balblair gaat graag tegen de stroom in! Waar anderen nu vaak kiezen voor leeftijdloze blends gaat Balblair voor leeftijden.",
+              "omschrijving2": "De 15 jaar is kruidig maar heeft zeker nog de romige fijne Balblair toets: tropisch, vanille en citrus.",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "16.5",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Arran Amarone Cask Finish",
+              "omschrijving1": "Na 8 jaar rijping op ex-Amarone vaten krijgt de whisky een rijk levendig karakter.",
+              "omschrijving2": "Rijke tonen van kersen, Turks fruit, peer, honing en chocolade.",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13",
+                "volume": ""
+              }
+            }
+          ]
+        },
+        {
+          "titel": "Peated",
+          "items": [
+            {
+              "titel": "GlenDronach",
+              "omschrijving1": "Door rijping op o.a. Pedro Ximenez sherry vaten is deze peated Whisky wat zoeter.",
+              "omschrijving2": "Typisch voor GlenDronach zijn de hints van bittere chocolade en toffee. De geur doet denken aan een kampvuur en vers gezaagde bomen.",
+              "omschrijving3": "Deze combi van zoet en rook is uniek.",
+              "fles": {},
+              "glas": {
+                "prijs": "10.5",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Old Pulteney 15y",
+              "omschrijving1": "Old Pulteney is gevestigd aan de kusten van Schotland, ze claimen de naam 'Maritime malt – made by the sea'.",
+              "omschrijving2": "In elke Old Pulteney ontdek je wel iets van de zee. Bij deze is het een mix tussen zwaardere tonen, zilt en agrum.",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "15",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Kilchoman Sanaig",
+              "omschrijving1": "Kilchoman is gevestigd in een oude omgebouwde boerderij en produceert het grootste deel van zijn gerst zelf.",
+              "omschrijving2": "De Sanaig heeft een 70/30 sherry/bourbon rijping en is wat voller dan de gekende Machir Bay. Toffee en vanille wisselen mooi af met het rokerige karakter.",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "15",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
