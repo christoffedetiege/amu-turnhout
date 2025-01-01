@@ -1,0 +1,203 @@
+{
+  "rubrieken": [
+    {
+      "titel": "Digestieven",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Amu Digestief (Dubonnet, Drambuie, gin)",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "14.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Amaretto Di Saronno",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Home made limoncello",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Calvados du Pays d'Auge",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "14.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Cognac Tercinier VS 4 jaar",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "10.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Cognac Tercinier VSOP - Réserve 7 jaar",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "14.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Armagnac Delord VSOP",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "10.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Sambucca Molinari",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Grand-Marnier Rouge",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Cointreau",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Baileys",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Licor 43",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Frangelico",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Averna Amaro",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Smeets Classic",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Poire Williams Birne",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "10.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Bumbu XO rum",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "14.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Efe's oude raki 5 jaar",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "14.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Elexir d'Anvers",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Drambuie",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "10.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Maraschino Roteglia 1848",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.00",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

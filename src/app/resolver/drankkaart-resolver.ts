@@ -21,6 +21,8 @@ export class DrankKaartResolver implements Resolve<DrankKaart> {
         return this.getAlcoholVrijDrankkaart();
       case 'warmedranken':
         return this.getWarmedrankenDrankkaart();
+      case 'digestieven':
+        return this.getDigestievenDrankkaart();
       default:
         return of({rubrieken: []}); // Standaard lege drankkaart
     }
@@ -71,6 +73,16 @@ export class DrankKaartResolver implements Resolve<DrankKaart> {
 
   private getWarmedrankenDrankkaart(): Observable<DrankKaart> {
     return this.drankService.getKoffieThee()
+      .pipe(
+        map((drankkaart) => {
+          const rubrieken = drankkaart.rubrieken || [];
+          return {rubrieken} as DrankKaart;
+        })
+      );
+  }
+
+  private getDigestievenDrankkaart(): Observable<DrankKaart> {
+    return this.drankService.getDigestieven()
       .pipe(
         map((drankkaart) => {
           const rubrieken = drankkaart.rubrieken || [];
