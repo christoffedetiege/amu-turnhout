@@ -25,7 +25,10 @@ export class DrankService {
     return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/whisky.json');
   }
   public getGin(): Observable<DrankKaart> {
-    return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/ginsuggesties.json');
+    return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/gins.json');
+  }
+  public getAlcoholVrij(): Observable<DrankKaart> {
+    return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/alcoholVrijeAperitief.json');
   }
   public getAperBierFris(): Observable<DrankKaart> {
     return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/aperoBierFris.json');

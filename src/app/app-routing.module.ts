@@ -15,14 +15,18 @@ import {GinComponent} from './components/dranken/gin/gin.component';
 import {TakewayComponent} from './components/takeway/takeway.component';
 import {WhiskeyComponent} from './components/dranken/whiskey/whiskey.component';
 import {ImpressiesComponent} from './components/impressies/impressies.component';
+import {DrankKaartResolver} from './resolver/drankkaart-resolver';
 
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'menu', component: MenuComponent },
   { path: 'dranken', component: DrankenComponent },
-  { path: 'alcoholvrij', component: AlcoholvrijComponent },
-  { path: 'aperitief', component: AperitievenComponent },
+  { path: 'alcoholvrij', component: AlcoholvrijComponent,
+    resolve: {drankkaart: DrankKaartResolver} },
+  { path: 'aperitief',
+    component: AperitievenComponent,
+    resolve: {drankkaart: DrankKaartResolver}},
   { path: 'wijnsuggestie', component: WijnsuggestieComponent },
   { path: 'biersuggestie', component: BierSuggestiesComponent },
   { path: 'wijnkaart', component: WijnkaartComponent },

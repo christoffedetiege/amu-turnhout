@@ -1,0 +1,469 @@
+{
+  "rubrieken": [
+    {
+      "titel": "Aperitief",
+      "items": [{
+          "titel": "",
+          "items": [
+            {
+              "titel": "suggestie: Bienne wijnbier",
+              "omschrijving1": "Bienne is een Belgisch wijnbier, dus een blend van wijn en bier. Hiervoor is gekozen voor de blonde\nversie van het Stanneman bier uit Herselt en een Spaanse rose. Deze unieke blend met aroma's\nvan rabarber en abrikozen gevolgd door een lichte aciditeit in de afdronk maakt dit wijnbier het perfecte aperitief.",
+              "fles": {},
+              "glas": {
+                "prijs": "7.0",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Aperitief Amu. ",
+              "omschrijving1": "spumante, Martini rosato, sinaasappel",
+              "fles": {},
+              "glas": {
+                "prijs": "10.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Champagne Pommery Apanage",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "17.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Spumante Millesimato Carati",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Witte porto",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Rode porto",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Sherry Grande Fiesta Fino dry",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Pineau de Charentes de Louvard blanc",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Martini bianco",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Martini rosso",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Vermouth Rosso di torino",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Vermouth bianco Del Professore",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Campari",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Campari soda",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "12.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Campari orange",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "11.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Kir",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Kir Royal",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "18.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Ricard",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "6.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Mary White vodka",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "11.5",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Raki Sari Zeybek",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Bacardi cola",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "12.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Bacardi reserva 8 jaar cola",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "14.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Picon vin blanc",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "11.50",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Eens iets anders",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Negroni",
+              "omschrijving": "Martini rosso, campari, gin",
+              "fles": {},
+              "glas": {
+                "prijs": "15.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Americano",
+              "omschrijving": "Martini rosso, campari, soda",
+              "fles": {},
+              "glas": {
+                "prijs": "13.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Cynar",
+              "omschrijving": "Bitter likeur op basis van 13 kruiden en artisjok",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Rosso Antico",
+              "omschrijving": "Italiaans aperitief op basis van rode wijn",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Stoere bubbels",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Pils Cristal Alken 5%",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "3.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Duvel 8.5%",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "St. Bernardus wit 5.5%",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.80",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Cornet 8.5%",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.10",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Gardiaan Blond 5.8%",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.80",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Schuppenboer Tripel 8%",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.80",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Viswijf Blond 7.5%",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Westmalle Tripel 9.5%",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.20",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Papegaei 8%",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Delta IPA 6%",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "N.A. Cristal",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "3.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "N.A. Cornet",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Frisdrank",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Coca Cola",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "3.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Coca Cola zero",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "3.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Ice-tea",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "3.80",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Looza sinaasappel",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "3.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Ginger ale",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Vers sinaasappelsap",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "6.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Limonade citroen of sinaasappel 25cl",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Fever-Tree Indian tonic",
+              "omschrijving": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+

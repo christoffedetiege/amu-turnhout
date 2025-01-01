@@ -1,0 +1,135 @@
+{
+  "rubrieken": [
+    {
+      "titel": "Gins",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "The Drunken Horse",
+              "omschrijving1": "België",
+              "omschrijving2": "De botanicals van The Drunken Horse komen uit alle delen van de wereld. Eén botanical springt er echt uit: Timut, een uitzonderlijk zeldzame peper uit de Nepalese bergen, met toetsen van citrus en pompelmoes.",
+              "omschrijving3": "Fever Tree Indian",
+              "fles": {},
+              "glas": {
+                "prijs": "16.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Uppercut",
+              "omschrijving1": "Nederland",
+              "omschrijving2": "Zeer kruidige en verfijnde gin met alcoholgehalte van 49.6%. Uppercut is gemaakt van medicinale botanicals zoals damiaanblad, netelblad, zoethoutwortel, verveine, jeneverbes en tal van andere geneeskrachtige kruiden.",
+              "omschrijving3": "Fever Tree Indian",
+              "fles": {},
+              "glas": {
+                "prijs": "15.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Crafters Wild Forest",
+              "omschrijving1": "Estland",
+              "omschrijving2": "Gin uit Estland, vol plantenextracten en rokerige jeneverbessmaak. Het resultaat is een frisse, botanische mix van jeneverbessen, sparrendoornen en dennenscheuten.",
+              "omschrijving3": "Fever Tree Indian",
+              "fles": {},
+              "glas": {
+                "prijs": "14.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Clelia",
+              "omschrijving1": "Italië",
+              "omschrijving2": "Rijk en intens aromatisch profiel met vooral citrustonen van mandarijn en citroen. Kruidige afdronk met een klein bittertje.",
+              "omschrijving3": "Fever Tree Indian",
+              "fles": {},
+              "glas": {
+                "prijs": "16.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Monkey 47",
+              "omschrijving1": "Duitsland",
+              "omschrijving2": "De 47 in de naam vertelt u al heel wat over deze gin, namelijk dat deze 47% alcohol bevat en dat er maar liefst 47 met de hand geplukte ingrediënten in werden verwerkt die behandeld worden met bronwater van het Zwarte Woud.",
+              "omschrijving3": "Fever Tree Mediterraan",
+              "fles": {},
+              "glas": {
+                "prijs": "15.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Bobby's",
+              "omschrijving1": "Nederland",
+              "omschrijving2": "Gin uit Nederland, complexe smaken van exotische kruiden, rozenbottel, kruidnagel en citroengras. Mooie kruidenbalans.",
+              "omschrijving3": "Fever Tree Clementine",
+              "fles": {},
+              "glas": {
+                "prijs": "14.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Nordes",
+              "omschrijving1": "Spanje",
+              "omschrijving2": "Kruidige gin met toetsen van eucalyptus, laurier, munt en wit fruit.",
+              "omschrijving3": "Fever Tree Mediterraan",
+              "fles": {},
+              "glas": {
+                "prijs": "14.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Gunpowder Irish Gin",
+              "omschrijving1": "Ierland",
+              "omschrijving2": "Frisse gin met een fijne citrussmaak en kruidige noten van gunpowder extract, pompelmoes en de Noord-Amerikaanse bloem meadowsweet.",
+              "omschrijving3": "Fever Tree Indian",
+              "fles": {},
+              "glas": {
+                "prijs": "15.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Marula",
+              "omschrijving1": "België",
+              "omschrijving2": "Marula gin is geïnspireerd op de Afrikaanse marulavrucht, ook bekend als de verboden vrucht van de olifantenboom. Hints van lavendel, bloesem, roze blaadjes, honing en houtaroma’s.",
+              "omschrijving3": "Fever Tree Clementine",
+              "fles": {},
+              "glas": {
+                "prijs": "15.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Marula Pomegranate",
+              "omschrijving1": "België",
+              "omschrijving2": "De basis is de reguliere Marula gin met toevoeging van granaatappel, frambozen, bosaardbei en bramen die een zoete draai geeft aan deze gin.",
+              "omschrijving3": "Fever Tree Indian",
+              "fles": {},
+              "glas": {
+                "prijs": "15.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Crafter's Aromatic Flower Gin",
+              "omschrijving1": "Estland",
+              "omschrijving2": "Gin uit Estland gemaakt door 12 zorgvuldig uitgezochte botanicals. Zeer frisse en bloemige gin met een klein bittertje van de sinaasappelschil. Deze gin verandert van kleur nadat de tonic is toegevoegd.",
+              "omschrijving3": "Fever Tree Mediterraan",
+              "fles": {},
+              "glas": {
+                "prijs": "14.00",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
