@@ -1,6 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {WijnKaart} from '../../../model/kaaartitems-wijn/wijnkaart';
-import {DrankService} from '../../../services/drank.service';
 import {DrankKaart} from "../../../model/kaartitems-drank/drankkaart";
 import {ActivatedRoute} from "@angular/router";
 

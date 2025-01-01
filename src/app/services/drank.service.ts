@@ -1,9 +1,7 @@
 import { Injectable } from '@angular/core';
 import {Observable} from 'rxjs';
 import {HttpClient} from '@angular/common/http';
-import {WijnKaart} from '../model/kaaartitems-wijn/wijnkaart';
 import {DrankKaart} from '../model/kaartitems-drank/drankkaart';
-import {DrankkaartItem} from "../model/kaartitems-drank/drankkaart-item";
 
 
 @Injectable({
