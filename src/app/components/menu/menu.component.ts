@@ -4,6 +4,7 @@ import {DrankService} from '../../services/drank.service';
 import {KaartItem} from '../../model/kaart-item';
 import {MenuProduct} from '../../model/menuproduct';
 import {DrankkaartItem} from '../../model/kaartitems-drank/drankkaart-item';
+import {DrankKaart} from "../../model/kaartitems-drank/drankkaart";
 
 
 @Component({
@@ -14,7 +15,7 @@ export class MenuComponent implements OnInit {
 
   menuproducuten!: MenuProduct[];
   desserten!: KaartItem[];
-  suggestieDigestief!: DrankkaartItem[];
+  suggestieDigestief!: DrankKaart;
   constructor(private menuService: MenuService,
               private drankService: DrankService) { }
 
@@ -34,7 +35,7 @@ export class MenuComponent implements OnInit {
         this.desserten = desserten;
       });
     this.drankService.getSuggestieDigestief()
-      .subscribe((suggestieDigestieven: DrankkaartItem[]) => {
+      .subscribe((suggestieDigestieven: DrankKaart) => {
         this.suggestieDigestief = suggestieDigestieven;
       });
   }

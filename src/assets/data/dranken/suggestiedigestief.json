@@ -1,47 +1,60 @@
-[
+{"rubrieken": [
   {
-    "titel": "Amu Digestief",
-    "omschrijving1": "Dubonnet, Drambuie, gin",
-    "fles": {},
-    "glas": {
-      "prijs": "14",
-      "volume": ""
-    }
-  },
-  {
-    "titel": "cognac - ginger ale - limoen",
-    "omschrijving1": "",
-    "fles": {},
-    "glas": {
-      "prijs": "13",
-      "volume": ""
-    }
-  },
-  {
-    "titel": "Zizi Coin - Coin (cointreau, citroensap)",
-    "omschrijving1": "",
-    "fles": {},
-    "glas": {
-      "prijs": "13",
-      "volume": ""
-    }
-  },
-  {
-    "titel": "The Last Word (maraschino likeur, gin, elexir d'Anvers, coitreau)",
-    "omschrijving1": "",
-    "fles": {},
-    "glas": {
-      "prijs": "14.50",
-      "volume": ""
-    }
-  },
-  {
-    "titel": "Espresso Martini",
-    "omschrijving1": "",
-    "fles": {},
-    "glas": {
-      "prijs": "14",
-      "volume": ""
-    }
+    "titel": "Suggestie digestief",
+    "items": [
+      {
+        "titel": "",
+        "items": [
+          {
+            "titel": "Amu Digestief",
+            "omschrijving1": "Dubonnet, Drambuie, gin",
+            "fles": {},
+            "glas": {
+              "prijs": "14",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "cognac - ginger ale - limoen",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "13",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Zizi Coin - Coin ",
+            "omschrijving1": "(cointreau, citroensap)",
+            "fles": {},
+            "glas": {
+              "prijs": "13",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "The Last Word ",
+            "omschrijving1": "(maraschino likeur, gin, elexir d'Anvers, coitreau)",
+            "fles": {},
+            "glas": {
+              "prijs": "14.50",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Espresso Martini",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "14",
+              "volume": ""
+            }
+          }
+        ]
+      }
+    ]
+
   }
-]
+]}
+
+
