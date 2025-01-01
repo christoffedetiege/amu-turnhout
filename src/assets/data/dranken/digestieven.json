@@ -198,6 +198,201 @@
           ]
         }
       ]
+    },
+    {
+      "titel": "Dessertwijnen",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "The Madeira Collection nr. 2",
+              "omschrijving1": "tinta negra, verdelho, sercial",
+              "omschrijving2": "Droge madeira, fruitig, zinderend aroma",
+              "fles": {},
+              "glas": {
+                "prijs": "13.50",
+                "volume": "10cl"
+              }
+            },
+            {
+              "titel": "Kracher ‘spätlese’ 2021 (wit)",
+              "omschrijving1": "pinot blanc, chardonnay, welshriesling",
+              "omschrijving2": "Oostenrijk, Burgerland",
+              "omschrijving3": "Een boost aan exotisch fruit, zowel in de mond als in de neus. Zijde zachte, romige structuur en een lange fruitige afdronk. 6 maanden inox opvoeding.",
+              "fles": {
+                "prijs": "35",
+                "volume": "(0.75L)"
+              },
+              "glas": {
+                "prijs": "7",
+                "volume": "10cl"
+              }
+            },
+            {
+              "titel": "Kracher ‘auslese traminer’ 2018 (wit)",
+              "omschrijving1": "traminer",
+              "omschrijving2": "Oostenrijk, Burgerland",
+              "omschrijving3": "Mooie balans tussen zoet en zuurtjes. Rijke aroma’s van sinaasappel zeste, pompelmoes, tropisch fruit en een vleugje marshmallow. ½ maanden hout en ½ maanden inox opvoeding.",
+              "fles": {
+                "prijs": "32",
+                "volume": "(0.375L)"
+              },
+              "glas": {
+                "prijs": "8",
+                "volume": "10cl"
+              }
+            },
+            {
+              "titel": "Kracher ‘Red Roses 2019 (rose)",
+              "omschrijving1": "rosen muskateller",
+              "omschrijving2": "Oostenrijk, Burgerland",
+              "omschrijving3": "Intense aroma’s van rozen, zowel de bloemen, bloesem en olie, aangevuld met kersen, framboos en bos aardbei. 12 maanden houtopvoeding.",
+              "fles": {
+                "prijs": "68",
+                "volume": "(0.375L)"
+              },
+              "glas": {
+                "prijs": "17",
+                "volume": "10cl"
+              }
+            },
+            {
+              "titel": "Kracher ‘auslese zweigelt’ 2021 (rood)",
+              "omschrijving1": "zweigelt",
+              "omschrijving2": "Oostenrijk, Burgerland",
+              "omschrijving3": "Helder en kersen rood van kleur, met aroma’s van rode bessen, gedroogde abrikozen en delicate sinaasappel schil. Fijne kruiden en zwarte bessen confituur in de afdronk. 9 maanden inox opvoeding.",
+              "fles": {
+                "prijs": "34",
+                "volume": "(0.375L)"
+              },
+              "glas": {
+                "prijs": "8.5",
+                "volume": "10cl"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Grappa Collectie Marolo",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Marolo Moscato",
+              "omschrijving1": "",
+              "omschrijving2": "",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "12.00",
+                "volume": "5cl"
+              }
+            },
+            {
+              "titel": "Marolo Barbaresco",
+              "omschrijving1": "",
+              "omschrijving2": "",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13.00",
+                "volume": "5cl"
+              }
+            },
+            {
+              "titel": "Marolo Barolo",
+              "omschrijving1": "",
+              "omschrijving2": "",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13.50",
+                "volume": "5cl"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Digestieven gemengd",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Amu Digestief (Dubonnet, Drambuie, gin)",
+              "omschrijving1": "",
+              "omschrijving2": "",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "14.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Grand-Marnier en Cognac",
+              "omschrijving1": "",
+              "omschrijving2": "",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Amantis (Limoncello, Cointreau, Amaretto)",
+              "omschrijving1": "",
+              "omschrijving2": "",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "14.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Zizi Coin-Coin (Cointreau met citroensap)",
+              "omschrijving1": "",
+              "omschrijving2": "",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Espresso Martini",
+              "omschrijving1": "",
+              "omschrijving2": "",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "14.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "The Last Word (maraschinolikeur, gin, elexir d'Anvers, cointreau)",
+              "omschrijving1": "",
+              "omschrijving2": "",
+              "omschrijving3": "",
+              "fles": {},
+              "glas": {
+                "prijs": "14.50",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
