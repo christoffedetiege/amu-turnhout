@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
-import {Resolve, ActivatedRouteSnapshot, RouterStateSnapshot} from '@angular/router';
-import {Observable, of, forkJoin} from 'rxjs';
+import {ActivatedRouteSnapshot, Resolve, RouterStateSnapshot} from '@angular/router';
+import {forkJoin, Observable, of} from 'rxjs';
 import {map} from 'rxjs/operators';
 import {DrankService} from '../services/drank.service';
 import {DrankKaart} from '../model/kaartitems-drank/drankkaart';
@@ -35,13 +35,22 @@ export class DrankKaartResolver implements Resolve<DrankKaart> {
   }
 
   private getWijnDrankkaart(): Observable<DrankKaart> {
-    return this.drankService.getWijnKaart()
-      .pipe(
-        map((drankkaart) => {
-          const rubrieken = drankkaart.rubrieken || [];
-          return {rubrieken} as DrankKaart;
-        })
-      );
+    // return this.drankService.getWijnKaart()
+    //   .pipe(
+    //     map((drankkaart) => {
+    //       const rubrieken = drankkaart.rubrieken || [];
+    //       return {rubrieken} as DrankKaart;
+    //     })
+    //   );
+    return forkJoin({
+      wijnen: this.drankService.getWijnKaart(),
+      dessertwijnen: this.drankService.getDessertWijn(),
+    }).pipe(
+      map(({wijnen, dessertwijnen}) => {
+        const combinedRubrieken = wijnen.rubrieken.concat(dessertwijnen.rubrieken);
+        return {rubrieken: combinedRubrieken} as DrankKaart;
+      })
+    );
   }
 
   private getWijnsuggestieDrankkaart(): Observable<DrankKaart> {
