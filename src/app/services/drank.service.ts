@@ -18,8 +18,8 @@ export class DrankService {
   public getWijnKaart(): Observable<WijnKaart> {
     return this.http.get<WijnKaart>(this.ASSETS_DATA_URL + '/wijnkaart.json');
   }
-  public getWijnSuggestie(): Observable<WijnKaart> {
-    return this.http.get<WijnKaart>(this.ASSETS_DATA_URL + '/wijnsuggesties.json');
+  public getWijnSuggestie(): Observable<DrankKaart> {
+    return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/wijnsuggesties.json');
   }
   public getWhiskey(): Observable<DrankKaart> {
     return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/whisky.json');

@@ -1,0 +1,231 @@
+{
+  "rubrieken": [
+    {
+      "titel": "Wit",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Tesch 2023",
+              "omschrijving1": "Druiven: weissburgunder",
+              "omschrijving2": "Duitsland, Nahe (ZW)",
+              "omschrijving3": "Zeer elegante wijn met frisse tonen van pompelmoes, rijpe abrikoos, subtiele banaan en een kruidige afdronk met hints van hazelnoten.",
+              "fles": {
+                "prijs": "35.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Tour De Baulx Grande Réserve 2022",
+              "omschrijving1": "Druiven: rolle (vermentino) roussanne, viognier, grenache blanc",
+              "omschrijving2": "Frankrijk, Languedoc",
+              "omschrijving3": "De belangrijkste druif in deze wijn is de rolle, dat merk je meteen aan de aroma’s van citrusbloemen, rijpe peren en subtiele ananas, gevolgd door hints van gedroogde kruiden en licht gebrand hout door de houtopvoeding.",
+              "fles": {
+                "prijs": "40.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Ferdinand Classic 2022",
+              "omschrijving1": "Druiven: rebula",
+              "omschrijving2": "Slovenië, Goriska Brda",
+              "omschrijving3": "Zeer verfijnde wijn gemaakt op zijn mineralen en fraîcheur toetsen met subtiele hints van citrus en appel. 10 maanden hout opvoeding.",
+              "fles": {
+                "prijs": "36.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "7.20",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Luaria Civitas 2023",
+              "omschrijving1": "Druiven: pecorino",
+              "omschrijving2": "Italië, Abruzzo",
+              "omschrijving3": "Fris, vol en fruitig met duidelijke aroma’s van licht fruit met een zachte ondertoon van exotisch fruit en witte bloemen.",
+              "fles": {
+                "prijs": "35.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Jordi Miro 2023",
+              "omschrijving1": "Druiven: grenache blanc",
+              "omschrijving2": "Spanje, Catalunya",
+              "omschrijving3": "Frisse doch smeuïge wijn met een perfecte samensmelting van de geroosterde noten door de houtopvoeding, gevolgd door aroma’s van wit fruit, appel, peer en zachte vanille.",
+              "fles": {
+                "prijs": "32.50",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "6.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Oddbird Domaine de la Prada (alcoholvrij)",
+              "omschrijving1": "Druiven: chardonnay",
+              "omschrijving2": "Frankrijk, Languedoc-Roussillon",
+              "omschrijving3": "Deze alcoholvrije chardonnay combineert frisse tonen van citrus en appel met een vleugje peer gevolgd door een zachte botertoets.",
+              "fles": {
+                "prijs": "40.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.50",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Rose - Orange",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Lyrarakis 2023 (orange)",
+              "omschrijving1": "Druiven: assyrtiko, vidiano",
+              "omschrijving2": "Griekenland, Kreta",
+              "omschrijving3": "Amberkleurige fijne wijn met aroma’s van steenfruit en sinaasappelschil gevolgd door zijdezachte en milde tannines en mineralen. De afdronk is fruitig en perfect voor een beginnende orange virgin.",
+              "fles": {
+                "prijs": "36.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "7.2",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Bruno I Maracantoni 2019 (orange)",
+              "omschrijving1": "Druiven: incrocio bruni 54",
+              "omschrijving2": "Italië, Marche",
+              "omschrijving3": "Eerlijke en complexe wijn met tonen van magnolia, rozen en bergamot, gevolgd door aroma’s van rijpe abrikoos, caramel en toffee. 12 maanden houtopvoeding en 6 maanden ‘sur lies’ rijping op de fles.",
+              "fles": {
+                "prijs": "36.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "7.2",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Iliana Malihin 2022 (rose)",
+              "omschrijving1": "Druiven: liatiko",
+              "omschrijving2": "Griekenland, Kreta",
+              "omschrijving3": "Perfecte winter rosé! Directe press rosé met expressieve aroma’s van rood fruit en gedroogde vruchten. Delicate doch complexe smaak die eindigt met een lange frisse en fruitige afdronk.",
+              "fles": {
+                "prijs": "45.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "9.00",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Rood",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Il Torrione Montefalco 2019",
+              "omschrijving1": "Druiven: sangiovese, sagrantino, merlot",
+              "omschrijving2": "Italië, Umbrië",
+              "omschrijving3": "Intens fruitig met aroma’s van blauwe bessen en kersen gevolgd door een fijne kruidigheid. 4 jaar inoxopvoeding dat zorgt voor een zijde zachte afdronk.",
+              "fles": {
+                "prijs": "40.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Los Mores D’Hora 2022",
+              "omschrijving1": "Druiven: grenache, carignan",
+              "omschrijving2": "Spanje, Priorat (NO)",
+              "omschrijving3": "Enerzijds jong, speels en fris met de nodige mineralen, anderzijds een verrassende body en maturiteit. Donkere fruit aroma’s met subtiele hints van hout maken deze wijn spannend. Houtopvoeding van 6 maanden.",
+              "fles": {
+                "prijs": "40.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Black Pack 2020",
+              "omschrijving1": "Druiven: gamza",
+              "omschrijving2": "Bulgarije (NW)",
+              "omschrijving3": "Aroma’s van fris klein rood fruit gevolgd door rijpe kersen, frambozen en aardbei, aangevuld met een delicate kruidigheid. 24 maanden houtopvoeding. Finesse en power in één!",
+              "fles": {
+                "prijs": "32.50",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "6.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Waltner 2023",
+              "omschrijving1": "Druiven: zweigelt",
+              "omschrijving2": "Oostenrijk, Wagram",
+              "omschrijving3": "Elegante, sappige wijn en iedereens vriend! Intense fruitige neus met aroma’s van zure kers, cassis, zachte karamel en viooltjes gevolgd door een mooie gebalanceerde afdronk.",
+              "fles": {
+                "prijs": "32.50",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "6.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Kolonne Null Cuvée No.02 Edition (alcoholvrij)",
+              "omschrijving1": "Druiven: cabernet sauvignon, cabernet franc, merlot, lemberger",
+              "omschrijving2": "Spanje, La Mancha",
+              "omschrijving3": "Een stoere Spanjaard uit het hart van Spanje. Duidelijke aroma’s van donker fruit met hints van peper en een lichte kruidigheid.",
+              "fles": {
+                "prijs": "40.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

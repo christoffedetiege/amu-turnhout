@@ -1,23 +1,19 @@
 import {Component, OnInit} from '@angular/core';
-import {DrankService} from '../../../services/drank.service';
-import {WijnKaart} from '../../../model/kaaartitems-wijn/wijnkaart';
+import {DrankKaart} from '../../../model/kaartitems-drank/drankkaart';
+import {ActivatedRoute} from '@angular/router';
 
 
 @Component({
   selector: 'app-wijnsuggestie',
-  template: '<app-wijnkaart-template [wijnkaart]="wijnkaart"></app-wijnkaart-template>'
+  template: '<app-template-drankkaart [drankkaart]="drankkaart"></app-template-drankkaart>'
 })
 export class WijnsuggestieComponent implements OnInit {
+  drankkaart!: DrankKaart;
 
-  wijnkaart!: WijnKaart;
-
-  constructor(private drankenService: DrankService) {
+  constructor(private route: ActivatedRoute) {
   }
 
   ngOnInit(): void {
-    this.drankenService.getWijnSuggestie()
-      .subscribe((w: WijnKaart) => {
-        this.wijnkaart = w;
-      });
+    this.drankkaart = this.route.snapshot.data.drankkaart;
   }
 }
