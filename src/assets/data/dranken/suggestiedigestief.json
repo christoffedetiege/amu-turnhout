@@ -1,7 +1,16 @@
 [
   {
+    "titel": "Amu Digestief",
+    "omschrijving1": "Dubonnet, Drambuie, gin",
+    "fles": {},
+    "glas": {
+      "prijs": "14",
+      "volume": ""
+    }
+  },
+  {
     "titel": "cognac - ginger ale - limoen",
-    "omschrijving": "",
+    "omschrijving1": "",
     "fles": {},
     "glas": {
       "prijs": "13",
@@ -10,7 +19,7 @@
   },
   {
     "titel": "Zizi Coin - Coin (cointreau, citroensap)",
-    "omschrijving": "",
+    "omschrijving1": "",
     "fles": {},
     "glas": {
       "prijs": "13",
@@ -19,7 +28,7 @@
   },
   {
     "titel": "The Last Word (maraschino likeur, gin, elexir d'Anvers, coitreau)",
-    "omschrijving": "",
+    "omschrijving1": "",
     "fles": {},
     "glas": {
       "prijs": "14.50",
@@ -28,7 +37,7 @@
   },
   {
     "titel": "Espresso Martini",
-    "omschrijving": "",
+    "omschrijving1": "",
     "fles": {},
     "glas": {
       "prijs": "14",

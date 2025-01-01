@@ -74,6 +74,7 @@ export class DrankKaartResolver implements Resolve<DrankKaart> {
           'Eens iets anders',
           'Gins',
           'Stoere bubbels',
+          'Water',
           'Frisdrank',
         ];
 

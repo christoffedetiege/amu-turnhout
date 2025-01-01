@@ -92,7 +92,7 @@
               "omschrijving2": "Frankrijk, Languedoc",
               "omschrijving3": "Aroma's van gele perzik, abrikozenjam en bloedsinaaszeste, vol van smaak met een frisse afdronk.",
               "fles": {
-                "prijs": "30.00",
+                "prijs": "36.00",
                 "volume": ""
               },
               "glas": {
@@ -106,7 +106,7 @@
               "omschrijving2": "Spanje, Rueda",
               "omschrijving3": "Fris en fruitige wijn met aroma's van rijp fruit, citrus en een vleugje bloemen. Mooie balans tussen zuurtjes en fruit. Typische zomerwijn.",
               "fles": {
-                "prijs": "35.00",
+                "prijs": "39.00",
                 "volume": ""
               },
               "glas": {
@@ -141,20 +141,6 @@
                 "prijs": "",
                 "volume": ""
               }
-            },
-            {
-              "titel": "Arlus 2021",
-              "omschrijving1": "albana di Romagna",
-              "omschrijving2": "Italië, Faenza",
-              "omschrijving3": "Fruitige wijn met milde zuurtegraad, volumieuze aroma's van wilde bloemen, honing, citrus, amandel en mediterrane kruiden.",
-              "fles": {
-                "prijs": "38.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "",
-                "volume": ""
-              }
             }
           ]
         },
@@ -181,7 +167,7 @@
               "omschrijving2": "Frankrijk, Loire",
               "omschrijving3": "Elegante en karaktervolle wijn met de nodige mineralen en zuren. Pittig in de afdronk met lichte rooktoetsen.",
               "fles": {
-                "prijs": "40.00",
+                "prijs": "45.00",
                 "volume": ""
               },
               "glas": {
@@ -218,7 +204,7 @@
               }
             },
             {
-              "titel": "Ellermann-Spiegel 2021",
+              "titel": "Ellermann-Spiegel 2022",
               "omschrijving1": "weissburgunder",
               "omschrijving2": "Duitsland, Pfalz",
               "omschrijving3": "Verrassende wijn met rijpe aroma's van mirabelle, passievrucht en groene appel. Frisfruitige aanzet die lang aanhoudt.",
@@ -232,7 +218,7 @@
               }
             },
             {
-              "titel": "Marjan Simcic sauvignon vert classic 2021",
+              "titel": "Marjan Simcic sauvignon vert classic 2023",
               "omschrijving1": "sauvignon vert",
               "omschrijving2": "Slovenië",
               "omschrijving3": "Deze sauvignon vert is verre familie van de meer bekende sauvignon blanc. Verwacht je aan een medium, rijke en minerale wijn met zowel bloemige, fruitige als kruidige aroma's.",
@@ -246,12 +232,40 @@
               }
             },
             {
+              "titel": "Mira 2023",
+              "omschrijving1": "sauvignon blanc",
+              "omschrijving2": "Tsjechië, Moraviê",
+              "omschrijving3": "Dit is de sauvignon blanc en zo ken je deze druif niet, wat een spannende en geniale wijn! Citrus, floraal en complex met aroma’s van lychee, perzik en kruisbes. 6 maanden ‘sur lies’ rijping en een houtopvoeding op acacia vaten.",
+              "fles": {
+                "prijs": "65.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+              }
+            },
+            {
               "titel": "Alina 2021",
               "omschrijving1": "xynisteri",
               "omschrijving2": "Cyprus",
               "omschrijving3": "Elegante wijn met frisse en intense aroma's van citrusvruchten, meloen, mango en jasmijn. Lichte minerale toetsen en een afdronk met karakter. 8 maanden 'sur lies' rijping.",
               "fles": {
-                "prijs": "35.00",
+                "prijs": "36.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Kapittelberg 2020",
+              "omschrijving1": "chardonnay",
+              "omschrijving2": "België, Herselt",
+              "omschrijving3": "Vleugje eik, zuivere aroma's van citrus, hints van hazelnoot. Kempische wijn gemaakt met uiterst respect voor product, natuur en omgeving. Zeldzaam en schaars.",
+              "fles": {
+                "prijs": "36.00",
                 "volume": ""
               },
               "glas": {
@@ -279,7 +293,7 @@
               }
             },
             {
-              "titel": "Sohm & Kracher Grüner St-Georg 2017/2018",
+              "titel": "Sohm & Kracher Grüner St-Georg 2018",
               "omschrijving1": "grüner veltliner",
               "omschrijving2": "Oostenrijk, Burgenland",
               "omschrijving3": "Bleek groengeel van kleur met een pittige veltliner neus. Elegante aroma's van rijpe appel, delicate kruiden, peer en witte peper. Levendige zuurstructuur en lange spannende afdronk.",
@@ -293,26 +307,12 @@
               }
             },
             {
-              "titel": "Kapittelberg 2020",
-              "omschrijving1": "chardonnay",
-              "omschrijving2": "België, Herselt",
-              "omschrijving3": "Vleugje eik, zuivere aroma's van citrus, hints van hazelnoot. Kempische wijn gemaakt met uiterst respect voor product, natuur en omgeving. Zeldzaam en schaars.",
-              "fles": {
-                "prijs": "32.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "",
-                "volume": ""
-              }
-            },
-            {
               "titel": "Bread & Butter 2021",
               "omschrijving1": "chardonnay",
               "omschrijving2": "Verenigde Staten, Californië",
               "omschrijving3": "Karaktervolle chardonnay die genoten heeft van een stevige houtopvoeding en veel zon. Rijke aroma's van vanille, amandel en crème brûlée gevolgd door een zachte mineraliteit en een vleugje tropisch fruit. Lange, stevige en boterige afdronk.",
               "fles": {
-                "prijs": "43.00",
+                "prijs": "47.00",
                 "volume": ""
               },
               "glas": {
@@ -354,7 +354,7 @@
               "omschrijving2": "Californië, Clarksburg",
               "omschrijving3": "Heerlijke volle en romige chardonnay met aroma's van groene appel, peer, mandarijn, steenfruit en vanille. Houtopvoeding van 8 maanden op nieuwe Amerikaanse vaten. Rijke doch elegante afdronk.",
               "fles": {
-                "prijs": "45.00",
+                "prijs": "49.00",
                 "volume": ""
               },
               "glas": {
@@ -368,7 +368,7 @@
               "omschrijving2": "Slovenië",
               "omschrijving3": "Toetsen van groene appel en pompelmoes, volle en karaktervolle body met een uitgesproken mineraliteit. Pure elegantie!",
               "fles": {
-                "prijs": "40.00",
+                "prijs": "45.00",
                 "volume": ""
               },
               "glas": {
@@ -410,7 +410,7 @@
               "omschrijving2": "Slovenië, Goriska Brda",
               "omschrijving3": "Vol, rond en complex met de nodige mineralen, 12 maanden 'sur lies' in oude eiken vaten. Aroma's van licht steenfruit, groene appel en zachte kruiden.",
               "fles": {
-                "prijs": "58.00",
+                "prijs": "62.00",
                 "volume": ""
               },
               "glas": {
@@ -466,7 +466,21 @@
               "omschrijving2": "Frankrijk, Jura",
               "omschrijving3": "Heerlijke oxidatieve witte natuurwijn van spontane fermentatie en een houtopvoeding van 24 maanden. LULU is puur, LULU is krachtig, LULU is terroir, LULU laat zijn druiven zingen.",
               "fles": {
-                "prijs": "85.00",
+                "prijs": "91.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Los Mores ",
+              "omschrijving1": "grenache blanc, pedro ximenez",
+              "omschrijving2": "Spanje, Priorat",
+              "omschrijving3": "Stevige witte wijn met de nodige fraîcheur, duidelijke aroma’s van gedroogd fruit met een subtiele hint van noten en een fijne en aangename sherry toets in de afdronk.",
+              "fles": {
+                "prijs": "60.00",
                 "volume": ""
               },
               "glas": {
@@ -490,7 +504,7 @@
               "omschrijving2": "Frankrijk, Jura",
               "omschrijving3": "Heerlijke oxidatieve witte natuurwijn van spontane fermentatie en een houtopvoeding van 24 maanden. LULU is puur, LULU is krachtig, LULU is terroir. Lulu laat zijn druiven zingen.",
               "fles": {
-                "prijs": "85.00",
+                "prijs": "91.00",
                 "volume": ""
               },
               "glas": {
@@ -588,7 +602,49 @@
               "omschrijving2": "Frankrijk, Jura",
               "omschrijving3": "Topwijn, volledig biologisch met een houtopvoeding van 24 maanden op oude Franse eiken vaten. Verfijnd en elegant met diepgang, bleekrood van kleur met aardse aroma’s die vergezeld worden van klein rood fruit, aalbes, rozenbottel en peper.",
               "fles": {
-                "prijs": "79.00",
+                "prijs": "84.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "JNK St.Michael 2017 (orange)",
+              "omschrijving1": "pinot blanc, sauvignon vert",
+              "omschrijving2": "Slovenië, Vipava",
+              "omschrijving3": "Onze top orange wijn, puur en complex! Een bouquet van subtiele hooi toetsen gecombineerd met lindebloesem, groene appels, gedroogde abrikoos en peer met in de finale een verrassende hint van vlierbloesem. 18 maanden houtopvoeding.",
+              "fles": {
+                "prijs": "101.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Stemberger B+ 2018 (rood)",
+              "omschrijving1": "refosk, merlot, cabernet sauvignon, blaufrankisch, barbera",
+              "omschrijving2": "Slovenië, Kras",
+              "omschrijving3": "WOW! Ongewone blend maar een schot in de roos. Mooi rijp maar ook fris en fruitig met aroma’s van blauwe bessen, Maraschino kersen, munt en zoethout gevolgd door donkere bramen en witte peper. 24 maanden houtopvoeding.",
+              "fles": {
+                "prijs": "80.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "‘Bruno’ I Marcantoni 2019 (orange)",
+              "omschrijving1": "Incrocio bruni 54",
+              "omschrijving2": "Italië, Marche",
+              "omschrijving3": "Eerlijke en complexe wijn met tonen van magnolia, rozen en bergamot, gevolgd door aroma’s van rijpe abrikoos, caramel en toffee. 12 maanden houtopvoeding en 6 maanden ‘sur lies’ rijping op de fles.",
+              "fles": {
+                "prijs": "40.00",
                 "volume": ""
               },
               "glas": {
@@ -626,7 +682,7 @@
               "omschrijving2": "Duitsland, Pfalz",
               "omschrijving3": "Helderrode wijn met een mooie kruidigheid. Rijpe aanzet met een klein zoetje en aroma's van bosfruit en kersen. Ook lekker gekoeld.",
               "fles": {
-                "prijs": "30.00",
+                "prijs": "36.00",
                 "volume": ""
               },
               "glas": {
@@ -640,7 +696,7 @@
               "omschrijving2": "Slovenië, Štajerska",
               "omschrijving3": "Lekkere lichtvoetige wijn met de nodige finesse. Een ongewone blend van verschillende druiven en jaartallen. Aroma's van klein rood fruit, aangevuld met een zekere kruidigheid, witte peper en een fijne rokerige toets. Houtopvoeding van 12 maanden op gebruikte vaten.",
               "fles": {
-                "prijs": "32.00",
+                "prijs": "36.00",
                 "volume": ""
               },
               "glas": {
@@ -654,7 +710,7 @@
               "omschrijving2": "België, Herselt",
               "omschrijving3": "Aroma’s van klein rood fruit, lichte kruidigheid en fluweelzachte tannines. Kempische wijn gemaakt met uiterst respect voor product, natuur en omgeving.",
               "fles": {
-                "prijs": "32.00",
+                "prijs": "36.00",
                 "volume": ""
               },
               "glas": {
@@ -709,20 +765,7 @@
                 "volume": ""
               }
             },
-            {
-              "titel": "Ademan Valdearanda Toro 2019",
-              "omschrijving1": "tempranillo",
-              "omschrijving2": "Spanje, Castilla y Leon",
-              "omschrijving3": "Kersenrode wijn, aroma’s van rijp rood fruit, licht geroosterde toetsen, zachte kruidigheid en eik. Ademan heeft een houtopvoeding van 12 maanden gehad.",
-              "fles": {
-                "prijs": "45.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "",
-                "volume": ""
-              }
-            },
+
             {
               "titel": "Domaine de Poulvarel Les Perrottes 2020",
               "omschrijving1": "syrah, grenache, carignan",
@@ -752,21 +795,7 @@
               }
             },
             {
-              "titel": "Marjan Simcic Pinot Noir Selekcija 2019",
-              "omschrijving1": "pinot noir",
-              "omschrijving2": "Slovenië",
-              "omschrijving3": "Heerlijke aroma's van kersenlikeur, sinaasappelschil, rijp fruit en zachte hints van pepermunt. De afdronk is intens en langdurig. Deze pinot noir heeft genoten van een houtopvoeding van 29 maanden.",
-              "fles": {
-                "prijs": "87.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Norzagarai Carralciego 2016",
+              "titel": "Norzagarai Carralciego 2018",
               "omschrijving1": "tempranillo, grenache",
               "omschrijving2": "Spanje, Rioja",
               "omschrijving3": "Explosieve neus! Gestructureerde aroma's van rijpe bramen, bosbessen, pruimen en viooltjes met subtiele ondertonen van tabak en kruiden. 15 maanden houtopvoeding.",
@@ -785,7 +814,7 @@
               "omschrijving2": "Frankrijk, Jura",
               "omschrijving3": "Topwijn, volledig biologisch met een houtopvoeding van 24 maanden op oude Franse eiken vaten. Verfijnd en elegant met diepgang, bleekrood van kleur met aardse aroma’s die vergezeld worden van klein rood fruit, aalbes, rozenbottel en peper.",
               "fles": {
-                "prijs": "79.00",
+                "prijs": "84.00",
                 "volume": ""
               },
               "glas": {
@@ -820,6 +849,48 @@
                 "prijs": "",
                 "volume": ""
               }
+            },
+            {
+              "titel": "Stemberger B+ 2018",
+              "omschrijving1": "refosk, merlot, cabernet sauvignon, blaufrankisch, barbera",
+              "omschrijving2": "Slovenië, Kras",
+              "omschrijving3": "WOW! Ongewone blend maar een schot in de roos. Mooi rijp maar ook fris en fruitig met aroma’s van blauwe bessen, Maraschino kersen, munt en zoethout gevolgd door donkere bramen en witte peper. 24 maanden houtopvoeding.",
+              "fles": {
+                "prijs": "80.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Los Mores Vermell 2015",
+              "omschrijving1": "grenache, carignan",
+              "omschrijving2": "Spanje, Priorat",
+              "omschrijving3": "Perfect afgewerkte wijn, rond en vol maar toch met de nodige mineralen. Boost aan rijp rood fruit met zachte kruiden. 12 maanden houtopvoeding. Zijde zachte tannine’s en nu perfect op dronk.",
+              "fles": {
+                "prijs": "85.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Stratus 2015",
+              "omschrijving1": "cabernet sauvignon, cabernet franc, merlot, petit verdot, malbec",
+              "omschrijving2": "Canada",
+              "omschrijving3": "Heerlijke Bordelese blend die zwoel fruit combineert met een typische ‘cool climate’ textuur. Een combi die luxueus en uitbundig aanvoelt zonder te vervelen. Rijp zwart en rood fruit met de nodige kruidigheid en fijne toetsen van cederhout. 20 maanden houtopvoeding.",
+              "fles": {
+                "prijs": "115.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+              }
             }
           ]
         },
@@ -846,7 +917,7 @@
               "omschrijving2": "Frankrijk, Cahors",
               "omschrijving3": "De stoere jongen met zijn kruidige geur, rijke kleur en krachtige smaak. Aroma's van zwart fruit, rook, teer, donkere kruiden en mooie houttoesten. ",
               "fles": {
-                "prijs": "34.00",
+                "prijs": "36.00",
                 "volume": ""
               },
               "glas": {
@@ -858,7 +929,7 @@
               "titel": "Ellermann Spiegel Anno XIX 2019 ",
               "omschrijving1": "cabernet sauvignon, merlot, syrah ",
               "omschrijving2": " Duitsland, Pfalz ",
-              "omschrijving3": "De top cuvÃ©e van Ellerman Spiegel. Aroma's van rood fruit, zure kersen, bessen, kruidnagel, vanille gevolgd door een vleugje karamel. Mooie ronde afdronk met een klein zoetje. 12 maanden houtopvoeding. ",
+              "omschrijving3": "De top cuvée van Ellerman Spiegel. Aroma's van rood fruit, zure kersen, bessen, kruidnagel, vanille gevolgd door een vleugje karamel. Mooie ronde afdronk met een klein zoetje. 12 maanden houtopvoeding. ",
               "fles": {
                 "prijs": "45.00",
                 "volume": ""
@@ -875,20 +946,6 @@
               "omschrijving3": "De verschillende druivensoorten rijpen afzonderlijk van elkaar in Franse eikenvaten gedurende 12 tot 18 maanden. Een verfijnde neus, open en kruidig met toetsen van zwarte peper,\nkardemon en kruidnagel. Elegant in de mond met volle tannines en een lange afdronk.",
               "fles": {
                 "prijs": "43.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Hollick 2017",
-              "omschrijving1": "cabernet sauvignon",
-              "omschrijving2": "Australië, Coonwarra",
-              "omschrijving3": "Aroma's van subtiele pure chololade, kruidnagel, rijpe bessen en cederhout. Stevige en volle afdronk met duidelijke tannine's en een zacht karamel toets. ",
-              "fles": {
-                "prijs": "38.00",
                 "volume": ""
               },
               "glas": {
@@ -925,20 +982,6 @@
               }
             },
             {
-              "titel": "Barolo DOCG Vigna Gattera 2018",
-              "omschrijving1": "nebiolo",
-              "omschrijving2": "Italië, Piemonte",
-              "omschrijving3": "24 maanden houtopvoeding op Sloveense eiken vaten, aroma's van frambozen, pruimen, bloemen leer en subtiele drop. Prachtig gebalanceerd met en buitengewone frisheid. Elegant en kruidig in de afdronk. ",
-              "fles": {
-                "prijs": "75.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "",
-                "volume": ""
-              }
-            },
-            {
               "titel": "Carlo Meroni Amarone 2016",
               "omschrijving1": "corvina, corvinone, rondinella, molinara",
               "omschrijving2": "Italië, Veneto",
@@ -953,7 +996,7 @@
               }
             },
             {
-              "titel": "Pasij Rep Breg 2019/2020",
+              "titel": "Pasij Rep Breg 2021",
               "omschrijving1": "merlot",
               "omschrijving2": "Slovenië, Vipava Vallei",
               "omschrijving3": "Top merlot! Intens en complex, luxueuze neus van donker fruit, bramen, chocolade en zouthout. Vol en krachtig in de mond. 18 maanden houtopvoeding. ",
@@ -987,6 +1030,34 @@
               "omschrijving3": "Met een schitterende paarsrode kleur presenteert deze wijn een vrij complex aromatisch profiel van rijp rood en zwart fruit, pruimen gedroogde vijgen, dennenhonig, koffie en geroosterde amandel. Zachte taninnes, evenwichtige zuurtegraad en een lange afdronk.\n12 maanden houtopvoeding.",
               "fles": {
                 "prijs": "43.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Bélena 2022",
+              "omschrijving1": "syrah",
+              "omschrijving2": "Australië",
+              "omschrijving3": "Stevige en fruit gedreven syrah met duidelijke aroma’s van rijpe zwarte kersen, cassis, pruimen en gedroogde kruiden met in de finale een subtiele hint van witte peper.",
+              "fles": {
+                "prijs": "43.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Barolo ‘passione di re’ 2018",
+              "omschrijving1": "Nebiolo",
+              "omschrijving2": "Italië, Piemonte",
+              "omschrijving3": "Deze Barolo van Gabriele Scaglione zal je zintuigen doen prikkelen, zeer verfijnd met aroma’s die variëren van rijpe kersen pruimen tot truffels, teer en rozen. De afdronk is elegant met frisse toetsen en de nodige taninne’s. 36 maanden houtopvoeding op Sloveense eik.",
+              "fles": {
+                "prijs": "80.00",
                 "volume": ""
               },
               "glas": {
