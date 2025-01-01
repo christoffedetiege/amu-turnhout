@@ -27,9 +27,21 @@ export class DrankKaartResolver implements Resolve<DrankKaart> {
         return this.getWhiskeyDrankkaart();
       case 'wijnsuggestie':
         return this.getWijnsuggestieDrankkaart();
+      case 'wijnkaart':
+        return this.getWijnDrankkaart();
       default:
         return of({rubrieken: []}); // Standaard lege drankkaart
     }
+  }
+
+  private getWijnDrankkaart(): Observable<DrankKaart> {
+    return this.drankService.getWijnKaart()
+      .pipe(
+        map((drankkaart) => {
+          const rubrieken = drankkaart.rubrieken || [];
+          return {rubrieken} as DrankKaart;
+        })
+      );
   }
 
   private getWijnsuggestieDrankkaart(): Observable<DrankKaart> {

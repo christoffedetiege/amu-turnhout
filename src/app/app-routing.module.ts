@@ -5,9 +5,9 @@ import {MenuComponent} from './components/menu/menu.component';
 import {DrankenComponent} from './components/dranken/dranken.component';
 import {AlcoholvrijComponent} from './components/dranken/alcoholvrij/alcoholvrij.component';
 import {AperitievenComponent} from './components/dranken/aperitieven/aperitieven.component';
-import {WijnsuggestieComponent} from './components/wijn/wijnsuggestie/wijnsuggestie.component';
+import {WijnsuggestieComponent} from './components/dranken/wijnsuggestie/wijnsuggestie.component';
 import {BierSuggestiesComponent} from './components/dranken/bier-suggesties/bier-suggesties.component';
-import {WijnkaartComponent} from './components/wijn/wijnkaart/wijnkaart.component';
+import {WijnkaartComponent} from './components/dranken/wijnkaart/wijnkaart.component';
 import {WarmedrankenComponent} from './components/dranken/warmedranken/warmedranken.component';
 import {DigestievenComponent} from './components/dranken/digestieven/digestieven.component';
 import {ReserverenComponent} from './components/reserveren/reserveren.component';
@@ -30,7 +30,8 @@ const routes: Routes = [
   { path: 'wijnsuggestie', component: WijnsuggestieComponent,
     resolve: {drankkaart: DrankKaartResolver} },
   { path: 'biersuggestie', component: BierSuggestiesComponent },
-  { path: 'wijnkaart', component: WijnkaartComponent },
+  { path: 'wijnkaart', component: WijnkaartComponent,
+    resolve: {drankkaart: DrankKaartResolver} },
   { path: 'warmedranken', component: WarmedrankenComponent,
     resolve: {drankkaart: DrankKaartResolver} },
   { path: 'digestieven', component: DigestievenComponent,

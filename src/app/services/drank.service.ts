@@ -15,8 +15,8 @@ export class DrankService {
 
   constructor( private http: HttpClient) { }
 
-  public getWijnKaart(): Observable<WijnKaart> {
-    return this.http.get<WijnKaart>(this.ASSETS_DATA_URL + '/wijnkaart.json');
+  public getWijnKaart(): Observable<DrankKaart> {
+    return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/wijn.json');
   }
   public getWijnSuggestie(): Observable<DrankKaart> {
     return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/wijnsuggesties.json');
