@@ -35,13 +35,6 @@ export class DrankKaartResolver implements Resolve<DrankKaart> {
   }
 
   private getWijnDrankkaart(): Observable<DrankKaart> {
-    // return this.drankService.getWijnKaart()
-    //   .pipe(
-    //     map((drankkaart) => {
-    //       const rubrieken = drankkaart.rubrieken || [];
-    //       return {rubrieken} as DrankKaart;
-    //     })
-    //   );
     return forkJoin({
       wijnen: this.drankService.getWijnKaart(),
       dessertwijnen: this.drankService.getDessertWijn(),
@@ -117,13 +110,15 @@ export class DrankKaartResolver implements Resolve<DrankKaart> {
   }
 
   private getDigestievenDrankkaart(): Observable<DrankKaart> {
-    return this.drankService.getDigestieven()
-      .pipe(
-        map((drankkaart) => {
-          const rubrieken = drankkaart.rubrieken || [];
-          return {rubrieken} as DrankKaart;
-        })
-      );
+    return forkJoin({
+      digestieven: this.drankService.getDigestieven(),
+      dessertwijnen: this.drankService.getDessertWijn(),
+    }).pipe(
+      map(({digestieven, dessertwijnen}) => {
+        const combinedRubrieken = digestieven.rubrieken.concat(dessertwijnen.rubrieken);
+        return {rubrieken: combinedRubrieken} as DrankKaart;
+      })
+    );
   }
 
   private getWhiskeyDrankkaart(): Observable<DrankKaart> {
