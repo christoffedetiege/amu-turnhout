@@ -1,6 +1,6 @@
 <div *ngIf="drankkaart" class="box">
   <div *ngFor="let rubriek of drankkaart.rubrieken" class="rubriek">
-    <div class="title">{{ rubriek.titel }}</div>
+    <div class="titel">{{ rubriek.titel }}</div>
     <div class="content">
       <div *ngFor="let subrubriek of rubriek.items">
         <p class="subtitel">{{ subrubriek.titel }}</p>

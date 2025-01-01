@@ -1,0 +1,277 @@
+{
+  "rubrieken": [
+    {
+      "titel": "Warme dranken",
+      "items": [
+        {
+          "titel": "Ons aanbod Vergnano koffie",
+          "items": [
+            {
+              "titel": "Espresso",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Lungo",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Deca Lungo / Espresso",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.00",
+                "volume": ""
+              }
+            }
+          ]
+        },
+        {
+          "titel": "Koffie varianten",
+          "items": [
+            {
+              "titel": "Koffie verkeerd",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "6",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Cappuccino",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Latté macchiato",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "6.50",
+                "volume": ""
+              }
+            }
+          ]
+        },
+        {
+          "titel": "Koffie met wolkje room",
+          "items": [
+            {
+              "titel": "Ierse koffie (whisky)",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Italiaanse koffie (amaretto)",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Normandische koffie (calvados)",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Hasseltse koffie (jenever)",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Baileys koffie",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Cubaanse koffie (bruine rum)",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Parijse koffie (grand marnier)",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Antwerpse koffie (elexir d'Anvers)",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13.00",
+                "volume": ""
+              }
+            }
+          ]
+        },
+        {
+          "titel": "Bio & Fair Trade thee assortiment",
+          "items": [
+            {
+              "titel": "Zwarte thee",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Earl Grey",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Kamille",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Pepermunt",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Rooibos",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Groene thee",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Super bessen",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "English breakfast",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Witte thee",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            }
+          ]
+        },
+        {
+          "titel": "Verse thee",
+          "items": [
+            {
+              "titel": "Munt",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "6.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Sinaasappel-kruidnagel",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "6.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Gember-limoen-munt",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "6.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Mojito thee ( rum. limoen. suiker. munt )",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "10.50",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -18,10 +18,11 @@ export class DrankKaartResolver implements Resolve<DrankKaart> {
       case 'aperitief':
         return this.getAperitievenDrankkaart();
       case 'alcoholvrij':
-
         return this.getAlcoholVrijDrankkaart();
+      case 'warmedranken':
+        return this.getWarmedrankenDrankkaart();
       default:
-        return of({ rubrieken: [] }); // Standaard lege drankkaart
+        return of({rubrieken: []}); // Standaard lege drankkaart
     }
   }
 
@@ -60,6 +61,16 @@ export class DrankKaartResolver implements Resolve<DrankKaart> {
 
   private getAlcoholVrijDrankkaart(): Observable<DrankKaart> {
     return this.drankService.getAlcoholVrij()
+      .pipe(
+        map((drankkaart) => {
+          const rubrieken = drankkaart.rubrieken || [];
+          return {rubrieken} as DrankKaart;
+        })
+      );
+  }
+
+  private getWarmedrankenDrankkaart(): Observable<DrankKaart> {
+    return this.drankService.getKoffieThee()
       .pipe(
         map((drankkaart) => {
           const rubrieken = drankkaart.rubrieken || [];

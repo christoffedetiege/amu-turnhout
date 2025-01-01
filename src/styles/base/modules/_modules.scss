@@ -1,10 +1,11 @@
 @media (max-width: 900px) {
-  .box{
+  .box {
     width: 75%;
   }
 }
+
 @media (min-width: 900px) {
-  .box{
+  .box {
     width: 35%;
   }
 }
@@ -14,13 +15,13 @@
   padding: 10px;
 }
 
-.box .title{
+.box .title {
   font-size: x-large;
   text-align: center;
 
 }
 
-.box .content{
+.box .content {
   border-radius: 10px;
   border: 0.01em solid $font-color;
   color: $font-color;
@@ -39,42 +40,77 @@
 }
 
 
-.product {text-align: center}
+.product {
+  text-align: center
+}
 
+.box {
+  margin: auto;
+  padding: 10px;
 
-.kaartitem {
-  display: grid;
-  grid-template-columns: 1fr auto; // Linker kolom voor tekst, rechter kolom voor prijs
-  grid-template-rows: auto auto; // Eerste rij voor titel + prijs, tweede rij voor omschrijving
-  gap: 0.5rem; // Ruimte tussen elementen
-  margin-bottom: 0.5rem; // Ruimte tussen kaartitems
-  text-align: left;
-
-  .titel {
-    grid-column: 1 / 2; // Zet in de linker kolom
-    font-size: 1.2rem;
-    align-self: center; // Verticaal centreren
-  }
-
-  .prijs {
-    grid-column: 2 / 3; // Zet in de rechter kolom
-    grid-row: 1 / 2; // Eerste rij
-    text-align: right;
-    font-size: 1rem;
-    align-self: center; // Verticaal centreren
-
-    .drank_prijs_fles,
-    .drank_prijs_glas {
-      display: block; // Zorg dat prijzen netjes onder elkaar staan als er meerdere regels zijn
+  .rubriek {
+    .titel {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 1rem;
     }
+
+    .content {
+      border-radius: 10px;
+      border: 0.01em solid $font-color;
+      color: $font-color;
+      padding: 5px;
+      text-align: center;
+
+      .subtitel{
+        font-size: 1.4rem;
+      }
+
+      .kaartitem {
+        display: grid;
+        grid-template-columns: 1fr auto; // Linker kolom voor tekst, rechter kolom voor prijs
+        grid-template-rows: auto auto; // Eerste rij voor titel + prijs, tweede rij voor omschrijving
+        gap: 0.5rem; // Ruimte tussen elementen
+        margin-bottom: 0.7rem; // Ruimte tussen kaartitems
+        text-align: left;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+
+        .titel {
+          grid-column: 1 / 2; // Zet in de linker kolom
+          font-size: 1.2rem;
+          text-align: left;
+          align-self: center; // Verticaal centreren
+          margin-bottom: -0.1rem;
+        }
+
+        .prijs {
+          grid-column: 2 / 3; // Zet in de rechter kolom
+          grid-row: 1 / 2; // Eerste rij
+          text-align: right;
+          font-size: 1rem;
+          align-self: center; // Verticaal centreren
+
+          .drank_prijs_fles,
+          .drank_prijs_glas {
+            display: block; // Zorg dat prijzen netjes onder elkaar staan als er meerdere regels zijn
+          }
+        }
+
+        .omschrijving {
+          grid-column: 1 / 3; // Laat de omschrijving over beide kolommen lopen
+          grid-row: 2 / 3; // Tweede rij
+          font-size: 1rem;
+          line-height: 1.5;
+          white-space: pre-line; // Zorg dat nieuwe regels correct worden weergegeven
+          padding-left: 1.5rem; // Extra ruimte aan de linkerkant
+        }
+      }
+
+
+    }
+
+
   }
 
-  .omschrijving {
-    grid-column: 1 / 3; // Laat de omschrijving over beide kolommen lopen
-    grid-row: 2 / 3; // Tweede rij
-    font-size: 1rem;
-    line-height: 1.5;
-    white-space: pre-line; // Zorg dat nieuwe regels correct worden weergegeven
-    padding-left: 1.5rem; // Extra ruimte aan de linkerkant
-  }
 }

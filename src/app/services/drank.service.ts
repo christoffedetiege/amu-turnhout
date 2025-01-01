@@ -34,7 +34,7 @@ export class DrankService {
     return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/aperoBierFris.json');
   }
   public getKoffieThee(): Observable<DrankKaart> {
-    return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/koffiethee.json');
+    return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/warmedranken.json');
   }
   public getDigestieven(): Observable<DrankKaart> {
     return this.http.get<DrankKaart>(this.ASSETS_DATA_URL + '/digestieven.json');
