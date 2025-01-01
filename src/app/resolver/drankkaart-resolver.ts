@@ -30,7 +30,7 @@ export class DrankKaartResolver implements Resolve<DrankKaart> {
       case 'wijnkaart':
         return this.getWijnDrankkaart();
       default:
-        return of({rubrieken: []}); // Standaard lege drankkaart
+        return of({rubrieken: [], volume: ''}); // Standaard lege drankkaart
     }
   }
 
