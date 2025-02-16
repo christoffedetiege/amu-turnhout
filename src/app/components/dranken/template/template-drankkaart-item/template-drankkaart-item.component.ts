@@ -7,5 +7,7 @@ import {DrankkaartItem} from '../../../../model/kaartitems-drank/drankkaart-item
 })
 export class TemplateDrankkaartItemComponent {
   @Input() item!: DrankkaartItem;
+  @Input() hideFles?: boolean;
+  @Input() hideGlas?: boolean;
   constructor() { }
 }

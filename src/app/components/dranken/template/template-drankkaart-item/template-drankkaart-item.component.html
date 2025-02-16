@@ -4,10 +4,10 @@
   </div>
   <div class="prijs">
     <span class="drank_prijs_fles" *ngIf="item.fles.prijs">
-      {{item.fles.prijs | currency: 'EUR'}} &nbsp; {{item.fles.volume}} /fles<br />
+      {{item.fles.prijs | currency: 'EUR'}} &nbsp; {{item.fles.volume}} <span *ngIf="!hideFles"> /fles </span><br />
     </span>
     <span class="drank_prijs_glas" *ngIf="item.glas.prijs">
-      {{item.glas.prijs | currency: 'EUR'}} <span *ngIf="item.glas.volume"> /glas</span> <br />
+      {{item.glas.prijs | currency: 'EUR'}} &nbsp; {{item.glas.volume}} <span *ngIf="hideGlas"> /glas </span><br />
     </span>
   </div>
   <div class="omschrijving" *ngIf="item.omschrijving1">
