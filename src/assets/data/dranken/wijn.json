@@ -64,7 +64,9 @@
             }
           ]
         }
-      ]
+      ],
+      "hideFles": true,
+      "hideGlas": true
     },
     {
       "titel": "Wit",
@@ -490,7 +492,9 @@
             }
           ]
         }
-      ]
+      ],
+      "hideFles": true,
+      "hideGlas": true
     },
     {
       "titel": "Biodynamisch",
@@ -641,7 +645,9 @@
             }
           ]
         }
-      ]
+      ],
+      "hideFles": true,
+      "hideGlas": true
     },
     {
       "titel": "Rood",
@@ -1054,9 +1060,9 @@
             }
           ]
         }
-      ]
+      ],
+      "hideFles": true,
+      "hideGlas": true
     }
-  ],
-  "hideFles": true,
-  "hideGlas": true
+  ]
 }

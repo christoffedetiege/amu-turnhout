@@ -4,4 +4,6 @@ export interface DrankkaartRubriek {
   titel: string;
   items: DrankkaartSubrubriek[];
   volume: string;
+  hideGlas: boolean;
+  hideFles: boolean;
 }

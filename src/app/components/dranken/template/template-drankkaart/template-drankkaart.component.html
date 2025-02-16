@@ -6,7 +6,11 @@
         <p class="subtitel">{{ subrubriek.titel }}</p>
         <app-template-drankkaart-item
           *ngFor="let item of subrubriek.items"
-          [item]="item">
+          [item]="item"
+          [hideFles]="rubriek.hideFles"
+          [hideGlas]="rubriek.hideGlas"
+        >
+
         </app-template-drankkaart-item>
       </div>
       <div *ngIf="rubriek.volume" style="text-align: right">{{rubriek.volume}}</div>
