@@ -6,12 +6,12 @@ import {DrankenComponent} from './components/dranken/dranken.component';
 import {AlcoholvrijComponent} from './components/dranken/alcoholvrij/alcoholvrij.component';
 import {AperitievenComponent} from './components/dranken/aperitieven/aperitieven.component';
 import {WijnsuggestieComponent} from './components/dranken/wijnsuggestie/wijnsuggestie.component';
-import {BierSuggestiesComponent} from './components/dranken/bier-suggesties/bier-suggesties.component';
+// import {BierSuggestiesComponent} from './components/dranken/bier-suggesties/bier-suggesties.component';
 import {WijnkaartComponent} from './components/dranken/wijnkaart/wijnkaart.component';
 import {WarmedrankenComponent} from './components/dranken/warmedranken/warmedranken.component';
 import {DigestievenComponent} from './components/dranken/digestieven/digestieven.component';
 import {ReserverenComponent} from './components/reserveren/reserveren.component';
-import {GinComponent} from './components/dranken/gin/gin.component';
+// import {GinComponent} from './components/dranken/gin/gin.component';
 import {TakewayComponent} from './components/takeway/takeway.component';
 import {WhiskeyComponent} from './components/dranken/whiskey/whiskey.component';
 import {ImpressiesComponent} from './components/impressies/impressies.component';
@@ -29,7 +29,6 @@ const routes: Routes = [
     resolve: {drankkaart: DrankKaartResolver}},
   { path: 'wijnsuggestie', component: WijnsuggestieComponent,
     resolve: {drankkaart: DrankKaartResolver} },
-  { path: 'biersuggestie', component: BierSuggestiesComponent },
   { path: 'wijnkaart', component: WijnkaartComponent,
     resolve: {drankkaart: DrankKaartResolver} },
   { path: 'warmedranken', component: WarmedrankenComponent,
@@ -40,7 +39,6 @@ const routes: Routes = [
   // { path: 'impressies', component: ImpressiesComponent },
   { path: 'whisky', component: WhiskeyComponent,
     resolve: {drankkaart: DrankKaartResolver} },
-  { path: 'gin', component: GinComponent },
   { path: 'takeaway', component: TakewayComponent },
   { path: 'impressies', component: ImpressiesComponent },
   { path: '**', component: HomeComponent }

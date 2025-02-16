@@ -14,17 +14,17 @@ import {DranknavigatieComponent} from './components/dranken/dranknavigatie/drank
 import {AperitievenComponent} from './components/dranken/aperitieven/aperitieven.component';
 import {WijnsuggestieComponent} from './components/dranken/wijnsuggestie/wijnsuggestie.component';
 import {WijnkaartComponent} from './components/dranken/wijnkaart/wijnkaart.component';
-import {FrisdrankenComponent} from './components/dranken/frisdranken/frisdranken.component';
+// import {FrisdrankenComponent} from './components/dranken/frisdranken/frisdranken.component';
 import {WarmedrankenComponent} from './components/dranken/warmedranken/warmedranken.component';
 import {DigestievenComponent} from './components/dranken/digestieven/digestieven.component';
 import {KaartItemComponent} from './components/kaart-item/kaart-item.component';
-import {DessertwijnenComponent} from './components/dranken/dessertwijnen/dessertwijnen.component';
+// import {DessertwijnenComponent} from './components/dranken/dessertwijnen/dessertwijnen.component';
 import {WhiskeyComponent} from './components/dranken/whiskey/whiskey.component';
-import {GinComponent} from './components/dranken/gin/gin.component';
+// import {GinComponent} from './components/dranken/gin/gin.component';
 import {ParkingComponent} from './components/parking/parking.component';
 import {ProductComponent} from './components/product/product.component';
-import {BierSuggestiesComponent} from './components/dranken/bier-suggesties/bier-suggesties.component';
-import {KaartItemDrankComponent} from './components/dranken/kaart-item-drank/kaart-item-drank.component';
+// import {BierSuggestiesComponent} from './components/dranken/bier-suggesties/bier-suggesties.component';
+// import {KaartItemDrankComponent} from './components/dranken/kaart-item-drank/kaart-item-drank.component';
 import {AlcoholvrijComponent} from './components/dranken/alcoholvrij/alcoholvrij.component';
 import {HttpClientModule} from '@angular/common/http';
 import {GeslotenComponent} from './components/gesloten/gesloten.component';
@@ -51,18 +51,13 @@ import {
     AperitievenComponent,
     WijnsuggestieComponent,
     WijnkaartComponent,
-    FrisdrankenComponent,
     WarmedrankenComponent,
     DigestievenComponent,
     KaartItemComponent,
-    DessertwijnenComponent,
     WhiskeyComponent,
-    GinComponent,
     ParkingComponent,
     GeslotenComponent,
     ProductComponent,
-    BierSuggestiesComponent,
-    KaartItemDrankComponent,
     AlcoholvrijComponent,
     TemplateDrankKaartComponent,
     TemplateDrankkaartItemComponent
