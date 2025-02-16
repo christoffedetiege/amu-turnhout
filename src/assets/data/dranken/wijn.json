@@ -540,20 +540,7 @@
                 "volume": ""
               }
             },
-            {
-              "titel": "Pivnica Cajkov Devin Volcanic 2018 (orange)",
-              "omschrijving1": "devin",
-              "omschrijving2": "Slovakije",
-              "omschrijving3": "Devin-druif is een kruising tussen gewürztraminer en rotgipfler druif. Zeer floraal in de neus, maar droog en pittig in de mond met subtiele mineralen.",
-              "fles": {
-                "prijs": "38.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "",
-                "volume": ""
-              }
-            },
+
             {
               "titel": "Lyrarakis 2023 (orange)",
               "omschrijving1": "assyrtiko, vidiano",
@@ -901,7 +888,7 @@
               "titel": "Ferdinand Epoca 2018",
               "omschrijving1": "cabernet sauvignon, merlot",
               "omschrijving2": "Slovenië, Goriska Brda",
-              "omschrijving3": "Volle body met een stevig karakter. Duidelijke aroma's van donker fruit, pruimenmarmelade en vanille. CuvÃ©e Epoca heeft genoten van een houtopvoeding van  18 maanden op eiken vaten. Topper! ",
+              "omschrijving3": "Volle body met een stevig karakter. Duidelijke aroma's van donker fruit, pruimenmarmelade en vanille. Cuvée Epoca heeft genoten van een houtopvoeding van  18 maanden op eiken vaten. Topper! ",
               "fles": {
                 "prijs": "70.00",
                 "volume": ""
@@ -1069,5 +1056,7 @@
         }
       ]
     }
-  ]
+  ],
+  "hideFles": true,
+  "hideGlas": true
 }
