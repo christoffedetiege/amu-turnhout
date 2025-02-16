@@ -9,7 +9,9 @@
           [item]="item">
         </app-template-drankkaart-item>
       </div>
+      <div *ngIf="rubriek.volume" style="text-align: right">{{rubriek.volume}}</div>
     </div>
+
   </div>
   <div *ngIf="drankkaart.volume" style="text-align: right">{{drankkaart.volume}}</div>
 </div>
