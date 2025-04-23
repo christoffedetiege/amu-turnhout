@@ -41,9 +41,9 @@
               }
             },
             {
-              "titel": "Clelia",
-              "omschrijving1": "Italië",
-              "omschrijving2": "Rijk en intens aromatisch profiel met vooral citrustonen van mandarijn en citroen. Kruidige afdronk met een klein bittertje.",
+              "titel": "Gunpowder Brazilian Pine apple",
+              "omschrijving1": "Ierland",
+              "omschrijving2": "Deze unieke gin combineert frisse en zachte citrus met de zwoele zoetheid van Braziliaanse ananas en subtiele gunpowder thee. Verrassende en verfrissende Gin! ",
               "omschrijving3": "Fever Tree Indian",
               "fles": {},
               "glas": {
@@ -131,7 +131,8 @@
           ]
         }
       ],
-      "volume": "5cl / glas"
+      "volume": "5cl / glas",
+      "hideGlas": true
     }
   ]
 }

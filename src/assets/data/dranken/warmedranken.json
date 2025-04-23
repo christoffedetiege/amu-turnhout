@@ -4,7 +4,7 @@
       "titel": "Warme dranken",
       "items": [
         {
-          "titel": "Ons aanbod Vergnano koffie",
+          "titel": "koffie",
           "items": [
             {
               "titel": "Espresso",
@@ -271,7 +271,8 @@
             }
           ]
         }
-      ]
+      ],
+      "hideGlas": true
     }
   ]
 }

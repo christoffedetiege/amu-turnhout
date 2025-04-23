@@ -224,7 +224,8 @@
           ]
         }
       ],
-      "volume": "8cl / glas"
+      "volume": "8cl / glas",
+      "hideGlas": true
     },
     {
       "titel": "Eens iets anders",
@@ -270,7 +271,8 @@
             }
           ]
         }
-      ]
+      ],
+      "hideGlas": true
     },
     {
       "titel": "Stoere bubbels",
@@ -462,7 +464,8 @@
             }
           ]
         }
-      ]
+      ],
+      "hideGlas": true
     },
     {
       "titel": "Water",
@@ -481,7 +484,8 @@
             }
           ]
         }
-      ]
+      ],
+      "hideGlas": true
     },
     {
       "titel": "Frisdrank",
@@ -563,7 +567,8 @@
             }
           ]
         }
-      ]
+      ],
+      "hideGlas": true
     }
   ]
 }

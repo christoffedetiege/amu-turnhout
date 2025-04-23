@@ -7,7 +7,7 @@
         "items": [
           {
             "titel": "Amu Digestief",
-            "omschrijving1": "Dubonnet, Drambuie, gin",
+            "omschrijving1": "(Dubonnet, Drambuie, gin)",
             "fles": {},
             "glas": {
               "prijs": "14",
@@ -15,8 +15,8 @@
             }
           },
           {
-            "titel": "cognac - ginger ale - limoen",
-            "omschrijving1": "",
+            "titel": "After Dinner",
+            "omschrijving1": " (cognac - ginger ale – limoen) ",
             "fles": {},
             "glas": {
               "prijs": "13",
@@ -43,7 +43,7 @@
           },
           {
             "titel": "Espresso Martini",
-            "omschrijving1": "",
+            "omschrijving1": "(espresso, vodka, kalhua)",
             "fles": {},
             "glas": {
               "prijs": "14",
@@ -52,7 +52,8 @@
           }
         ]
       }
-    ]
+    ],
+    "hideGlas": true
 
   }
 ]}

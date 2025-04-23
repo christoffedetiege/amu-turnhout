@@ -80,7 +80,8 @@
           ]
         }
       ],
-      "volume": "5cl / glas"
+      "volume": "5cl / glas",
+      "hideGlas": true
     }
   ]
 }

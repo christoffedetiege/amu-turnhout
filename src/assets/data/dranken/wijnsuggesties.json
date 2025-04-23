@@ -7,10 +7,10 @@
           "titel": "",
           "items": [
             {
-              "titel": "Tesch 2023",
-              "omschrijving1": "Druiven: weissburgunder",
-              "omschrijving2": "Duitsland, Nahe (ZW)",
-              "omschrijving3": "Zeer elegante wijn met frisse tonen van pompelmoes, rijpe abrikoos, subtiele banaan en een kruidige afdronk met hints van hazelnoten.",
+              "titel": "Château Héritage Blanc de Blanc 2020",
+              "omschrijving1": "Druiven: viognier, sauvignon blanc, chardonnay, muscat",
+              "omschrijving2": "Libanon",
+              "omschrijving3": "Elegante wijn met frisse aroma’s van ananas en passievrucht gevolgd door licht aromatische tonen van de subtiele muscat. Een mooie zuurtegraad die goed in balans is met de fruitige aroma’s",
               "fles": {
                 "prijs": "35.00",
                 "volume": ""
@@ -21,10 +21,10 @@
               }
             },
             {
-              "titel": "Tour De Baulx Grande Réserve 2022",
-              "omschrijving1": "Druiven: rolle (vermentino) roussanne, viognier, grenache blanc",
-              "omschrijving2": "Frankrijk, Languedoc",
-              "omschrijving3": "De belangrijkste druif in deze wijn is de rolle, dat merk je meteen aan de aroma’s van citrusbloemen, rijpe peren en subtiele ananas, gevolgd door hints van gedroogde kruiden en licht gebrand hout door de houtopvoeding.",
+              "titel": "Pasji Rep 2023",
+              "omschrijving1": "Druiven: zelen",
+              "omschrijving2": "Slovenië, Vipava Vallei",
+              "omschrijving3": "Complexe, elegante doch lichtvoetige wijn. Verleidelijke aroma’s van groene appel, citrus en peer met een florale toets en subtiele kruiden. Fruitige en frisse aanzet met een minerale middellandse afdronk. 8 maanden inox opvoeding en 20% heeft genoten van een houtopvoeding.",
               "fles": {
                 "prijs": "40.00",
                 "volume": ""
@@ -35,44 +35,44 @@
               }
             },
             {
-              "titel": "Ferdinand Classic 2022",
-              "omschrijving1": "Druiven: rebula",
-              "omschrijving2": "Slovenië, Goriska Brda",
-              "omschrijving3": "Zeer verfijnde wijn gemaakt op zijn mineralen en fraîcheur toetsen met subtiele hints van citrus en appel. 10 maanden hout opvoeding.",
-              "fles": {
-                "prijs": "36.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "7.20",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Luaria Civitas 2023",
-              "omschrijving1": "Druiven: pecorino",
-              "omschrijving2": "Italië, Abruzzo",
-              "omschrijving3": "Fris, vol en fruitig met duidelijke aroma’s van licht fruit met een zachte ondertoon van exotisch fruit en witte bloemen.",
-              "fles": {
-                "prijs": "35.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "7.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Jordi Miro 2023",
-              "omschrijving1": "Druiven: grenache blanc",
-              "omschrijving2": "Spanje, Catalunya",
-              "omschrijving3": "Frisse doch smeuïge wijn met een perfecte samensmelting van de geroosterde noten door de houtopvoeding, gevolgd door aroma’s van wit fruit, appel, peer en zachte vanille.",
+              "titel": "Domaine Fontaine Du Clos Aura 2023",
+              "omschrijving1": "Druiven: chardonnay, grenache blanc, gros manseng, petit manseng, sauvignin gris",
+              "omschrijving2": "Frankrijk, Rhone",
+              "omschrijving3": "Verrassende blend van druiven die ervoor zorgen dat we een prachtige wijn krijgen! De chardonnay heeft genoten van een houtopvoeding, de andere druiven rijpen op inox citernes. Rijkelijke wijn met een sterke persoonlijkheid. Aroma’s van gekonfijt fruit, boter en citroen.",
               "fles": {
                 "prijs": "32.50",
                 "volume": ""
               },
               "glas": {
                 "prijs": "6.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "La Caplana Gavi 2023",
+              "omschrijving1": "Druiven: cortese",
+              "omschrijving2": "Italië, Piemonte",
+              "omschrijving3": "Een heldere strogele kleur, intense aroma’s van witte bloesem en sporen van rijp fruit. Aangenaam fris, hartig en een evenwichtige structuur met hints van geroosterde amandel in de afdronk.",
+              "fles": {
+                "prijs": "32.50",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "6.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Vestigium 2022",
+              "omschrijving1": "Druiven: airen",
+              "omschrijving2": "Spanje, La Mancha",
+              "omschrijving3": "Complexe wijn met de nodige mineralen. Duidelijke aroma’s van gekonfijt fruit, steenvruchten en hints van hout. Eerste vergisting gebeurt op inox daarna rijpt de wijn verder in amforen van 100 jaar oud. Slechts 1000 flessen worden er per jaar gemaakt van deze geweldige ontdekking.",
+              "fles": {
+                "prijs": "40.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.00",
                 "volume": ""
               }
             },
@@ -93,7 +93,7 @@
           ]
         }
       ],
-      "volume": "12,5cl / glas"
+      "volume": "15cl / glas"
     },
     {
       "titel": "Rose - Orange",
@@ -130,23 +130,23 @@
               }
             },
             {
-              "titel": "Iliana Malihin 2022 (rose)",
-              "omschrijving1": "Druiven: liatiko",
-              "omschrijving2": "Griekenland, Kreta",
-              "omschrijving3": "Perfecte winter rosé! Directe press rosé met expressieve aroma’s van rood fruit en gedroogde vruchten. Delicate doch complexe smaak die eindigt met een lange frisse en fruitige afdronk.",
+              "titel": "Eraz 2022 (rose)",
+              "omschrijving1": "Druiven: syrah, gamay",
+              "omschrijving2": "Libanon",
+              "omschrijving3": "Rosé met intense aroma’s van zwarte kersen, aardbeien en subtiele zoethout. Verfrissende zuurtegraad gevolgd door een rijkelijke en fruitige afdronk.",
               "fles": {
-                "prijs": "45.00",
+                "prijs": "35.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "9.00",
+                "prijs": "7.00",
                 "volume": ""
               }
             }
           ]
         }
       ],
-      "volume": "12,5cl / glas"
+      "volume": "15cl / glas"
     },
     {
       "titel": "Rood",
@@ -155,58 +155,58 @@
           "titel": "",
           "items": [
             {
-              "titel": "Il Torrione Montefalco 2019",
-              "omschrijving1": "Druiven: sangiovese, sagrantino, merlot",
-              "omschrijving2": "Italië, Umbrië",
-              "omschrijving3": "Intens fruitig met aroma’s van blauwe bessen en kersen gevolgd door een fijne kruidigheid. 4 jaar inoxopvoeding dat zorgt voor een zijde zachte afdronk.",
+              "titel": "Château Héritage Nine 2021",
+              "omschrijving1": "Druiven: cinsault, cabernet sauvignon, syrah, mourvèdre, carignan, grenache, tempranillo, merlot, cabernet franc",
+              "omschrijving2": "Libanon",
+              "omschrijving3": "Nine is een combinatie van de 9 druiven waar het château mee werkt. Een fruitbom met aroma’s van pruimen, rijp rood en zwart fruit en hints van tabak. Elke druif krijgt een aparte inox opvoeding en enkel de uitzonderlijke jaren en druiven van optimale kwaliteit worden gebruikt.",
               "fles": {
-                "prijs": "40.00",
+                "prijs": "36.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "8.00",
+                "prijs": "7.20",
                 "volume": ""
               }
             },
             {
-              "titel": "Los Mores D’Hora 2022",
-              "omschrijving1": "Druiven: grenache, carignan",
-              "omschrijving2": "Spanje, Priorat (NO)",
-              "omschrijving3": "Enerzijds jong, speels en fris met de nodige mineralen, anderzijds een verrassende body en maturiteit. Donkere fruit aroma’s met subtiele hints van hout maken deze wijn spannend. Houtopvoeding van 6 maanden.",
+              "titel": "Weingut Pfirmann 2022",
+              "omschrijving1": "Druiven: spätburgunder",
+              "omschrijving2": "Duitsland Pfalz",
+              "omschrijving3": "Mooie delicate spätburgunder met een houtopvoeding van 12 maanden. Aroma’s van fijne rode bessen vergezeld van een zachte kruidigheid en hints van hout. Verfrissende afdronk met subtiele taninnes.",
               "fles": {
-                "prijs": "40.00",
+                "prijs": "32.50",
                 "volume": ""
               },
               "glas": {
-                "prijs": "8.00",
+                "prijs": "6.50",
                 "volume": ""
               }
             },
             {
-              "titel": "Black Pack 2020",
-              "omschrijving1": "Druiven: gamza",
+              "titel": "Borovitza 2020",
+              "omschrijving1": "Druiven: bouquet",
               "omschrijving2": "Bulgarije (NW)",
-              "omschrijving3": "Aroma’s van fris klein rood fruit gevolgd door rijpe kersen, frambozen en aardbei, aangevuld met een delicate kruidigheid. 24 maanden houtopvoeding. Finesse en power in één!",
+              "omschrijving3": "De zware ietwat ruwe mavrud druif werd gekruist met de pinot noir druif, met gevolg de geboorte van de bouquet druif. Een toonbeeld van finesse! 9 maanden houtopvoeding en 12 maanden inox opvoeding. Aroma’s van aardbeien, veenbessen, cassis en frambozen gevolgd door hints van eik en cederhout.",
               "fles": {
-                "prijs": "32.50",
+                "prijs": "35.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "6.50",
+                "prijs": "7.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Waltner 2023",
-              "omschrijving1": "Druiven: zweigelt",
-              "omschrijving2": "Oostenrijk, Wagram",
-              "omschrijving3": "Elegante, sappige wijn en iedereens vriend! Intense fruitige neus met aroma’s van zure kers, cassis, zachte karamel en viooltjes gevolgd door een mooie gebalanceerde afdronk.",
+              "titel": "Barocco Reale 2019",
+              "omschrijving1": "Druiven: primitivo",
+              "omschrijving2": "Italië, Puglia",
+              "omschrijving3": "Volle intense primitivo met de typische confituur en marmelade toetsen. Mollige hints van zwarte kers, bramen, pruimen en donkere chocolade. 12 maanden houtopvoeding.",
               "fles": {
-                "prijs": "32.50",
+                "prijs": "40.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "6.50",
+                "prijs": "8.00",
                 "volume": ""
               }
             },
@@ -227,7 +227,7 @@
           ]
         }
       ],
-      "volume": "12,5cl / glas"
+      "volume": "15cl / glas"
     }
   ]
 }

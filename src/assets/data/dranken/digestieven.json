@@ -198,7 +198,8 @@
           ]
         }
       ],
-      "volume": "8cl / glas"
+      "volume": "8cl / glas",
+      "hideGlas": true
     },
     {
       "titel": "Grappa Collectie Marolo",
@@ -242,7 +243,8 @@
           ]
         }
       ],
-      "volume": "5cl / glas"
+      "volume": "5cl / glas",
+      "hideGlas": true
     },
     {
       "titel": "Digestieven gemengd",
@@ -318,7 +320,8 @@
             }
           ]
         }
-      ]
+      ],
+      "hideGlas": true
     }
   ]
 }

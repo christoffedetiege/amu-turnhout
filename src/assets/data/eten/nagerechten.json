@@ -1,18 +1,22 @@
 [
   {
-    "titel" : "Pistache – bloedsinaasappel – popcorn",
-    "prijs": "12"
+    "titel" : "Ganache van pure chocolade – hazelnoot – frangelico",
+    "prijs": "15"
   },
   {
     "titel" : "Rum rozijnen ijs “ Zwaluwhoeve “ – appeltjes – marsepein",
-    "prijs": "12"
+    "prijs": "15"
   },
   {
-    "titel" : "Kokos panna cotta – ananas – chocolade",
-    "prijs": "12"
+    "titel" : "Basilicum panna cotta – aardbei – amandel",
+    "prijs": "15"
+  },
+  {
+    "titel" : "Walnoten semifreddo – peer – ahornsiroop",
+    "prijs": "15"
   },
   {
     "titel" : "“Antani “ Italiaanse bergkaas – tomaten chutney – crostino",
-    "prijs": "14"
+    "prijs": "17"
   }
 ]
