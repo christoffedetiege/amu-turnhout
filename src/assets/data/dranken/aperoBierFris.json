@@ -1,4 +1,4 @@
-{
+﻿{
   "rubrieken": [
     {
       "titel": "Aperitief",
@@ -28,16 +28,25 @@
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "17.50",
+                "prijs": "19.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Spumante Millesimato Carati",
+              "titel": "Spumante Radacini Moldavië",
               "omschrijving1": "",
               "fles": {},
               "glas": {
                 "prijs": "9.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Pornstar Martini",
+              "omschrijving1": "Vanille vodka, passievrucht, spumante, eiwit, limoensap",
+              "fles": {},
+              "glas": {
+                "prijs": "15.00",
                 "volume": ""
               }
             },
@@ -163,7 +172,7 @@
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "18.00",
+                "prijs": "19.00",
                 "volume": ""
               }
             },
@@ -427,15 +436,6 @@
               "fles": { },
               "glas": {
                 "prijs": "5.20",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Noir de Dottignies 9 %",
-              "omschrijving1": "",
-              "fles": { },
-              "glas": {
-                "prijs": "5.00",
                 "volume": ""
               }
             },

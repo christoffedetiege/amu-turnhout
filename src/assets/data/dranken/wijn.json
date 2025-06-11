@@ -12,7 +12,7 @@
               "omschrijving2": "Elegante champagne, met toetsen van citrus, toast, hazelnoot en gedroogde abrikozen licht boterig met een vleugje rokerigheid in de finale.",
               "omschrijving3": "",
               "fles": {
-                "prijs": "87.50",
+                "prijs": "95.00",
                 "volume": ""
               },
               "glas": {
@@ -26,7 +26,7 @@
               "omschrijving2": "Zeer frisse champagne met een fijne parel. Delicate aroma's van appel, roze pompelmoes en mandarijn.",
               "omschrijving3": "",
               "fles": {
-                "prijs": "85.00",
+                "prijs": "99.00",
                 "volume": ""
               },
               "glas": {
@@ -40,7 +40,7 @@
               "omschrijving2": "Deze champagne wordt uitsluitend gemaakt van chardonnay druiven. Delicaat, elegant en fris met aroma's van acacia, jasmijn en lindebloemen. De afdronk is zacht boterig met de nodige citrus toetsen.",
               "omschrijving3": "",
               "fles": {
-                "prijs": "115.00",
+                "prijs": "120.00",
                 "volume": ""
               },
               "glas": {
@@ -54,7 +54,7 @@
               "omschrijving2": "Top champagne gemaakt van de blauwe pinot noir druif. Heerlijke en duidelijke aroma’s van vers rood fruit en cassis met de nodige fraîcheur.",
               "omschrijving3": "",
               "fles": {
-                "prijs": "128.00",
+                "prijs": "175.00",
                 "volume": ""
               },
               "glas": {
@@ -164,10 +164,10 @@
               }
             },
             {
-              "titel": "Domaine Figeat Pouilly Fumé 2023",
+              "titel": "Les Bernadats Pouilly Fumé 2023",
               "omschrijving1": "sauvignon blanc",
               "omschrijving2": "Frankrijk, Loire",
-              "omschrijving3": "Elegante en karaktervolle wijn met de nodige mineralen en zuren. Pittig in de afdronk met lichte rooktoetsen.",
+              "omschrijving3": "Elegante en karaktervolle wijn met de nodige mineralen en zuren. Aroma’s van licht en exotisch fruit met hints van gebak en gekonfijte abrikoos. Pittige en lange afdronk.",
               "fles": {
                 "prijs": "45.00",
                 "volume": ""
@@ -197,7 +197,7 @@
               "omschrijving2": "Frankrijk, Cévennes",
               "omschrijving3": "Een mooie lichtgele kleur met gouden schitteringen. De neus is aromatisch met geuren van perzik, licht fruit en passievrucht. Fris en elegant in de mond met toetsen van citrus, abrikoos en vanille. Lange afdronk met subtiele houttoets.",
               "fles": {
-                "prijs": "41.00",
+                "prijs": "45.00",
                 "volume": ""
               },
               "glas": {
@@ -351,12 +351,12 @@
               }
             },
             {
-              "titel": "Bogle 2022",
-              "omschrijving1": "chardonnay",
-              "omschrijving2": "Californië, Clarksburg",
-              "omschrijving3": "Heerlijke volle en romige chardonnay met aroma's van groene appel, peer, mandarijn, steenfruit en vanille. Houtopvoeding van 8 maanden op nieuwe Amerikaanse vaten. Rijke doch elegante afdronk.",
+              "titel": "Heaps Good Wine Company White 2018",
+              "omschrijving1": "chardonnay, pinot gris",
+              "omschrijving2": "Slovenië, Štajerska ",
+              "omschrijving3": "Heerlijke wijn met een houtopvoeding van 12 maanden. Deze wijn verleid je meteen door zijn intense aroma’s van popcorn, boter, vanille en citrus met een vleugje licht steenfruit.",
               "fles": {
-                "prijs": "49.00",
+                "prijs": "45.00",
                 "volume": ""
               },
               "glas": {
@@ -450,9 +450,9 @@
             },
             {
               "titel": "Château Musar 2017",
-              "omschrijving1": "viognier, vermentino, chardonnay",
+              "omschrijving1": "merwah, obaideh",
               "omschrijving2": "Libanon, Bekaa Valley",
-              "omschrijving3": "Karaktervolle wijn die heeft genoten van een houtopvoeding van 9 maanden om dan 7 jaar op fles verder te ontwikkelen. Heerlijke honing, mango en notenaroma's met een vleugje exotisch fruit. De afdronk is intens met een klein bittertje.",
+              "omschrijving3": " De witte château Musar is een unieke wijn. Hij heeft een Bordeaux-achtig karakter die doet denken aan een gerijpte witte Graves wijn. 9 maanden houtopvoeding en dan 7 jaar gerust op de fles om verder te ontwikkelen. Heerlijke gekonfijte citrus en noten aroma's. De afdronk is intens en licht oxidatief.",
               "fles": {
                 "prijs": "106.00",
                 "volume": ""
@@ -580,20 +580,6 @@
               "omschrijving3": "Wild en rustiek! Volledig out of the box! Aroma's van gebrande sinaasappelschil, tropisch fruit en caramel. De afdronk is intens rokerig met toetsen van tijm. Licht oranje van kleur, maar deze wijn heeft geen schilcontact gehad.",
               "fles": {
                 "prijs": "36.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "LULU Vigneron Poulsard 2018 (rood)",
-              "omschrijving1": "poulsard",
-              "omschrijving2": "Frankrijk, Jura",
-              "omschrijving3": "Topwijn, volledig biologisch met een houtopvoeding van 24 maanden op oude Franse eiken vaten. Verfijnd en elegant met diepgang, bleekrood van kleur met aardse aroma’s die vergezeld worden van klein rood fruit, aalbes, rozenbottel en peper.",
-              "fles": {
-                "prijs": "84.00",
                 "volume": ""
               },
               "glas": {
@@ -802,12 +788,12 @@
               }
             },
             {
-              "titel": "LULU Vigneron Poulsard 2018 (rood)",
-              "omschrijving1": "poulsard",
-              "omschrijving2": "Frankrijk, Jura",
-              "omschrijving3": "Topwijn, volledig biologisch met een houtopvoeding van 24 maanden op oude Franse eiken vaten. Verfijnd en elegant met diepgang, bleekrood van kleur met aardse aroma’s die vergezeld worden van klein rood fruit, aalbes, rozenbottel en peper.",
+              "titel": "Free Style, Domaine de Berguerolles 2023",
+              "omschrijving1": "grenache",
+              "omschrijving2": "Frankrijk, Cévennes",
+              "omschrijving3": "Heerlijke medium body grenache met aroma’s van zwarte bessen, cassis, zwarte thee en tijm en subtiele venkel.",
               "fles": {
-                "prijs": "84.00",
+                "prijs": "45.00",
                 "volume": ""
               },
               "glas": {
@@ -933,12 +919,12 @@
               }
             },
             {
-              "titel": "Domaine De Berguerolles 'Le Clos' 2021",
-              "omschrijving1": "cabernet sauvignon, syrah, grenache",
-              "omschrijving2": "Frankrijk, CÃ©vennes",
-              "omschrijving3": "De verschillende druivensoorten rijpen afzonderlijk van elkaar in Franse eikenvaten gedurende 12 tot 18 maanden. Een verfijnde neus, open en kruidig met toetsen van zwarte peper,\nkardemon en kruidnagel. Elegant in de mond met volle tannines en een lange afdronk.",
+              "titel": "Dux 2012",
+              "omschrijving1": "cabernet sauvignon, merlot",
+              "omschrijving2": "Bulgarije",
+              "omschrijving3": "Karakter en klasse wijn die nu perfect op dronk is. Heerlijke aroma’s van jeneverbes, eucalyptus en subtiele munt gevolgd door sappige rijpe braambessen, cacao en koffie. Krachtige body maar toch ook flexibel en strak met fluweel zachte tannines. 26 maanden houtopvoeding.",
               "fles": {
-                "prijs": "43.00",
+                "prijs": "185.00",
                 "volume": ""
               },
               "glas": {
@@ -1017,7 +1003,7 @@
               }
             },
             {
-              "titel": "M V 2019 ",
+              "titel": "M V 2021 ",
               "omschrijving1": "mavroudi, cabernet sauvignon, merlot",
               "omschrijving2": "Griekenland",
               "omschrijving3": "Met een schitterende paarsrode kleur presenteert deze wijn een vrij complex aromatisch profiel van rijp rood en zwart fruit, pruimen gedroogde vijgen, dennenhonig, koffie en geroosterde amandel. Zachte taninnes, evenwichtige zuurtegraad en een lange afdronk.\n12 maanden houtopvoeding.",
