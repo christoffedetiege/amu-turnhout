@@ -7,10 +7,10 @@
           "titel": "",
           "items": [
             {
-              "titel": "Sohm & Kracher Lion 2024",
-              "omschrijving1": "Druiven: grüner veltliner",
-              "omschrijving2": "Oostenrijk
-              "omschrijving3": "Licht groengeel van kleur met fijne appel en citrus tonen. Zeer levendige wijn met discrete en verfrissende zuren. 6 maanden inox opvoeding.",
+              "titel": "HahnmÃ¼hle 2022",
+              "omschrijving1": "Druiven: roter traminer",
+              "omschrijving2": "Duitsland, Nahe",
+              "omschrijving3": "Fijne, complexe en elegante versie van roter traminer. Verwacht je aan een fijne bloemigheid en delicate fraÃ®cheur met aromaâ€™s van onrijpe peer, steenfruit en rode appel.",
               "fles": {
                 "prijs": "40.00",
                 "volume": ""
@@ -21,10 +21,10 @@
               }
             },
             {
-              "titel": "Latourba Cival 2022",
-              "omschrijving1": "Druiven: chardonnay, sauvignon blanc, albarino, fiano",
-              "omschrijving2": "Libanon",
-              "omschrijving3": "Elegante en intense tonen van perzik, citrus en exotisch fruit. Evenwichtige wijn met een aangename textuur en een goede balans tussen frisse en fruitige aroma’s.",
+              "titel": "Marjan Simcic 2023",
+              "omschrijving1": "Druiven: pinot grigio",
+              "omschrijving2": "SloveniÃ«",
+              "omschrijving3": "Goudgeel gekleurde wijn en een vrij volle interpretatie van pinot grigio met duidelijke aromaâ€™s van abrikozen en meloen, gevolgd door zachte hints van bloemen en een lichte kruidigheid. 9 maanden â€˜sur liesâ€™ rijping op inox.",
               "fles": {
                 "prijs": "40.00",
                 "volume": ""
@@ -35,24 +35,24 @@
               }
             },
             {
-              "titel": "Le Morette Mandolara 2023",
-              "omschrijving1": "Druiven: turbiana",
-              "omschrijving2": "Italië, Veneto",
-              "omschrijving3": "Mooi gebalanceerde en harmonieuze Lugana wijn. Alle druiven worden overrijp geoogst, zodat de aroma’s verschuiven van frisse citrus naar zwoel en exotisch fruit met bloemige tonen.",
+              "titel": "Poderi Del Paradiso â€˜Biscondolaâ€™ riserva 2022",
+              "omschrijving1": "Druiven: 90% vernaccia 10% chardonnay",
+              "omschrijving2": "ItaliÃ«, Toscane",
+              "omschrijving3": "Delicaat bouquet gevuld met bloemen aromaâ€™s en een toets van vanille en honing. De afdronk is lang met hints van amandel en eikenhout. 20% van de wijn heeft genoten van een houtopvoeding.",
               "fles": {
-                "prijs": "35.00",
+                "prijs": "40.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "7.00",
+                "prijs": "8.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Domaine La Bergerade 2023",
-              "omschrijving1": "Druiven: grenache blanc, roussanne, viognier",
-              "omschrijving2": "Frankrijk,Rhône",
-              "omschrijving3": "Krachtige en zonnige witte wijn vanuit de meest Zuidelijke wijngaard in de Rhône vallei. Complexe aanzet met aroma’s van geel rijp fruit, honing en gedroogde kruiden. 8 maanden houtopvoeding.",
+              "titel": "Chevancy RÃ©serve 2023",
+              "omschrijving1": "Druiven: chardonnay",
+              "omschrijving2": "Frankrijk,Narbonne",
+              "omschrijving3": "Krachtige witte wijn met een houtopvoeding van 12 maanden. Volle en warme aromaâ€™s van vanille, rijp licht fruit en boter met zacht hints van toast.",
               "fles": {
                 "prijs": "35.00",
                 "volume": ""
@@ -66,7 +66,7 @@
               "titel": "Ilamalo X 2024",
               "omschrijving1": "Druiven: pardilla, macabeo, airen",
               "omschrijving2": "Spanje, La Mancha",
-              "omschrijving3": "Heerlijk anders, maar heerlijk in ieder geval! Een ongewone blend van druiven wat zorgt voor een complexe wijn met aroma’s van steenvruchten, gekonfijt fruit en tonen van cederhout. Deze wijn heeft 3 maanden gerijpt in amphoren.",
+              "omschrijving3": "Heerlijk anders, maar heerlijk in ieder geval! Een ongewone blend van druiven wat zorgt voor een complexe wijn met aromaâ€™s van steenvruchten, gekonfijt fruit en tonen van cederhout. Deze wijn heeft 3 maanden gerijpt in amphoren.",
               "fles": {
                 "prijs": "35.00",
                 "volume": ""
@@ -79,7 +79,7 @@
             {
               "titel": "Domaine La Colombette, Born to be Free (alcoholvrij)",
               "omschrijving1": "Druiven: chardonnay",
-              "omschrijving2": "Frankrijk, Béziers",
+              "omschrijving2": "Frankrijk, BÃ©ziers",
               "omschrijving3": "Deze alcoholvrije chardonnay combineert nobele tonen van citrus en appel met een vleugje perzik gevolgd door een intens fruitige afdronk.",
               "fles": {
                 "prijs": "35.00",
@@ -105,7 +105,7 @@
               "titel": "Lyrarakis 2023 (orange)",
               "omschrijving1": "Druiven: assyrtiko, vidiano",
               "omschrijving2": "Griekenland, Kreta",
-              "omschrijving3": "Amberkleurige fijne wijn met aroma’s van steenfruit en sinaasappelschil gevolgd door zijdezachte en milde tannines en mineralen. De afdronk is fruitig en perfect voor een beginnende orange virgin.",
+              "omschrijving3": "Amberkleurige fijne wijn met aromaâ€™s van steenfruit en sinaasappelschil gevolgd door zijdezachte en milde tannines en mineralen. De afdronk is fruitig en perfect voor een beginnende orange virgin.",
               "fles": {
                 "prijs": "36.00",
                 "volume": ""
@@ -118,22 +118,22 @@
             {
               "titel": "Bruno I Maracantoni 2019 (orange)",
               "omschrijving1": "Druiven: incrocio bruni 54",
-              "omschrijving2": "Italië, Marche",
-              "omschrijving3": "Eerlijke en complexe wijn met tonen van magnolia, rozen en bergamot, gevolgd door aroma’s van rijpe abrikoos, caramel en toffee. 12 maanden houtopvoeding en 6 maanden ‘sur lies’ rijping op de fles.",
+              "omschrijving2": "ItaliÃ«, Marche",
+              "omschrijving3": "Eerlijke en complexe wijn met tonen van magnolia, rozen en bergamot, gevolgd door aromaâ€™s van rijpe abrikoos, caramel en toffee. 12 maanden houtopvoeding en 6 maanden â€˜sur liesâ€™ rijping op de fles.",
               "fles": {
-                "prijs": "36.00",
+                "prijs": "40.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "7.2",
+                "prijs": "8.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Eraz 2022 (rosé)",
+              "titel": "Latourba Eraz 2022 (rosÃ©)",
               "omschrijving1": "Druiven: syrah, gamay",
               "omschrijving2": "Libanon",
-              "omschrijving3": "Rosé met intense aroma’s van zwarte kersen, aardbeien en subtiele zoethout. Verfrissende zuurtegraad gevolgd door een rijkelijke en fruitige afdronk.,
+              "omschrijving3": "RosÃ© met intense aromaâ€™s van zwarte kersen, aardbeien en subtiele zoethout. Verfrissende zuurtegraad gevolgd door een rijkelijke en fruitige afdronk.",
               "fles": {
                 "prijs": "35.00",
                 "volume": ""
@@ -155,10 +155,10 @@
           "titel": "",
           "items": [
             {
-              "titel": "Versos 2022",
-              "omschrijving1": "Druiven: mencia",
-              "omschrijving2": "Spanje, Castilla Y Leon",
-              "omschrijving3": "Ronde, elegante en fruitige wijn met duidelijke aroma’s van kersen, frambozen en bramen. De wijn heeft genoten van een houtopvoeding van 8 maanden.",
+              "titel": "Cuna de Reyes Crianza 2021",
+              "omschrijving1": "Druiven: tempranillo",
+              "omschrijving2": "Spanje, Rioja",
+              "omschrijving3": "Medium body tempranillo die genoten heeft van een houtopvoeding, duidelijke aromaâ€™s van rijp rood fruit aangevuld met hint van vanille, chocolade en zachte leer tonen.",
               "fles": {
                 "prijs": "35.00",
                 "volume": ""
@@ -169,10 +169,10 @@
               }
             },
             {
-              "titel": "La Caplana Rubis Superiore 2019",
-              "omschrijving1": "Druiven: Barbera",
-              "omschrijving2": "Italië, Piëmonte",
-              "omschrijving3": "Wat een bom van een wijn! Zeer aanwezige aroma’s van bosvruchten, zoethout en kruiden. De smaak is vol en rijkelijk met aangename tannines en een stevige structuur met lange afdronk. 12 maanden houtopvoeding.",
+              "titel": "Tre Donne â€˜Donna Joleâ€™ 2019",
+              "omschrijving1": "Druiven: pinot nero",
+              "omschrijving2": "ItaliÃ«, PiÃ«monte",
+              "omschrijving3": "Slechts 1200 flessen per jaar worden er van deze heerlijke wijn geproduceerd. Aromaâ€™s van kers, bosbes, roze peper, jasmijn en zachte munt. De tannines zijn zijdezacht met in de afdronk een klein zuurtje. 12 maanden houtopvoeding.",
               "fles": {
                 "prijs": "40.00",
                 "volume": ""
@@ -183,10 +183,10 @@
               }
             },
             {
-              "titel": "Château Héritage Plaisir Du Vin 2021",
-              "omschrijving1": "Druiven: cabernet sauvignon, cinsault, syrah",
+              "titel": "Latourba Eraz Red 2020",
+              "omschrijving1": "Druiven: syrah, gamay, petit verdot",
               "omschrijving2": "Libanon",
-              "omschrijving3": "Weelderige aroma’s van rijp zwart fruit, met subtiele hints van cederhout en tabak. De smaak is vol en evenwichtig met een elegante, mooie afdronk. 6 maanden houtopvoeding op Amerikaanse eik. ",
+              "omschrijving3": "Eraz Red is een intense rode wijn met weelderige aromaâ€™s van zwarte bessen, kruidnagel en zoete specerijen. Fijne en elegante afdronk.",
               "fles": {
                 "prijs": "36.00",
                 "volume": ""
@@ -197,10 +197,10 @@
               }
             },
             {
-              "titel": "Klopfer 2021",
-              "omschrijving1": "Druiven: lemberger",
-              "omschrijving2": "Duitsland, Baden-Württemberg",
-              "omschrijving3": "Zeer fijne, elegante en speelse wijn met overduidelijke aroma’s van kersenfruit aangevuld met jeneverbes en subtiele groene paprika. 6 maanden inox opvoeding. Heerlijk licht gekoeld.",
+              "titel": "Ellermann-Spiegel 2022",
+              "omschrijving1": "Druiven: SpÃ¤tburgunder",
+              "omschrijving2": "Duitsland, Pfalz",
+              "omschrijving3": "Zeer fijne, elegante en speelse wijn met overduidelijke aromaâ€™s van kersenfruit  en een zachte kruidigheid, aangevuld met een prettig zoetje. Heerlijk licht gekoeld geserveerd. Deels vatgerijpt.",
               "fles": {
                 "prijs": "36.00",
                 "volume": ""
@@ -213,8 +213,8 @@
             {
               "titel": "Domaine La Colombette, Born to be Free (alcoholvrij)",
               "omschrijving1": "Druiven: cabernet sauvignon, merlot",
-              "omschrijving2": "Frankrijk, Béziers",
-              "omschrijving3": "Frisse en sappige rode wijn met aroma’s van rode bessen, kersen en aardbeien en zachte kruiden. Deze wijn is licht gekoeld.",
+              "omschrijving2": "Frankrijk, BÃ©ziers",
+              "omschrijving3": "Frisse en sappige rode wijn met aromaâ€™s van rode bessen, kersen en aardbeien en zachte kruiden. Deze wijn is licht gekoeld.",
               "fles": {
                 "prijs": "35.00",
                 "volume": ""
@@ -231,4 +231,3 @@
     }
   ]
 }
-

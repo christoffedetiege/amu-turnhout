@@ -3,235 +3,228 @@
     {
       "titel": "Aperitief",
       "items": [{
-          "titel": "",
-          "items": [
-            {
-              "titel": "suggestie: Bienne wijnbier",
-              "omschrijving1": "Bienne is een Belgisch wijnbier, dus een blend van wijn en bier. Hiervoor is gekozen voor de blonde\nversie van het Stanneman bier uit Herselt en een Spaanse rose. Deze unieke blend met aroma's\nvan rabarber en abrikozen gevolgd door een lichte aciditeit in de afdronk maakt dit wijnbier het perfecte aperitief.",
-              "fles": {},
-              "glas": {
-                "prijs": "7.0",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Aperitief Amu. ",
-              "omschrijving1": "spumante, Martini rosato, sinaasappel",
-              "fles": {},
-              "glas": {
-                "prijs": "10.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Champagne Pommery Apanage",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "19.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Spumante Radacini Moldavië",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "9.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Pornstar Martini",
-              "omschrijving1": "Vanille vodka, passievrucht, spumante, eiwit, limoensap",
-              "fles": {},
-              "glas": {
-                "prijs": "15.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Witte porto",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "7.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Rode porto",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "7.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Sherry Grande Fiesta Fino dry",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "7.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Pineau de Charentes de Louvard blanc",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "7.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Martini bianco",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "7.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Martini rosso",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "7.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Vermouth Rosso di torino",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "8.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Vermouth bianco Del Professore",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "8.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Vermouth Roteglia 1848 rose ",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "9",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Campari",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "7.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Campari soda",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "12.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Campari orange",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "11.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Kir",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "7.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Kir Royal",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "19.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Ricard",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "6.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Belvedere vodka",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "12",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Raki Sari Zeybek",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "7.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Bacardi cola",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "12.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Bacardi reserva 8 jaar cola",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "14.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Picon vin blanc",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "11.50",
-                "volume": ""
-              }
+        "titel": "",
+        "items": [
+          {
+            "titel": "suggestie: Bienne wijnbier",
+            "omschrijving1": "Bienne is een Belgisch wijnbier, dus een blend van wijn en bier. Hiervoor is gekozen voor de blonde\nversie van het Stanneman bier uit Herselt en een Spaanse rose. Deze unieke blend met aroma's\nvan rabarber en abrikozen gevolgd door een lichte aciditeit in de afdronk maakt dit wijnbier het perfecte aperitief.",
+            "fles": {},
+            "glas": {
+              "prijs": "7.0",
+              "volume": ""
             }
-          ]
-        }
+          },
+          {
+            "titel": "Aperitief Amu. ",
+            "omschrijving1": "spumante, Martini rosato, sinaasappel",
+            "fles": {},
+            "glas": {
+              "prijs": "11.50",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Champagne Pommery Apanage",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "19.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Spumante Radacini Moldavië",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "10.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Pornstar Martini",
+            "omschrijving1": "vanille vodka, passievrucht, spumante, eiwit, limoensap",
+            "fles": {},
+            "glas": {
+              "prijs": "15.00",
+              "volume": ""
+            }
+          },
+          {
+
+
+            "titel": "Witte porto",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "8.50",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Rode porto",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "8.50",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Sherry Grande Fiesta Fino dry",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "8.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Pineau de Charentes de Louvard blanc",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "8.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Martini bianco",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "8.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Martini rosso",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "8.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Vermouth Rosso di torino",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "9.50",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Vermouth bianco Del Professore",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "9.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Vermouth Roteglia 1848 rose ",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "10.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Campari",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "8.50",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Campari soda",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "13.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Campari orange",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "12.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Kir",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "8.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Kir Royal",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "19.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Ricard",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "8.00",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Belvedere vodka",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "12",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Bacardi cola",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "12.50",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Bacardi reserva 8 jaar cola",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "14.50",
+              "volume": ""
+            }
+          },
+          {
+            "titel": "Picon vin blanc",
+            "omschrijving1": "",
+            "fles": {},
+            "glas": {
+              "prijs": "12.50",
+              "volume": ""
+            }
+          }
+        ]
+      }
       ],
       "volume": "8cl / glas",
       "hideGlas": true
@@ -256,7 +249,7 @@
               "omschrijving1": "Martini rosso, campari, soda",
               "fles": {},
               "glas": {
-                "prijs": "13.50",
+                "prijs": "14.50",
                 "volume": ""
               }
             },
@@ -265,7 +258,7 @@
               "omschrijving1": "Bitter likeur op basis van 13 kruiden en artisjok",
               "fles": {},
               "glas": {
-                "prijs": "7.00",
+                "prijs": "8.00",
                 "volume": ""
               }
             },
@@ -274,7 +267,7 @@
               "omschrijving1": "Italiaans aperitief op basis van rode wijn",
               "fles": {},
               "glas": {
-                "prijs": "7.00",
+                "prijs": "8.00",
                 "volume": ""
               }
             }
