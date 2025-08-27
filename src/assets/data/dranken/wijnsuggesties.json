@@ -7,10 +7,10 @@
           "titel": "",
           "items": [
             {
-              "titel": "Hahnmühle 2022",
-              "omschrijving1": "Druiven: roter traminer",
+              "titel": "Hahnmühle 2023",
+              "omschrijving1": "Druiven: grauburgunder",
               "omschrijving2": "Duitsland, Nahe",
-              "omschrijving3": "Fijne, complexe en elegante versie van roter traminer. Verwacht je aan een fijne bloemigheid en delicate fraîcheur met aroma’s van onrijpe peer, steenfruit en rode appel.",
+              "omschrijving3": " Fijne, complexe en delicate wijn met de nodige mineralen en aroma’s van appel, peer, perzik, mango en een subtiele honing toets. Frisse zomerwijn met een mooi samenspel van fruit en zuurtegraad.",
               "fles": {
                 "prijs": "40.00",
                 "volume": ""
@@ -21,10 +21,10 @@
               }
             },
             {
-              "titel": "Marjan Simcic 2023",
-              "omschrijving1": "Druiven: pinot grigio",
-              "omschrijving2": "Slovenië",
-              "omschrijving3": "Goudgeel gekleurde wijn en een vrij volle interpretatie van pinot grigio met duidelijke aroma’s van abrikozen en meloen, gevolgd door zachte hints van bloemen en een lichte kruidigheid. 9 maanden ‘sur lies’ rijping op inox.",
+              "titel": "Flor Malves 2022",
+              "omschrijving1": "Druiven: malvasia",
+              "omschrijving2": "Spanje, Alicante",
+              "omschrijving3": "Karaktervolle wijn met duidelijke en intense aroma’s van gebak, pasteitjes en appeltaart met een fijne honingtoets. 9 maanden gerijpt ‘sur lies’",
               "fles": {
                 "prijs": "40.00",
                 "volume": ""
@@ -35,24 +35,10 @@
               }
             },
             {
-              "titel": "Poderi Del Paradiso ‘Biscondola’ riserva 2022",
-              "omschrijving1": "Druiven: 90% vernaccia 10% chardonnay",
-              "omschrijving2": "Italië, Toscane",
-              "omschrijving3": "Delicaat bouquet gevuld met bloemen aroma’s en een toets van vanille en honing. De afdronk is lang met hints van amandel en eikenhout. 20% van de wijn heeft genoten van een houtopvoeding.",
-              "fles": {
-                "prijs": "40.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Chevancy Réserve 2023",
+              "titel": "Ampelosaurus 2023",
               "omschrijving1": "Druiven: chardonnay",
-              "omschrijving2": "Frankrijk,Narbonne",
-              "omschrijving3": "Krachtige witte wijn met een houtopvoeding van 12 maanden. Volle en warme aroma’s van vanille, rijp licht fruit en boter met zacht hints van toast.",
+              "omschrijving2": "Frankrijk, Limoux",
+              "omschrijving3": "Licht intens goudgele chardonnay. Mooie aroma’s van rijp fruit waaronder appel en steenfruit maar ook de typische citrus toets gecombineerd met bloesem. Een minerale en frisse structuur met een hints van boter en vanille in de finale door de houtopvoeding van 9 maanden.",
               "fles": {
                 "prijs": "35.00",
                 "volume": ""
@@ -63,16 +49,30 @@
               }
             },
             {
-              "titel": "Ilamalo X 2024",
-              "omschrijving1": "Druiven: pardilla, macabeo, airen",
-              "omschrijving2": "Spanje, La Mancha",
-              "omschrijving3": "Heerlijk anders, maar heerlijk in ieder geval! Een ongewone blend van druiven wat zorgt voor een complexe wijn met aroma’s van steenvruchten, gekonfijt fruit en tonen van cederhout. Deze wijn heeft 3 maanden gerijpt in amphoren.",
+              "titel": "Ellermann Spiegel 2022",
+              "omschrijving1": "Druiven: sheurebe",
+              "omschrijving2": "Duitsland, Pfalz",
+              "omschrijving3": "Spannende en strakke wijn met heerlijke aroma’s van abrikoos, citrus, kruisbes en passievrucht. Fascinerende combinatie van fijne zuren en fruit.",
               "fles": {
                 "prijs": "35.00",
                 "volume": ""
               },
               "glas": {
                 "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Borovitza MRV 2024",
+              "omschrijving1": "Druiven: marsanne, rousanne, viognier",
+              "omschrijving2": "Bulgarije",
+              "omschrijving3": "Een top wijn van Borovitza! 12 maanden houtopvoeding. Complex met een rijke body en ragfijne aciditeit. Aroma’s van licht steenfruit en vanille aangevuld door de nodige kruidigheid. Wijn met karakter dat doet denken aan de beter witte Rhône wijnen.",
+              "fles": {
+                "prijs": "41.50",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.30",
                 "volume": ""
               }
             },
@@ -155,16 +155,16 @@
           "titel": "",
           "items": [
             {
-              "titel": "Cuna de Reyes Crianza 2021",
-              "omschrijving1": "Druiven: tempranillo",
-              "omschrijving2": "Spanje, Rioja",
-              "omschrijving3": "Medium body tempranillo die genoten heeft van een houtopvoeding, duidelijke aroma’s van rijp rood fruit aangevuld met hint van vanille, chocolade en zachte leer tonen.",
+              "titel": "Borovitza 2020",
+              "omschrijving1": "Druiven: gamza",
+              "omschrijving2": "Bulgarije",
+              "omschrijving3": "Medium body wijn met aroma’s van fris rood fruit, waaronder kersen, framboos en aardbei aangevuld met een zachte kruidige toets. Finesse en elegantie ten top met zijdezachte taninnes. 12 maanden houtopvoeding op gebruikte vaten.",
               "fles": {
-                "prijs": "35.00",
+                "prijs": "40.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "7.00",
+                "prijs": "8.00",
                 "volume": ""
               }
             },
@@ -183,10 +183,10 @@
               }
             },
             {
-              "titel": "Latourba Eraz Red 2020",
-              "omschrijving1": "Druiven: syrah, gamay, petit verdot",
-              "omschrijving2": "Libanon",
-              "omschrijving3": "Eraz Red is een intense rode wijn met weelderige aroma’s van zwarte bessen, kruidnagel en zoete specerijen. Fijne en elegante afdronk.",
+              "titel": "Heaps Good Wine Company ‘Non Vintage red’",
+              "omschrijving1": "Druiven: zweigelt, blaufrankisch, syrah, pinot noir, chardonnay, pinot gris",
+              "omschrijving2": "Bulgarije",
+              "omschrijving3": "Lekkere lichtvoetige wijn met de nodige finesse. Een ongewone blend van verschillende druiven en jaartallen. Aroma’s van klein rood fruit aangevuld met een zekere kruidigheid, hints van witte peper en in de finale een fijne rokerige toets. Houtopvoeding van 12 maanden op gebruikte vaten.",
               "fles": {
                 "prijs": "36.00",
                 "volume": ""
@@ -197,10 +197,24 @@
               }
             },
             {
-              "titel": "Ellermann-Spiegel 2022",
-              "omschrijving1": "Druiven: Spätburgunder",
-              "omschrijving2": "Duitsland, Pfalz",
-              "omschrijving3": "Zeer fijne, elegante en speelse wijn met overduidelijke aroma’s van kersenfruit  en een zachte kruidigheid, aangevuld met een prettig zoetje. Heerlijk licht gekoeld geserveerd. Deels vatgerijpt.",
+              "titel": "Domaine la Bergerade 2024",
+              "omschrijving1": "Druiven: saperavi",
+              "omschrijving2": "Frankrijk, Rhône",
+              "omschrijving3": "Uitzonderijke druif afkomstig van Georgië. Verwacht je aan een fruitbom met rijke hints van rijp zwart fruit, rijpe bosvruchten, gedroogd fruit, zwoele specerijen en delicate appelsien aroma’s. Heerlijk en bio.",
+              "fles": {
+                "prijs": "35.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Tempramento 2023",
+              "omschrijving1": "Druiven: bobal",
+              "omschrijving2": "Spanje, Valencia, Utiel Requena",
+              "omschrijving3": "Intens kersenrood van kleur. De nadruk bij de aroma’s is duidelijk rijp zwart en rood fruit met in de hoofdrol kersen en krieken gevolgd door een subtiele hint van mokka en chocolade. 6 maanden houtopvoeding.",
               "fles": {
                 "prijs": "36.00",
                 "volume": ""
@@ -208,6 +222,7 @@
               "glas": {
                 "prijs": "7.20",
                 "volume": ""
+
               }
             },
             {
