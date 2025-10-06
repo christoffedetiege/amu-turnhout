@@ -1,157 +1,112 @@
 ﻿{
   "rubrieken": [
     {
-      "titel": "Aperitief",
+      "titel": "Alcoholvrije aperitief",
       "items": [
         {
           "titel": "",
           "items": [
             {
-              "titel": "suggestie: Bienne wijnbier",
-              "omschrijving1": "Bienne is een Belgisch wijnbier, dus een blend van wijn en bier. Hiervoor is gekozen voor de blonde\nversie van het Stanneman bier uit Herselt en een Spaanse rose. Deze unieke blend met aroma's\nvan rabarber en abrikozen gevolgd door een lichte aciditeit in de afdronk maakt dit wijnbier het perfecte aperitief.",
+              "titel": "Bonheur 0.0 %",
+              "omschrijving1": "Een heerlijk alcoholvrij aperitief op basis van gamay druiven uit de Beaujolais streek, gecombineerd met pittige kruiden afkomstig van dezelfde wijngaard. Perfect uitgebalanceerde smaakbom die al je zintuigen stimuleert!",
               "fles": {},
               "glas": {
-                "prijs": "7.0",
+                "prijs": "9",
                 "volume": ""
               }
             },
             {
-              "titel": "Aperitief Amu. ",
-              "omschrijving1": "spumante, Martini rosato, sinaasappel",
+              "titel": "Copperhead - elderflower",
+              "omschrijving1": "Heerlijke non alcoholic gin met een boost aan verschillende kruiden, en heerlijke kardemom tonen in de afdronk.\nPerfecte mix met een elderflower tonic.",
               "fles": {},
               "glas": {
-                "prijs": "11.50",
+                "prijs": "13.50",
                 "volume": ""
               }
             },
             {
-              "titel": "Champagne Pommery Apanage",
+              "titel": "Opius Albedo",
+              "omschrijving1": "Lekker kruidig met duidelijke smaken van zachte anijs en venkelzaad. Kan perfect gedronken worden on-the-rocks of in de mix met een ginger ale.",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Opius Amaro",
+              "omschrijving1": "Frisse aroma's van citrus en zachte honing met een stevige en aangename bittere finish.\nPerfecte mix met een indian tonic.",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Rum Cola",
+              "omschrijving1": "Opius Nigredo met cola.",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Dark 'n Stormy",
+              "omschrijving1": "Opius Nigredo met gingerbeer.",
+              "fles": {},
+              "glas": {
+                "prijs": "13.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Pacific",
+              "omschrijving1": "Verfrissende anijs aperitief. 0% suiker, 0% alcohol, 0% caloriën",
+              "fles": {},
+              "glas": {
+                "prijs": "6.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "San Bitter 17cl",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "19.00",
+                "prijs": "7.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Spumante Radacini Moldavië",
+              "titel": "Crodino (zoet) 17cl",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "10.00",
+                "prijs": "7.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Pornstar Martini",
-              "omschrijving1": "vanille vodka, passievrucht, spumante, eiwit, limoensap",
+              "titel": "Nogroni",
+              "omschrijving1": "Een combinatie van Campari 0.0 en Opius Amaro.",
               "fles": {},
               "glas": {
-                "prijs": "15.00",
+                "prijs": "12.50",
                 "volume": ""
               }
             },
             {
-              "titel": "Witte porto",
+              "titel": "Campari 0,0% orange",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "8.50",
+                "prijs": "11.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Rode porto",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "8.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Sherry Grande Fiesta Fino dry",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Pineau de Charentes de Louvard blanc",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Martini bianco",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Martini rosso",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Vermouth Rosso di torino",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "9.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Vermouth bianco Del Professore",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "9.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Vermouth Roteglia 1848 rose ",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "10.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Campari",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "8.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Campari soda",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "13.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Campari orange",
+              "titel": "Campari 0,0% soda",
               "omschrijving1": "",
               "fles": {},
               "glas": {
@@ -160,222 +115,11 @@
               }
             },
             {
-              "titel": "Kir",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Kir Royal",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "19.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Ricard",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Belvedere vodka",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "12",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Bacardi cola",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "12.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Bacardi reserva 8 jaar cola",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "14.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Picon vin blanc",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "12.50",
-                "volume": ""
-              }
-            }
-          ]
-        }
-      ],
-      "volume": "8cl / glas"
-    },
-    {
-      "titel": "Eens iets anders",
-      "items": [
-        {
-          "titel": "",
-          "items": [
-            {
-              "titel": "Negroni",
-              "omschrijving1": "Martini rosso, campari, gin",
+              "titel": "Nordes 0,0% gin tonic",
+              "omschrijving1": "Heerlijke verfrissende 0,0 gin met frisse citrus en eucalyptus aroma’s gemixt met een Indian Fever Tree tonic. Onze favoriete alcoholvrije gin tonic!",
               "fles": {},
               "glas": {
                 "prijs": "15.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Americano",
-              "omschrijving1": "Martini rosso, campari, soda",
-              "fles": {},
-              "glas": {
-                "prijs": "14.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Cynar",
-              "omschrijving1": "Bitter likeur op basis van 13 kruiden en artisjok",
-              "fles": {},
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Rosso Antico",
-              "omschrijving1": "Italiaans aperitief op basis van rode wijn",
-              "fles": {},
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titel": "Water",
-      "items": [
-        {
-          "titel": "",
-          "items": [
-            {
-              "titel": "Earth 0,75 cl bruisend/niet bruisend",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "titel": "Frisdrank",
-      "items": [
-        {
-          "titel": "",
-          "items": [
-            {
-              "titel": "Ritchie Cola 27,50 cl.",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "4.25",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Ritchie Cola zero 27,50 cl.",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "4.25",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Lipton Ice-tea",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "3.80",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Looza sinaasappel",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "3.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Fever-Tree Ginger ale",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "4.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Vers sinaasappelsap",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "6.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Ritchie Limonade orange 27,50 cl.",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "4.25",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Ritchie Limonade lemon & raspberry 27,50 cl.",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "4.25",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Fever-Tree Indian tonic",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "4.50",
                 "volume": ""
               }
             }

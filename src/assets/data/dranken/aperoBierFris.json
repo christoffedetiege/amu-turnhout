@@ -337,11 +337,11 @@
               }
             },
             {
-              "titel": "Viswijf Blond 7.5%",
+              "titel": "Noblesse De Dochter van de Korenaar 5,5%",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "5.00",
+                "prijs": "6.00",
                 "volume": ""
               }
             },
@@ -355,11 +355,11 @@
               }
             },
             {
-              "titel": "Papegaei 8%",
+              "titel": "Belle Fleur IPA De Dochter van de Korenaar 6%",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "5.50",
+                "prijs": "6.50",
                 "volume": ""
               }
             },
@@ -382,12 +382,22 @@
               }
             },
             {
-              "titel": "N.A. Cornet",
+              "titel": "N.A. GOD Good old Days",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "5.20",
+                "prijs": "5.50",
                 "volume": ""
+              }
+            },
+            {
+              "titel": "N.A. Super 8 Flandrien ",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.00",
+                "volume": ""
+
               }
             }
           ]
@@ -439,20 +449,6 @@
               "glas": {
                 "prijs": "5.20",
                 "volume": ""
-              }
-            }
-          ]
-        },
-        {
-          "titel": "Stout",
-          "items": [
-            {
-              "titel": "Tiramisumo Quadruplets Stout 12 % ",
-              "omschrijving1": "Een heerlijk dessertbier van de Nederlandse brouwerij Moersleutel. Deze stout is geÃ¯nspireerd door de Italiaanse lekkernij Tiramisu. Rijke en duidelijke aroma's van koffie, vanille, chocolade en ahornsiroop. De stout heeft gerijpt op Bourbonvaten wat zorgt voor een extra dimensie van hout en zoetheid",
-              "fles": { "prijs": "13",
-                "volume": "44cl"},
-              "glas": {
-
               }
             }
           ]
@@ -565,6 +561,3 @@
     }
   ]
 }
-
-
-

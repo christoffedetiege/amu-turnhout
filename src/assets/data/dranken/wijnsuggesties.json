@@ -7,10 +7,24 @@
           "titel": "",
           "items": [
             {
-              "titel": "Hahnmühle 2023",
-              "omschrijving1": "Druiven: grauburgunder",
-              "omschrijving2": "Duitsland, Nahe",
-              "omschrijving3": " Fijne, complexe en delicate wijn met de nodige mineralen en aroma’s van appel, peer, perzik, mango en een subtiele honing toets. Frisse zomerwijn met een mooi samenspel van fruit en zuurtegraad.",
+              "titel": "Eerselhof 2022",
+              "omschrijving1": "Druiven: souvignier gris",
+              "omschrijving2": "België, Lichtaart",
+              "omschrijving3": "Frisse en mooi uitgebalanceerde wijn. De souvignier gris is een jonge vrij onbekende druivensoort, een kruising tussen cabernet sauvignon en de bronner druif. Fruitige aroma’s van citrus en zachte menthol met hints van verse kruiden.",
+              "fles": {
+                "prijs": "40.50",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.10",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Ferdinand 2023",
+              "omschrijving1": "Druiven: rebula",
+              "omschrijving2": "Slovenië",
+              "omschrijving3": "Zeer elegante wijn met een uitgesproken mineraliteit en fraîcheur. Verwacht je aan zachtere citrus tonen en frisse appelsferen met een medium body.",
               "fles": {
                 "prijs": "40.00",
                 "volume": ""
@@ -21,58 +35,44 @@
               }
             },
             {
-              "titel": "Flor Malves 2022",
-              "omschrijving1": "Druiven: malvasia",
-              "omschrijving2": "Spanje, Alicante",
-              "omschrijving3": "Karaktervolle wijn met duidelijke en intense aroma’s van gebak, pasteitjes en appeltaart met een fijne honingtoets. 9 maanden gerijpt ‘sur lies’",
+              "titel": "Domaine de L’Aumonier 2023",
+              "omschrijving1": "Druiven: chenin blanc",
+              "omschrijving2": "Frankrijk, Loire",
+              "omschrijving3": "Mooi, droog en fris met een lichte aanzet, gevolgd door een gulle fruitigheid van rijp geel fruit. Lange afdronk met hints van honing.",
               "fles": {
-                "prijs": "40.00",
+                "prijs": "35.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "8.00",
+                "prijs": "7.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Ampelosaurus 2023",
+              "titel": "Weingut Pfirmann 2023",
               "omschrijving1": "Druiven: chardonnay",
-              "omschrijving2": "Frankrijk, Limoux",
-              "omschrijving3": "Licht intens goudgele chardonnay. Mooie aroma’s van rijp fruit waaronder appel en steenfruit maar ook de typische citrus toets gecombineerd met bloesem. Een minerale en frisse structuur met een hints van boter en vanille in de finale door de houtopvoeding van 9 maanden.",
-              "fles": {
-                "prijs": "35.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "7.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Ellermann Spiegel 2022",
-              "omschrijving1": "Druiven: sheurebe",
               "omschrijving2": "Duitsland, Pfalz",
-              "omschrijving3": "Spannende en strakke wijn met heerlijke aroma’s van abrikoos, citrus, kruisbes en passievrucht. Fascinerende combinatie van fijne zuren en fruit.",
+              "omschrijving3": "Wat een chardonnay! Gerijpt 50% op inox en 50% op oude eiken vaten. Een combinatie van frisse aroma’s met de nodige kruidigheid gevolgd door hints van exotisch fruit en zachte roomboter.",
               "fles": {
-                "prijs": "35.00",
+                "prijs": "40.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "7.00",
+                "prijs": "8.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Borovitza MRV 2024",
-              "omschrijving1": "Druiven: marsanne, rousanne, viognier",
+              "titel": "Borovitza Top of the Hill 2024",
+              "omschrijving1": "Druiven: marsanne, rousanne, rkatsiteli",
               "omschrijving2": "Bulgarije",
-              "omschrijving3": "Een top wijn van Borovitza! 12 maanden houtopvoeding. Complex met een rijke body en ragfijne aciditeit. Aroma’s van licht steenfruit en vanille aangevuld door de nodige kruidigheid. Wijn met karakter dat doet denken aan de beter witte Rhône wijnen.",
+              "omschrijving3": "Deze originele blend met zowel traditionele Bulgaarse druiven als enkele klassieke Franse druiven zorgt voor een unieke stijl. Complex in de aanzet met aroma’s van rijpe peer, amandel en bijenwas. 12 maanden houtopvoeding.",
               "fles": {
-                "prijs": "41.50",
+                "prijs": "40.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "8.30",
+                "prijs": "8.00",
                 "volume": ""
               }
             },
@@ -155,52 +155,10 @@
           "titel": "",
           "items": [
             {
-              "titel": "Borovitza 2020",
-              "omschrijving1": "Druiven: gamza",
-              "omschrijving2": "Bulgarije",
-              "omschrijving3": "Medium body wijn met aroma’s van fris rood fruit, waaronder kersen, framboos en aardbei aangevuld met een zachte kruidige toets. Finesse en elegantie ten top met zijdezachte taninnes. 12 maanden houtopvoeding op gebruikte vaten.",
-              "fles": {
-                "prijs": "40.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Tre Donne ‘Donna Jole’ 2019",
-              "omschrijving1": "Druiven: pinot nero",
-              "omschrijving2": "Italië, Piëmonte",
-              "omschrijving3": "Slechts 1200 flessen per jaar worden er van deze heerlijke wijn geproduceerd. Aroma’s van kers, bosbes, roze peper, jasmijn en zachte munt. De tannines zijn zijdezacht met in de afdronk een klein zuurtje. 12 maanden houtopvoeding.",
-              "fles": {
-                "prijs": "40.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Heaps Good Wine Company ‘Non Vintage red’",
-              "omschrijving1": "Druiven: zweigelt, blaufrankisch, syrah, pinot noir, chardonnay, pinot gris",
-              "omschrijving2": "Bulgarije",
-              "omschrijving3": "Lekkere lichtvoetige wijn met de nodige finesse. Een ongewone blend van verschillende druiven en jaartallen. Aroma’s van klein rood fruit aangevuld met een zekere kruidigheid, hints van witte peper en in de finale een fijne rokerige toets. Houtopvoeding van 12 maanden op gebruikte vaten.",
-              "fles": {
-                "prijs": "36.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "7.20",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Domaine la Bergerade 2024",
-              "omschrijving1": "Druiven: saperavi",
-              "omschrijving2": "Frankrijk, Rhône",
-              "omschrijving3": "Uitzonderijke druif afkomstig van Georgië. Verwacht je aan een fruitbom met rijke hints van rijp zwart fruit, rijpe bosvruchten, gedroogd fruit, zwoele specerijen en delicate appelsien aroma’s. Heerlijk en bio.",
+              "titel": "Johanneshof Reinisch 2022",
+              "omschrijving1": "Druiven: st.laurent",
+              "omschrijving2": "Oostenrijk, Thermenregio",
+              "omschrijving3": "Elegante wijn met overduidelijke aroma’s van rijpe kersen en zure krieken, gevolgd door subtiele hints van verse vijgen en rijpe pruimen. In de finale een zachte kruidigheid en rokerige tonen. 10 maanden houtopvoeding en heerlijk licht gekoeld.",
               "fles": {
                 "prijs": "35.00",
                 "volume": ""
@@ -211,16 +169,44 @@
               }
             },
             {
-              "titel": "Tempramento 2023",
-              "omschrijving1": "Druiven: bobal",
-              "omschrijving2": "Spanje, Valencia, Utiel Requena",
-              "omschrijving3": "Intens kersenrood van kleur. De nadruk bij de aroma’s is duidelijk rijp zwart en rood fruit met in de hoofdrol kersen en krieken gevolgd door een subtiele hint van mokka en chocolade. 6 maanden houtopvoeding.",
+              "titel": "El Banquete de Platon 2022",
+              "omschrijving1": "Druiven: monastrelle (mourvèdre)",
+              "omschrijving2": "Spanje, Murcia, Levante",
+              "omschrijving3": "Een echte ‘feel good’ wijn! Voldoende body met een heerlijke kruidigheid en aroma’s van rijpe zwarte bramen en cassis met zachte hints van leer.",
               "fles": {
-                "prijs": "36.00",
+                "prijs": "40.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "7.20",
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Sensum 2020",
+              "omschrijving1": "Druiven: merlot, cabernet sauvignon",
+              "omschrijving2": "Bulgarije",
+              "omschrijving3": "Deze wijn doet denken aan een ‘old school’ Bordeaux wijn. 12 maanden houtopvoeding op gebruikte vaten. Complex en toch elegant met aroma’s van fris, rijp rood fruit met een zachte ondertoon van eik en tabak.",
+              "fles": {
+                "prijs": "40.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Domaine de Poulvarel 2022",
+              "omschrijving1": "Druiven: syrah, grenache",
+              "omschrijving2": "Frankrijk, Rhône, Costières De Nîmes",
+              "omschrijving3": "Genereuze wijn uit het zuiden van Frankrijk. Heerlijk fruitig en licht kruidig, met aroma’s van kers, olijf en peper. Medium body met zachte taninne’s. Deze wijn heeft genoten van een rust en rijp pauze van 9 maanden op betonnen citernes.",
+              "fles": {
+                "prijs": "35.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "7.00",
                 "volume": ""
 
               }
@@ -246,3 +232,4 @@
     }
   ]
 }
+
