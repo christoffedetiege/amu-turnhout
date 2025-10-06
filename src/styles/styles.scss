@@ -42,6 +42,18 @@ body {
   // background-image: url("/../assets/background/vrouw.jpg");
 }
 
+.containerFeestfolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.containerFeestfolder img {
+  max-width: 80%;   // afbeelding neemt max. 80% van de breedte
+  height: auto;     // behoudt verhouding
+  transition: transform 0.3s ease; // smooth scaling
+}
 
 @media (min-width: 900px) {
   .vrouw {
