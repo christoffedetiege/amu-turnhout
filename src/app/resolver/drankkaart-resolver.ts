@@ -71,6 +71,7 @@ export class DrankKaartResolver implements Resolve<DrankKaart> {
 
         const gewensteVolgorde = [
           'Aperitief',
+          'Alcoholvrije aperitief',
           'Eens iets anders',
           'Gins',
           'Stoere bubbels',

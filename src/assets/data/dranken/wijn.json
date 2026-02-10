@@ -207,7 +207,7 @@
               }
             },
             {
-              "titel": "Eerselhof Barrique",
+              "titel": "Eersselshof Barrique",
               "omschrijving1": "sauvignon gris",
               "omschrijving2": "België, Lichtaart",
               "omschrijving3": "Frisse en mooi uitgebalanceerde wijn. De souvignier gris een jonge vrij onbekende druif, is een kruising tussen de cabernet sauvignon en bronner druif. Fruitige citrus aroma’s met de nodige kruidigheid, gevolgd door een subtiele houttoets. Topper uit de stille Kempen!",
@@ -315,7 +315,7 @@
               "omschrijving2": "Zuid-Afrika, Stellenbosch",
               "omschrijving3": "Genereuze wijn met bijzondere diepgang, hints van gedroogde abrikozen, vanille, honing, sinaasappel en rokerige afdronk.",
               "fles": {
-                "prijs": "60.00",
+                "prijs": "78.00",
                 "volume": ""
               },
               "glas": {
@@ -408,7 +408,7 @@
               }
             },
             {
-              "titel": "Jean-Louis Tissot Arbois 'vin jaune' 2016",
+              "titel": "Jean-Louis Tissot Arbois 'vin jaune' 2017",
               "omschrijving1": "savagnin",
               "omschrijving2": "Frankrijk, Jura",
               "omschrijving3": "Wat een avontuur voor deze wijn die 6,5 jaar langzaam in zijn eikenhouten vat gerijpt heeft! Krachtige en intense aroma's van gebrande noten, boenwas, gedroogde abrikoos, Turks fruit en brioche. Licht oxidatief in de afdronk met tonen van amandel en citroenrasp.",
@@ -671,6 +671,21 @@
               }
             },
             {
+              "titel": "Klopffer Greiner 2014",
+              "omschrijving1": "lemberger",
+              "omschrijving2": "Duitsland, Württemberg",
+              "omschrijving3": "De druiven voor deze top lemberger rijpen in de oudste wijngaard. Het zeer lage opbrengstniveau, de intensieve verzorging en de warme ligging vormen de basis voor deze diepe, gestructureerde wijn. Elegante aroma's van pruimen, vlierbessen en een toets van cacao. 24 maanden houtopvoeding op eiken vaten. Nu perfect op dronk.",
+              "fles": {
+                "prijs": "90.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+              }
+            },
+            {
+
               "titel": "Edelrood Kapittelberg 2022",
               "omschrijving1": "pinot noir, dornfelder, frühburgunder",
               "omschrijving2": "België, Herselt",
@@ -789,12 +804,12 @@
               }
             },
             {
-              "titel": "Klopffer Greiner 2014",
-              "omschrijving1": "lemberger",
-              "omschrijving2": "Duitsland, Württemberg",
-              "omschrijving3": "De druiven voor deze top lemberger rijpen in de oudste wijngaard. Het zeer lage opbrengstniveau, de intensieve verzorging en de warme ligging vormen de basis voor deze diepe, gestructureerde wijn. Elegante aroma's van pruimen, vlierbessen en een toets van cacao. 24 maanden houtopvoeding op eiken vaten. Nu perfect op dronk.",
+              "titel": "Tugra 2020",
+              "omschrijving1": "öküzgözü",
+              "omschrijving2": "Turkije",
+              "omschrijving3": "Heerlijke en harmonieuze wijn met rijkelijke aroma’s van kersen, pruimen en vanille gevolgd door hints van tabak en cederhout. 12 maanden houtopvoeding.",
               "fles": {
-                "prijs": "90.00",
+                "prijs": "55.00",
                 "volume": ""
               },
               "glas": {
@@ -878,12 +893,12 @@
               }
             },
             {
-              "titel": "Ellermann Spiegel Anno XX 2020 ",
+              "titel": "Ellermann Spiegel Anno XXI 2021 ",
               "omschrijving1": "cabernet sauvignon, merlot, syrah ",
               "omschrijving2": " Duitsland, Pfalz ",
               "omschrijving3": "De top cuvée van Ellerman Spiegel. Aroma's van rood fruit, zure kersen, bessen, kruidnagel, vanille gevolgd door een vleugje karamel. Mooie ronde afdronk met een klein zoetje. 12 maanden houtopvoeding. ",
               "fles": {
-                "prijs": "45.00",
+                "prijs": "57.00",
                 "volume": ""
               },
               "glas": {

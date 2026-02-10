@@ -7,72 +7,72 @@
           "titel": "",
           "items": [
             {
-              "titel": "Eerselhof 2022",
-              "omschrijving1": "Druiven: souvignier gris",
-              "omschrijving2": "België, Lichtaart",
-              "omschrijving3": "Frisse en mooi uitgebalanceerde wijn. De souvignier gris is een jonge vrij onbekende druivensoort, een kruising tussen cabernet sauvignon en de bronner druif. Fruitige aroma’s van citrus en zachte menthol met hints van verse kruiden.",
+              "titel": "Pulp Fiction Green 2022",
+              "omschrijving1": "Druiven: grüner veltliner, riesling ",
+              "omschrijving2": "oostenrijk",
+              "omschrijving3": "Funky en frisse ‘out of the box’ wijn. Complex met uiteenlopende aroma’s. Wijn voor de durvers! Hints van gebakken appel, kruiden, wilde bloemen, gember en citrus.",
               "fles": {
-                "prijs": "40.50",
+                "prijs": "41.25",
                 "volume": ""
               },
               "glas": {
-                "prijs": "8.10",
+                "prijs": "8.25",
                 "volume": ""
               }
             },
             {
-              "titel": "Ferdinand 2023",
-              "omschrijving1": "Druiven: rebula",
-              "omschrijving2": "Slovenië",
-              "omschrijving3": "Zeer elegante wijn met een uitgesproken mineraliteit en fraîcheur. Verwacht je aan zachtere citrus tonen en frisse appelsferen met een medium body.",
-              "fles": {
-                "prijs": "40.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Domaine de L’Aumonier 2023",
-              "omschrijving1": "Druiven: chenin blanc",
-              "omschrijving2": "Frankrijk, Loire",
-              "omschrijving3": "Mooi, droog en fris met een lichte aanzet, gevolgd door een gulle fruitigheid van rijp geel fruit. Lange afdronk met hints van honing.",
-              "fles": {
-                "prijs": "35.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "7.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Weingut Pfirmann 2023",
-              "omschrijving1": "Druiven: chardonnay",
-              "omschrijving2": "Duitsland, Pfalz",
-              "omschrijving3": "Wat een chardonnay! Gerijpt 50% op inox en 50% op oude eiken vaten. Een combinatie van frisse aroma’s met de nodige kruidigheid gevolgd door hints van exotisch fruit en zachte roomboter.",
-              "fles": {
-                "prijs": "40.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Borovitza Top of the Hill 2024",
-              "omschrijving1": "Druiven: marsanne, rousanne, rkatsiteli",
+              "titel": "Borovitza Bella Rada 2024",
+              "omschrijving1": "Druiven: rkatsiteli, aligoté",
               "omschrijving2": "Bulgarije",
-              "omschrijving3": "Deze originele blend met zowel traditionele Bulgaarse druiven als enkele klassieke Franse druiven zorgt voor een unieke stijl. Complex in de aanzet met aroma’s van rijpe peer, amandel en bijenwas. 12 maanden houtopvoeding.",
+              "omschrijving3": "Medium body wijn met een goede balans tussen het rijpe steenfruit en meloen, gevolgd een subtiele romige toets en voldoende fraîcheur. 6 maanden houtopvoeding.",
               "fles": {
                 "prijs": "40.00",
                 "volume": ""
               },
               "glas": {
                 "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Domaine De Coursac, Les Garriguettes 2024",
+              "omschrijving1": "Druiven: grenache blanc, petit manseng, roussanne, viognier",
+              "omschrijving2": "Frankrijk, Languedoc",
+              "omschrijving3": "Harmonieuze wijn, rond en rijkelijk met aroma’s van rijp geel fruit, peer en perzik gevolgd door een zachte mineraliteit. 6 maanden houtopvoeding.",
+              "fles": {
+                "prijs": "37.50",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "7.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Bodegas Fabregas Familia 2024",
+              "omschrijving1": "Druiven: grenache blanc",
+              "omschrijving2": "Spanje, Somontano",
+              "omschrijving3": "Kanjer van een wijn! Intens, kruidig en fris tegelijk met hints van licht fruit, witte bloemen en appel, gevolgd door een vleugje hout afkomstig van de houtopvoeding.",
+              "fles": {
+                "prijs": "40.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Antik 2023",
+              "omschrijving1": "Druiven: narice, emir",
+              "omschrijving2": "Turkije, centraal Anatolië ",
+              "omschrijving3": "Een verfijnde witte wijn met frisse aroma’s van groene appel, citrus en honingmeloen, een mooie minerale afdronk met zachte houttonen.",
+              "fles": {
+                "prijs": "37.50",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "7.50",
                 "volume": ""
               }
             },
@@ -130,16 +130,16 @@
               }
             },
             {
-              "titel": "Latourba Eraz 2022 (rosé)",
-              "omschrijving1": "Druiven: syrah, gamay",
-              "omschrijving2": "Libanon",
-              "omschrijving3": "Rosé met intense aroma’s van zwarte kersen, aardbeien en subtiele zoethout. Verfrissende zuurtegraad gevolgd door een rijkelijke en fruitige afdronk.",
+              "titel": "Ellermann Windrosé 2023 (rosé)",
+              "omschrijving1": "Druiven: cabernet sauvignon, pinot noir",
+              "omschrijving2": "Duitsland Pfalz",
+              "omschrijving3": "Rosé met een fruitige neus en levendig bouquet. Aroma’s van aardbeien en frambozen gevolgd door een mooie fruitzuren en een pittige elegante afdronk.",
               "fles": {
-                "prijs": "35.00",
+                "prijs": "37.50",
                 "volume": ""
               },
               "glas": {
-                "prijs": "7.00",
+                "prijs": "7.50",
                 "volume": ""
               }
             }
@@ -155,24 +155,24 @@
           "titel": "",
           "items": [
             {
-              "titel": "Johanneshof Reinisch 2022",
-              "omschrijving1": "Druiven: st.laurent",
-              "omschrijving2": "Oostenrijk, Thermenregio",
-              "omschrijving3": "Elegante wijn met overduidelijke aroma’s van rijpe kersen en zure krieken, gevolgd door subtiele hints van verse vijgen en rijpe pruimen. In de finale een zachte kruidigheid en rokerige tonen. 10 maanden houtopvoeding en heerlijk licht gekoeld.",
+              "titel": "KAV 2021",
+              "omschrijving1": "Druiven: bogazkere, öküzgözü ",
+              "omschrijving2": "Turkije, Zuidoost-Anatolië",
+              "omschrijving3": "Karaktervolle wijn met duidelijke aroma’s van viooltjes, wilde kruiden en zwarte pruimen. Een authentieke Turkse wijn met diepgang en finesse. 12 maanden houtopvoeding.",
               "fles": {
-                "prijs": "35.00",
+                "prijs": "45.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "7.00",
+                "prijs": "9.00",
                 "volume": ""
               }
             },
             {
-              "titel": "El Banquete de Platon 2022",
-              "omschrijving1": "Druiven: monastrelle (mourvèdre)",
-              "omschrijving2": "Spanje, Murcia, Levante",
-              "omschrijving3": "Een echte ‘feel good’ wijn! Voldoende body met een heerlijke kruidigheid en aroma’s van rijpe zwarte bramen en cassis met zachte hints van leer.",
+              "titel": "Rossidi CMS 2024",
+              "omschrijving1": " cabernet sauvignon, merlot, syrah",
+              "omschrijving2": "Bulgarije",
+              "omschrijving3": "Medium body wijn die genoten heeft van een inox opvoeding. Aroma’s van zwarte bramen, bosbessen en cassis gevolgd door een warme mooie kruidigheid.",
               "fles": {
                 "prijs": "40.00",
                 "volume": ""
@@ -183,32 +183,31 @@
               }
             },
             {
-              "titel": "Sensum 2020",
-              "omschrijving1": "Druiven: merlot, cabernet sauvignon",
-              "omschrijving2": "Bulgarije",
+              "titel": "Bodegas Tampesta 2021",
+              "omschrijving1": "Druiven: prieto picudo",
+              "omschrijving2": "Spanje Leon",
               "omschrijving3": "Deze wijn doet denken aan een ‘old school’ Bordeaux wijn. 12 maanden houtopvoeding op gebruikte vaten. Complex en toch elegant met aroma’s van fris, rijp rood fruit met een zachte ondertoon van eik en tabak.",
               "fles": {
-                "prijs": "40.00",
+                "prijs": "37.50",
                 "volume": ""
               },
               "glas": {
-                "prijs": "8.00",
+                "prijs": "7.50",
                 "volume": ""
               }
             },
             {
-              "titel": "Domaine de Poulvarel 2022",
-              "omschrijving1": "Druiven: syrah, grenache",
-              "omschrijving2": "Frankrijk, Rhône, Costières De Nîmes",
-              "omschrijving3": "Genereuze wijn uit het zuiden van Frankrijk. Heerlijk fruitig en licht kruidig, met aroma’s van kers, olijf en peper. Medium body met zachte taninne’s. Deze wijn heeft genoten van een rust en rijp pauze van 9 maanden op betonnen citernes.",
+              "titel": "Camas Anne de Joyeuse 2024",
+              "omschrijving1": "Druiven: pinot noir",
+              "omschrijving2": " Frankrijk, Limoux",
+              "omschrijving3": "Elegantie ten top, een bom vol bramen, kersen, morellen en klein rood fruit met hints van hazelnoot en vanille, gevolgd door een Kirchachtige afdronk. 12 maanden houtopvoeding en heerlijk licht gekoeld.",
               "fles": {
-                "prijs": "35.00",
+                "prijs": "37.50",
                 "volume": ""
               },
               "glas": {
-                "prijs": "7.00",
+                "prijs": "7.50",
                 "volume": ""
-
               }
             },
             {

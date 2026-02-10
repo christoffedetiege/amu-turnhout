@@ -80,7 +80,7 @@
               "omschrijving3": "Fever Tree Mediterraan",
               "fles": {},
               "glas": {
-                "prijs": "14.00",
+                "prijs": "15.00",
                 "volume": ""
               }
             },
@@ -131,7 +131,8 @@
           ]
         }
       ],
-      "volume": "5cl / glas"
+      "volume": "5cl / glas",
+      "hideGlas": true
     }
   ]
 }

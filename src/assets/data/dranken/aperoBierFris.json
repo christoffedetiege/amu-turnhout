@@ -8,7 +8,7 @@
           "items": [
             {
               "titel": "suggestie: Bienne wijnbier",
-              "omschrijving1": "Bienne is een Belgisch wijnbier, dus een blend van wijn en bier. Hiervoor is gekozen voor de blonde\nversie van het Stanneman bier uit Herselt en een Spaanse rose. Deze unieke blend met aroma's\nvan rabarber en abrikozen gevolgd door een lichte aciditeit in de afdronk maakt dit wijnbier het perfecte aperitief.",
+              "omschrijving1": "Bienne is een Belgisch wijnbier, dus een blend van wijn en bier. Hiervoor is gekozen voor de blonde versie van het Stanneman bier uit Herselt en een Spaanse rose. Deze unieke blend met aroma's van rabarber en abrikozen gevolgd door een lichte aciditeit in de afdronk maakt dit wijnbier het perfecte aperitief.",
               "fles": {},
               "glas": {
                 "prijs": "7.0",
@@ -18,6 +18,15 @@
             {
               "titel": "Aperitief Amu. ",
               "omschrijving1": "spumante, Martini rosato, sinaasappel",
+              "fles": {},
+              "glas": {
+                "prijs": "11.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Aperitief Amu Zero 0.0%. ",
+              "omschrijving1": "Versin vermouth, Indian tonic, rozemarijn",
               "fles": {},
               "glas": {
                 "prijs": "11.50",
@@ -225,7 +234,136 @@
           ]
         }
       ],
-      "volume": "8cl / glas"
+      "volume": "8cl / glas",
+      "hideGlas": true
+    },
+    {
+      "titel": "Alcoholvrije aperitief",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Bonheur 0.0 %",
+              "omschrijving1": "Een heerlijk alcoholvrij aperitief op basis van gamay druiven uit de Beaujolais streek, gecombineerd met pittige kruiden afkomstig van dezelfde wijngaard. Perfect uitgebalanceerde smaakbom die al je zintuigen stimuleert!",
+              "fles": {},
+              "glas": {
+                "prijs": "9",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Copperhead - elderflower",
+              "omschrijving1": "Heerlijke non alcoholic gin met een boost aan verschillende kruiden, en heerlijke kardemom tonen in de afdronk.\nPerfecte mix met een elderflower tonic.",
+              "fles": {},
+              "glas": {
+                "prijs": "13.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Opius Albedo",
+              "omschrijving1": "Lekker kruidig met duidelijke smaken van zachte anijs en venkelzaad. Kan perfect gedronken worden on-the-rocks of in de mix met een ginger ale.",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Opius Amaro",
+              "omschrijving1": "Frisse aroma's van citrus en zachte honing met een stevige en aangename bittere finish.\nPerfecte mix met een indian tonic.",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Rum Cola",
+              "omschrijving1": "Opius Nigredo met cola.",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Dark 'n Stormy",
+              "omschrijving1": "Opius Nigredo met gingerbeer.",
+              "fles": {},
+              "glas": {
+                "prijs": "13.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Pacific",
+              "omschrijving1": "Verfrissende anijs aperitief. 0% suiker, 0% alcohol, 0% caloriën",
+              "fles": {},
+              "glas": {
+                "prijs": "6.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "San Bitter 17cl",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Crodino (zoet) 17cl",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Nogroni",
+              "omschrijving1": "Een combinatie van Campari 0.0 en Opius Amaro.",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Campari 0,0% orange",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "11.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Campari 0,0% soda",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "12.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Nordes 0,0% gin tonic",
+              "omschrijving1": "Heerlijke verfrissende 0,0 gin met frisse citrus en eucalyptus aroma’s gemixt met een Indian Fever Tree tonic. Onze favoriete alcoholvrije gin tonic!",
+              "fles": {},
+              "glas": {
+                "prijs": "15.00",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ],
+      "hideGlas": true
     },
     {
       "titel": "Eens iets anders",
@@ -271,7 +409,8 @@
             }
           ]
         }
-      ]
+      ],
+      "hideGlas": true
     },
     {
       "titel": "Stoere bubbels",
@@ -451,7 +590,8 @@
             }
           ]
         }
-      ]
+      ],
+      "hideGlas": true
     },
     {
       "titel": "Water",
@@ -470,7 +610,8 @@
             }
           ]
         }
-      ]
+      ],
+      "hideGlas": true
     },
     {
       "titel": "Frisdrank",
@@ -481,8 +622,7 @@
             {
               "titel": "Ritchie Cola 27,50 cl.",
               "omschrijving1": "",
-              "fles": {
-              },
+              "fles": {},
               "glas": {
                 "prijs": "4.25",
                 "volume": ""
@@ -500,8 +640,7 @@
             {
               "titel": "Lipton Ice-tea",
               "omschrijving1": "",
-              "fles": {
-              },
+              "fles": {},
               "glas": {
                 "prijs": "3.80",
                 "volume": ""
@@ -537,8 +676,7 @@
             {
               "titel": "Ritchie Limonade orange 27,50 cl.",
               "omschrijving1": "",
-              "fles": {
-              },
+              "fles": {},
               "glas": {
                 "prijs": "4.25",
                 "volume": ""
@@ -556,8 +694,7 @@
             {
               "titel": "Fever-Tree Indian tonic",
               "omschrijving1": "",
-              "fles": {
-              },
+              "fles": {},
               "glas": {
                 "prijs": "4.50",
                 "volume": ""
@@ -565,7 +702,11 @@
             }
           ]
         }
-      ]
+      ],
+      "hideGlas": true
     }
   ]
 }
+
+
+

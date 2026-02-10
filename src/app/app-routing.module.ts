@@ -16,6 +16,7 @@ import {TakewayComponent} from './components/takeway/takeway.component';
 import {WhiskeyComponent} from './components/dranken/whiskey/whiskey.component';
 import {ImpressiesComponent} from './components/impressies/impressies.component';
 import {DrankKaartResolver} from './resolver/drankkaart-resolver';
+import {ParkingComponent} from "./components/parking/parking.component";
 
 
 const routes: Routes = [
@@ -36,6 +37,7 @@ const routes: Routes = [
   { path: 'digestieven', component: DigestievenComponent,
     resolve: {drankkaart: DrankKaartResolver} },
   { path: 'reserveren', component: ReserverenComponent },
+  { path: 'parking', component: ParkingComponent },
   // { path: 'impressies', component: ImpressiesComponent },
   { path: 'whisky', component: WhiskeyComponent,
     resolve: {drankkaart: DrankKaartResolver} },
