@@ -24,6 +24,9 @@
 <!--    <br/>-->
 <!--    <div style="font-size: 1.5rem">Valentijnsmenu 66 €  <div style="font-size: 1.1rem"> 6 verrassings Amukes ( incl. dessert ) <br/> 6 glazen begeleide wijnen 39 € <br/> ( op 14 februari serveren we <strong>enkel</strong> het Valentijnsmenu )</div></div>-->
 <!--    <br/>-->
+
+    <div *ngIf="!toonValentijnMenu">
+
     <br/>
     <div style="font-size: 1.5rem">Amu Lunch 4 gangen 45 €  <div style="font-size: 1.1rem"> Lunch tussen 12.00u. en 14.00 u. <br/> 4 verrassings gerechten (incl. dessert) <br/>4 glazen begeleidende wijnen 28 €</div></div>
     <br/>
@@ -39,6 +42,18 @@
     <br/>
     <div style="font-size: 1.5rem">Greedy Monday 87,5 €<div style="font-size: 1.1rem">Iedere maandag 8 verrassings gerechten (incl. dessert)<br/>8 glazen begeleidende wijnen 56 €</div></div>
     <br/>
+    </div>
+    <div *ngIf="toonValentijnMenu">
+      <br/>
+      <div style="font-size: 1.5rem">Amu Lunch 4 gangen 45 €  <div style="font-size: 1.1rem"> Lunch tussen 12.00u. en 14.00 u. <br/> 4 verrassings gerechten (incl. dessert) <br/>4 glazen begeleidende wijnen 28 €</div></div>
+      <br/>
+      <div style="font-size: 1.5rem">Amu Lunch 3 gangen 37,5 €  <div style="font-size: 1.1rem"> Lunch tussen 12.00u. en 14.00 u. <br/> 3 verrassings gerechten (excl. dessert) <br/>3 glazen begeleidende wijnen 21 €</div></div>
+      <br/>
+      <div style="color: red; font-size: 1.5rem">♥ 6 Kisses From Heaven 85 €  <div style="color: red; font-size: 1.1rem"> ♥ 6 verrassings gerechten (incl. dessert) <br/>♥ 6 glazen begeleidende wijnen 42 € <br/> (op 14 februari serveren wij enkel de 6 Kisses From Heaven menu)</div></div>
+      <br/>
+      <div style="font-size: 1.5rem">Little Gourmand 65 € <div style="font-size: 1.1rem"> 5 verrassings gerechten (incl. dessert)<br/>5 glazen begeleidende wijnen 35 €</div></div>
+      <br/>
+    </div>
 
 <!--    <span style="font-size: 25px; font-weight: bold">Valentijn</span><br/>-->
 <!--    <span style="font-size: larger">Loving Tuesday  51 €</span><br/><span style="font-size: smaller"> 14 februari 6 liefdevolle Amukes incl. dessert </span><br/><br/>-->

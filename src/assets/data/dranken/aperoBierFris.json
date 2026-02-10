@@ -7,11 +7,11 @@
           "titel": "",
           "items": [
             {
-              "titel": "suggestie: Bienne wijnbier",
-              "omschrijving1": "Bienne is een Belgisch wijnbier, dus een blend van wijn en bier. Hiervoor is gekozen voor de blonde versie van het Stanneman bier uit Herselt en een Spaanse rose. Deze unieke blend met aroma's van rabarber en abrikozen gevolgd door een lichte aciditeit in de afdronk maakt dit wijnbier het perfecte aperitief.",
+              "titel": "suggestie: Fourchette 7,5%",
+              "omschrijving1": "Fourchette is een bijzonder elegant bier, ontstaan uit een harmonieuze blend van witbier en tripel. Verfijnde aroma’s van citrus en koriader gaan naadloos samen met een volle, evenwichtige smaak. De aangename gistfruitigheid en zachte bitterheid zorgen voor een fris maar karaktervol aperitiefbier.",
               "fles": {},
               "glas": {
-                "prijs": "7.0",
+                "prijs": "7.00",
                 "volume": ""
               }
             },
@@ -253,6 +253,15 @@
               }
             },
             {
+              "titel": "Aperitief Amu Zero 0.0%. ",
+              "omschrijving1": "Versin vermouth, Indian tonic, rozemarijn",
+              "fles": {},
+              "glas": {
+                "prijs": "11.50",
+                "volume": ""
+              }
+            },
+            {
               "titel": "Copperhead - elderflower",
               "omschrijving1": "Heerlijke non alcoholic gin met een boost aan verschillende kruiden, en heerlijke kardemom tonen in de afdronk.\nPerfecte mix met een elderflower tonic.",
               "fles": {},
@@ -419,6 +428,16 @@
           "titel": "Blond",
           "items": [
             {
+              "titel": "Fourchette Grand Cru sauvignon blanc 7,5% 75cl.",
+              "omschrijving1": "Deze Fourchette Grand Cru sauvignon blanc bouwt voort op het klassieke Fourchette bier, maar heeft een unieke twist gekregen. Voor deze speciale editie heeft het bier meer dan 15 maanden gerijpt op sauvignon blanc vaten. Bij het proeven van dit bier ontdek je subtiele lichtzure tonen en een vleugje agrumes. De rijping op sauvignon blanc vaten heeft het bier een verfrissende dimensie gegeven. Het is zacht en tegelijk krachtig, complex, maar ook uitgebalanceerd.",
+              "fles": {},
+              "glas": {
+                "prijs": "52.00",
+                "volume": ""
+              }
+            },
+            {
+
               "titel": "Pils Cristal Alken 5%",
               "omschrijving1": "",
               "fles": {},
@@ -482,12 +501,22 @@
               }
             },
             {
+              "titel": "Tripel 888 8,8%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
               "titel": "Westmalle Tripel 9.5%",
               "omschrijving1": "",
               "fles": {},
               "glas": {
                 "prijs": "5.20",
                 "volume": ""
+
               }
             },
             {

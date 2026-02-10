@@ -13,11 +13,16 @@ import {DrankKaart} from "../../model/kaartitems-drank/drankkaart";
 })
 export class MenuComponent implements OnInit {
 
+  toonValentijnMenu: boolean;
   menuproducuten!: MenuProduct[];
   desserten!: KaartItem[];
   suggestieDigestief!: DrankKaart;
   constructor(private menuService: MenuService,
-              private drankService: DrankService) { }
+              private drankService: DrankService) {
+    const vandaag = new Date();
+    const eindDatum = new Date(2026, 2, 17, 0, 0, 0);
+    this.toonValentijnMenu = vandaag <= eindDatum;
+  }
 
   ngOnInit(): void {
     this.laden();
