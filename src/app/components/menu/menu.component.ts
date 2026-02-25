@@ -20,7 +20,10 @@ export class MenuComponent implements OnInit {
   constructor(private menuService: MenuService,
               private drankService: DrankService) {
     const vandaag = new Date();
-    const eindDatum = new Date(2026, 2, 17, 0, 0, 0);
+
+    const eindDatum = new Date(2026, 1, 17, 0, 0, 0);
+    console.log(vandaag);
+    console.log(eindDatum);
     this.toonValentijnMenu = vandaag <= eindDatum;
   }
 
