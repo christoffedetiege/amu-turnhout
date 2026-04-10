@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="nl" data-theme="dark-luxe">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMU Turnhout — Restaurant &amp; Wine Bar</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="design-tokens.css">
+<link rel="stylesheet" href="components.css">
+<style>
+/* ========== SPLIT-BRAND NAVBAR — DARK LUXE ========== */
+.split-navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 2.5rem;
+  background: rgba(12, 15, 15, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.4s ease;
+}
+.split-navbar.scrolled {
+  background: rgba(12, 15, 15, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom-color: rgba(176, 120, 64, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.brand-left,
+.brand-right {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--color-cream);
+  letter-spacing: 0.35em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  flex-shrink: 0;
+}
+.brand-left:hover,
+.brand-right:hover {
+  color: var(--color-accent);
+  opacity: 1;
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+.nav-center a {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+.nav-center a:hover,
+.nav-center a.active {
+  color: var(--color-accent);
+  opacity: 1;
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 5px;
+  z-index: 1100;
+  background: none;
+  border: none;
+}
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 1.5px;
+  background: var(--color-cream);
+  transition: all 0.3s ease;
+}
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0; right: -100%;
+  width: 75%;
+  max-width: 320px;
+  height: 100vh;
+  background: rgba(12, 15, 15, 0.97);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  z-index: 1050;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  transition: right 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-left: 1px solid rgba(176, 120, 64, 0.15);
+}
+.mobile-menu.open {
+  right: 0;
+}
+.mobile-menu a {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  color: var(--color-cream);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.mobile-menu a:hover {
+  color: var(--color-accent);
+  opacity: 1;
+}
+.mobile-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1040;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.mobile-overlay.open {
+  opacity: 1;
+}
+
+@media (max-width: 900px) {
+  .nav-center { display: none; }
+  .brand-right { display: none; }
+  .hamburger { display: flex; }
+  .mobile-menu { display: flex; }
+}
+
+/* ========== HERO GLASSMORPHISM ========== */
+.hero-glass-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(12, 15, 15, 0.5) 0%,
+    rgba(12, 15, 15, 0.3) 40%,
+    rgba(12, 15, 15, 0.6) 100%
+  );
+  z-index: 1;
+}
+
+.hero-glass-badge {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-xl);
+  margin-bottom: 1.5rem;
+}
+
+.hero-btn-glass {
+  padding: 1rem 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: var(--color-cream);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: var(--text-lg);
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  transition: all 0.3s ease;
+  border-radius: var(--radius-md);
+}
+.hero-btn-glass:hover {
+  border-color: var(--color-accent);
+  background: rgba(176, 120, 64, 0.15);
+  opacity: 1;
+}
+.hero-btn-glass .sub {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: var(--text-xs);
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-top: 0.3rem;
+}
+
+/* ========== DUAL CONCEPT GLASS ========== */
+.dual-card.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+}
+.dual-card.glass-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(176, 120, 64, 0.2);
+}
+
+/* ========== RESERVEER GLASS ========== */
+.reserveer-card.glass-uren {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* ========== SECTION DIVIDERS ========== */
+.section-divider-line {
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-accent), transparent);
+  margin: 0 auto var(--space-lg);
+}
+</style>
+</head>
+<body>
+
+<!-- ============================== NAVBAR ============================== -->
+<nav class="split-navbar" id="navbar">
+  <a href="#hero" class="brand-left">A M</a>
+  <div class="nav-center">
+    <a href="#hero">Home</a>
+    <a href="#restaurant">Restaurant</a>
+    <a href="#bar-amu">Bar Amu</a>
+    <a href="#formules">Menu</a>
+    <a href="#drankenkaart">Drankenkaart</a>
+    <a href="#reserveren">Reserveren</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="#hero" class="brand-right">U</a>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-overlay" id="mobile-overlay"></div>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#hero">Home</a>
+  <a href="#restaurant">Restaurant</a>
+  <a href="#bar-amu">Bar Amu</a>
+  <a href="#formules">Menu</a>
+  <a href="#drankenkaart">Drankenkaart</a>
+  <a href="#reserveren">Reserveren</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+<!-- ============================== 1. HERO ============================== -->
+<section class="hero" id="hero">
+  <div class="hero-bg" style="background-image: url('../docs/interieur 2.jpg');"></div>
+  <div class="hero-glass-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-glass-badge">
+      <div class="hero-logo">AMU</div>
+    </div>
+    <div class="hero-divider"></div>
+    <p class="hero-tagline">Restaurant &amp; Wine Bar &mdash; Turnhout</p>
+    <div class="hero-dual-btns">
+      <a href="#restaurant" class="hero-btn-glass">
+        Restaurant Amu
+        <span class="sub">Fine Dining</span>
+      </a>
+      <a href="#bar-amu" class="hero-btn-glass">
+        Bar Amu
+        <span class="sub">Wine Bar</span>
+      </a>
+    </div>
+  </div>
+  <div class="scroll-indicator"></div>
+</section>
+
+
+<!-- ============================== 2. TWEE CONCEPTEN ============================== -->
+<section id="concepten">
+  <div class="section-wrap">
+    <div class="section-header">
+      <p class="overline">Twee Werelden, Eén Adres</p>
+      <h2>Twee <em>Concepten</em></h2>
+      <div class="accent-line"></div>
+    </div>
+    <div class="dual-grid">
+      <div class="dual-card glass-card">
+        <img src="../docs/food.jpg" alt="Restaurant Amu — Fine Dining">
+        <h3>Restaurant <em>Amu</em></h3>
+        <p>Een gastronomische ervaring waar Chef Marjanne je verrast met seizoensgebonden verrassingsmenu's. Elk gerecht is een ode aan verse, lokale ingrediënten — verfijnd, creatief en met passie bereid. Reserveren is aanbevolen.</p>
+        <a href="#restaurant" class="btn">Ontdek meer</a>
+      </div>
+      <div class="dual-card glass-card">
+        <img src="../docs/foto wine bar.jpg" alt="Bar Amu — Wine Bar">
+        <h3>Bar <em>Amu</em></h3>
+        <p>Een gezellige wijnbar waar je zonder reservatie kan binnenwandelen. Geniet van een uitgelezen selectie wijnen, een aperitief of een lekkere plank. De perfecte plek om de avond te beginnen of af te sluiten.</p>
+        <a href="#bar-amu" class="btn">Ontdek meer</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================== 3. RESTAURANT AMU INTRO ============================== -->
+<section id="restaurant">
+  <div class="section-wrap">
+    <div class="intro-split">
+      <div class="intro-img">
+        <img src="../docs/food2.jpg" alt="Chef Marjanne — Verrassing">
+      </div>
+      <div class="intro-txt">
+        <span class="accent-text">Fine dining met een twist</span>
+        <h3>Restaurant Amu</h3>
+        <p>Bij Restaurant Amu draait alles om de verrassing. Chef Marjanne stelt telkens opnieuw een uniek verrassingsmenu samen, geïnspireerd door het seizoen, de beste ingrediënten van het moment en haar onuitputtelijke creativiteit.</p>
+        <p>Geen kaart om uit te kiezen — je vertrouwt op de chef en wordt beloond met een culinaire reis vol verrassende smaken en texturen. Van het eerste amuse tot het laatste dessert, elk gerecht vertelt een eigen verhaal.</p>
+        <p>Reserveren is aanbevolen om teleurstelling te voorkomen.</p>
+        <a href="#formules" class="btn" style="margin-top: var(--space-md);">Bekijk Formules</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================== 4. FORMULES ============================== -->
+<section id="formules">
+  <div class="section-wrap">
+    <div class="section-header">
+      <p class="overline">Restaurant Amu</p>
+      <h2>Onze <em>Formules</em></h2>
+      <div class="accent-line"></div>
+    </div>
+    <div class="formula-grid" id="formules-grid">
+      <!-- Rendered by JS -->
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================== 5. GERECHTEN ============================== -->
+<section id="gerechten">
+  <div class="section-wrap">
+    <div class="section-header">
+      <p class="overline">De gerechten van dit moment</p>
+      <h2>Ons <em>Menu</em></h2>
+      <div class="accent-line"></div>
+    </div>
+    <p class="gerecht-note"><em>Verrassing door Chef Marjanne &mdash; menu wisselt regelmatig</em></p>
+    <div class="gerecht-list" id="gerechten-list">
+      <!-- Rendered by JS -->
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================== 6. NAGERECHTEN ============================== -->
+<section id="nagerechten">
+  <div class="section-wrap">
+    <div class="section-header">
+      <p class="overline">Zoet</p>
+      <h2><em>Nagerechten</em></h2>
+      <div class="accent-line"></div>
+    </div>
+    <div class="dessert-grid" id="nagerechten-grid">
+      <!-- Rendered by JS -->
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================== 7. IMAGE DIVIDER ============================== -->
+<div class="image-divider">
+  <img src="../docs/food 4.jpg" alt="Gerechten bij Amu">
+  <div class="quote">
+    <p>&ldquo;Elk gerecht vertelt een verhaal&rdquo;</p>
+  </div>
+</div>
+
+
+<!-- ============================== 8. BAR AMU INTRO ============================== -->
+<section id="bar-amu">
+  <div class="section-wrap">
+    <div class="intro-split" style="grid-template-columns: 1.2fr 1fr;">
+      <div class="intro-txt">
+        <span class="accent-text">Walk-in wine bar</span>
+        <h3>Bar Amu</h3>
+        <p>Bar Amu is de plek waar je zonder reservatie kan binnenwandelen voor een glas wijn, een aperitief of een gezellig avondje uit. De sfeer is ontspannen, de selectie wijnen uitmuntend en het aanbod van kleine gerechtjes verrassend lekker.</p>
+        <p>Of je nu komt voor een snelle borrel na het werk, een uitgebreide wijnproeverij met vrienden of gewoon om de sfeer op te snuiven — bij Bar Amu ben je altijd welkom. Geen dresscode, geen poespas, wel pure genot.</p>
+        <p>Reserveren is niet nodig. Kom gewoon langs!</p>
+        <a href="#drankenkaart" class="btn" style="margin-top: var(--space-md);">Bekijk Drankenkaart</a>
+      </div>
+      <div class="intro-img">
+        <img src="../docs/foto brood bar 1.jpg" alt="Bar Amu — Gezelligheid">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================== 9. DRANKENKAART ============================== -->
+<section id="drankenkaart">
+  <div class="section-wrap">
+    <div class="section-header">
+      <p class="overline">Bar Amu</p>
+      <h2><em>Drankenkaart</em></h2>
+      <div class="accent-line"></div>
+    </div>
+    <div class="accordion-group" id="dranken-accordion">
+      <!-- Rendered by JS -->
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================== 10. ALLERGIE NOTE ============================== -->
+<section>
+  <div class="section-wrap" style="padding-top: 0;">
+    <div class="allergie-note">
+      Heb je een allergie of intolerantie? Laat het ons weten, wij passen ons menu graag aan.
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================== 11. IMAGE DIVIDER ============================== -->
+<div class="image-divider">
+  <img src="../docs/interieur 3.jpg" alt="Interieur Amu Turnhout">
+  <div class="quote">
+    <p>&ldquo;Waar smaak en sfeer samenkomen&rdquo;</p>
+  </div>
+</div>
+
+
+<!-- ============================== 12. IMPRESSIES ============================== -->
+<section id="impressies">
+  <div class="section-wrap">
+    <div class="section-header">
+      <p class="overline">Sfeerbeelden</p>
+      <h2><em>Impressies</em></h2>
+      <div class="accent-line"></div>
+    </div>
+  </div>
+  <div class="gallery-grid" id="gallery">
+    <!-- Rendered by JS -->
+  </div>
+</section>
+
+
+<!-- ============================== 13. RESERVEREN & OPENINGSUREN ============================== -->
+<section id="reserveren">
+  <div class="section-wrap">
+    <div class="section-header">
+      <p class="overline">Welkom</p>
+      <h2>Reserveren &amp; <em>Openingsuren</em></h2>
+      <div class="accent-line"></div>
+    </div>
+    <div class="reserveer-grid">
+      <div class="reserveer-card glass-uren">
+        <h3>Openingsuren</h3>
+        <div class="uren-grid" id="uren-grid">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+      <div class="reserveer-card" id="contact">
+        <h3>Contact &amp; Reserveren</h3>
+        <p>Wil je zeker zijn van een tafel in Restaurant Amu? Reserveer telefonisch of via e-mail. Bar Amu is altijd vrij toegankelijk zonder reservatie.</p>
+        <div class="contact-info">
+          <a href="tel:+3214412489">Tel: 014/41.24.89</a>
+          <a href="tel:+32486320521">GSM: 0486/32.05.21</a>
+          <a href="mailto:info@amu-turnhout.be">info@amu-turnhout.be</a>
+          <a href="https://maps.google.com/?q=Patersstraat+79-81+2300+Turnhout" target="_blank" rel="noopener">Patersstraat 79-81, 2300 Turnhout</a>
+        </div>
+        <a href="tel:+3214412489" class="btn btn-filled" style="margin-top: var(--space-lg); display: inline-block;">Reserveer Nu</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================== 14. CADEAUBON ============================== -->
+<section id="cadeaubon">
+  <div class="section-wrap">
+    <div class="cadeaubon">
+      <h3>Op zoek naar het <em>perfecte cadeau</em>?</h3>
+      <p>Verras iemand met een cadeaubon van Amu Turnhout. Ideaal voor een gastronomische verwennerij in Restaurant Amu of een gezellige avond in Bar Amu. Contacteer ons telefonisch of via e-mail om een cadeaubon te bestellen.</p>
+      <a href="tel:+3214412489" class="btn" style="margin-top: var(--space-md); display: inline-block;">Bestel een Cadeaubon</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================== 15. PARKING ============================== -->
+<section id="parking">
+  <div class="section-wrap">
+    <div class="section-header">
+      <p class="overline">Praktisch</p>
+      <h2><em>Parking</em></h2>
+      <div class="accent-line"></div>
+    </div>
+    <div class="parking-grid" id="parking-grid">
+      <!-- Rendered by JS -->
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================== 16. FOOTER ============================== -->
+<footer class="site-footer">
+  <div class="footer-badges">
+    <span class="footer-badge">Gault&amp;Millau</span>
+    <span class="footer-badge">Michelin</span>
+  </div>
+  <div class="footer-brand">AMU</div>
+  <p>Patersstraat 79-81, 2300 Turnhout</p>
+  <p>BTW: BE0785.889.842</p>
+  <div class="footer-social">
+    <a href="https://www.facebook.com/AMUturnhout" target="_blank" rel="noopener">Facebook</a>
+    <a href="https://www.instagram.com/amu_turnhout" target="_blank" rel="noopener">Instagram</a>
+  </div>
+  <p>&copy; 2026 Amu Turnhout. Alle rechten voorbehouden.</p>
+</footer>
+
+
+<!-- ============================== SCRIPTS ============================== -->
+<script src="data.js"></script>
+<script src="render.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Render all sections
+  renderFormules('formules-grid');
+  renderGerechten('gerechten-list');
+  renderNagerechten('nagerechten-grid');
+  initDrankenAccordion('dranken-accordion');
+  renderGallery('gallery');
+  renderUren('uren-grid');
+  renderParking('parking-grid');
+
+  // Navbar scroll effect
+  var navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 60) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Hamburger menu
+  var hamburger = document.getElementById('hamburger');
+  var mobileMenu = document.getElementById('mobile-menu');
+  var mobileOverlay = document.getElementById('mobile-overlay');
+
+  function toggleMobileMenu() {
+    hamburger.classList.toggle('open');
+    mobileMenu.classList.toggle('open');
+    mobileOverlay.classList.toggle('open');
+    document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
+  }
+
+  hamburger.addEventListener('click', toggleMobileMenu);
+  mobileOverlay.addEventListener('click', toggleMobileMenu);
+
+  // Close mobile menu on link click
+  mobileMenu.querySelectorAll('a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      if (mobileMenu.classList.contains('open')) {
+        toggleMobileMenu();
+      }
+    });
+  });
+
+  // Smooth scroll for all anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+    anchor.addEventListener('click', function(e) {
+      var target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        var offset = navbar.offsetHeight + 10;
+        var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      }
+    });
+  });
+});
+</script>
+
+</body>
+</html>

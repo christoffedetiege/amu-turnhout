@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMU Turnhout — Mockup 2: Modern Bistro</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal: #2D4A4A;
+    --teal-light: #3B6060;
+    --cognac: #B07840;
+    --cognac-light: #C8944E;
+    --sand: #D4C5A9;
+    --off-white: #FAF8F5;
+    --charcoal: #2C2C2C;
+    --warm-gray: #8A7E72;
+    --sage: #7A8B6F;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--off-white); color: var(--charcoal); overflow-x: hidden; }
+
+  /* ========== NAVBAR ========== */
+  .navbar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1rem 3rem; transition: all 0.4s; background: transparent;
+  }
+  .navbar.scrolled { background: rgba(250,248,245,0.95); backdrop-filter: blur(10px); box-shadow: 0 1px 20px rgba(0,0,0,0.06); }
+  .navbar .brand {
+    font-family: 'DM Serif Display', serif; font-size: 1.8rem;
+    color: var(--off-white); text-decoration: none; transition: color 0.4s;
+  }
+  .navbar.scrolled .brand { color: var(--charcoal); }
+
+  .navbar .brand-split { display: flex; align-items: center; gap: 0.3rem; }
+  .navbar .brand-divider { width: 1px; height: 24px; background: var(--cognac); margin: 0 0.8rem; opacity: 0.5; }
+
+  .navbar nav { display: flex; gap: 1.5rem; align-items: center; }
+  .navbar nav a {
+    color: var(--off-white); text-decoration: none; font-size: 0.82rem;
+    font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; transition: all 0.3s;
+  }
+  .navbar.scrolled nav a { color: var(--charcoal); }
+  .navbar nav a:hover { color: var(--cognac); }
+  .navbar .cta-btn {
+    padding: 0.5rem 1.2rem; border: 1.5px solid var(--off-white);
+    border-radius: 100px; transition: all 0.3s;
+  }
+  .navbar.scrolled .cta-btn { border-color: var(--cognac); color: var(--cognac); }
+  .navbar .cta-btn:hover { background: var(--cognac); color: white !important; border-color: var(--cognac); }
+
+  /* ========== HERO SPLIT ========== */
+  .hero { height: 100vh; display: grid; grid-template-columns: 1fr 1fr; }
+  .hero-left {
+    background: var(--teal); display: flex; flex-direction: column;
+    justify-content: center; padding: 4rem 5rem;
+  }
+  .hero-left h1 {
+    font-family: 'DM Serif Display', serif; font-size: 4rem;
+    color: var(--off-white); line-height: 1.1; margin-bottom: 1.5rem;
+  }
+  .hero-left h1 em { color: var(--cognac-light); font-style: italic; }
+  .hero-left p { color: var(--sand); font-size: 1rem; line-height: 1.7; max-width: 420px; margin-bottom: 2rem; }
+  .hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .hero-btn {
+    display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.9rem 2rem;
+    border-radius: 100px; text-decoration: none; font-size: 0.85rem; font-weight: 500;
+    letter-spacing: 0.04em; transition: all 0.3s;
+  }
+  .hero-btn.primary { background: var(--cognac); color: white; }
+  .hero-btn.primary:hover { background: var(--cognac-light); transform: translateY(-2px); }
+  .hero-btn.secondary { background: transparent; color: var(--sand); border: 1.5px solid var(--sand); }
+  .hero-btn.secondary:hover { border-color: white; color: white; }
+
+  .hero-right {
+    background: url('../docs/interieur 1.jpg') center/cover; position: relative;
+  }
+  .hero-right::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(to right, var(--teal) 0%, transparent 20%);
+  }
+
+  /* ========== FEATURES ========== */
+  .features { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid rgba(0,0,0,0.06); }
+  .feature { padding: 2.5rem; text-align: center; border-right: 1px solid rgba(0,0,0,0.06); }
+  .feature:last-child { border-right: none; }
+  .feature-icon { font-size: 1.8rem; margin-bottom: 0.8rem; }
+  .feature h3 { font-family: 'DM Serif Display', serif; font-size: 1.1rem; margin-bottom: 0.4rem; }
+  .feature p { color: var(--warm-gray); font-size: 0.85rem; line-height: 1.5; }
+
+  /* ========== SECTION TITLE ========== */
+  .section-title {
+    display: flex; align-items: baseline; gap: 1.5rem; margin-bottom: 2.5rem;
+  }
+  .section-title h2 { font-family: 'DM Serif Display', serif; font-size: 2.8rem; white-space: nowrap; }
+  .section-title .line { flex: 1; height: 1px; background: var(--sand); }
+  .section-title .tag {
+    font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--cognac); font-weight: 500; white-space: nowrap;
+  }
+
+  .content-section { padding: 5rem 3rem; max-width: 1200px; margin: 0 auto; }
+
+  /* ========== FORMULAS ========== */
+  .formula-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+  .formula-card {
+    background: white; border-radius: 16px; padding: 2rem; text-align: center;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.04);
+    transition: all 0.3s;
+  }
+  .formula-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.08); }
+  .formula-card.highlight { border-color: var(--cognac); background: linear-gradient(135deg, rgba(176,120,64,0.03), white); }
+  .formula-card .badge-special {
+    display: inline-block; padding: 0.2rem 0.7rem; background: var(--cognac);
+    color: white; border-radius: 100px; font-size: 0.6rem; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.6rem;
+  }
+  .formula-card h4 { font-family: 'DM Serif Display', serif; font-size: 1.15rem; margin-bottom: 0.3rem; }
+  .formula-card .price {
+    font-family: 'DM Serif Display', serif; font-size: 2.2rem;
+    color: var(--cognac); margin: 0.5rem 0;
+  }
+  .formula-card .price small { font-size: 1rem; }
+  .formula-card .detail { color: var(--warm-gray); font-size: 0.82rem; line-height: 1.6; }
+  .formula-card .wine-opt {
+    margin-top: 0.6rem; padding-top: 0.6rem; border-top: 1px solid rgba(0,0,0,0.06);
+    color: var(--cognac); font-size: 0.75rem; font-style: italic;
+  }
+
+  .allergie-box {
+    margin-top: 2rem; padding: 1.2rem 2rem; background: rgba(176,120,64,0.05);
+    border-radius: 12px; border-left: 3px solid var(--cognac);
+    color: var(--warm-gray); font-size: 0.8rem; line-height: 1.6;
+  }
+
+  /* ========== MENU GERECHTEN ========== */
+  .gerechten-intro { color: var(--warm-gray); font-style: italic; margin-bottom: 2rem; font-size: 0.95rem; }
+  .menu-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0.3rem 3rem; }
+  .menu-dish {
+    padding: 1rem 0; border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+  .menu-dish h4 { font-family: 'DM Serif Display', serif; font-size: 1.05rem; font-weight: 400; }
+
+  /* ========== WINE CAROUSEL ========== */
+  .wine-bg { background: var(--teal); padding: 5rem 0; overflow: hidden; }
+  .wine-bg .section-title h2 { color: var(--off-white); }
+  .wine-bg .section-title .line { background: var(--teal-light); }
+  .wine-bg .section-title .tag { color: var(--cognac-light); }
+
+  .wine-carousel {
+    display: flex; gap: 1.2rem; padding: 0 3rem; overflow-x: auto;
+    scroll-snap-type: x mandatory; scrollbar-width: none;
+  }
+  .wine-carousel::-webkit-scrollbar { display: none; }
+  .wine-card {
+    min-width: 300px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px; padding: 1.8rem; scroll-snap-align: start; flex-shrink: 0;
+    transition: all 0.3s;
+  }
+  .wine-card:hover { transform: translateY(-3px); background: rgba(255,255,255,0.1); }
+  .wine-card .type-badge {
+    display: inline-block; padding: 0.2rem 0.7rem; border-radius: 100px;
+    font-size: 0.65rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+    margin-bottom: 0.8rem;
+  }
+  .badge-wit { background: #D4C5A9; color: #5A4A30; }
+  .badge-rose { background: #C9829A; color: white; }
+  .badge-orange { background: #C8944E; color: white; }
+  .badge-rood { background: #722F37; color: white; }
+  .badge-vrij { background: var(--sage); color: white; }
+
+  .wine-card h4 { font-family: 'DM Serif Display', serif; color: var(--off-white); font-size: 1.2rem; margin-bottom: 0.4rem; }
+  .wine-card .grape { color: var(--cognac-light); font-size: 0.82rem; font-style: italic; }
+  .wine-card .origin { color: var(--warm-gray); font-size: 0.78rem; margin-bottom: 0.8rem; }
+  .wine-card .desc { color: var(--sand); font-size: 0.85rem; line-height: 1.5; margin-bottom: 1rem; }
+  .wine-card .prices { display: flex; gap: 1.2rem; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 0.8rem; }
+  .wine-card .price-item { color: var(--warm-gray); font-size: 0.75rem; }
+  .wine-card .price-item strong { color: var(--off-white); font-size: 0.95rem; display: block; margin-top: 0.1rem; }
+
+  /* ========== FOOD GALLERY ========== */
+  .gallery-strip {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 0;
+  }
+  .gallery-strip img { width: 100%; height: 250px; object-fit: cover; display: block; transition: filter 0.3s; }
+  .gallery-strip img:hover { filter: brightness(1.1); }
+
+  /* ========== BAR SECTION ========== */
+  .bar-section { background: var(--charcoal); }
+  .bar-split { display: grid; grid-template-columns: 1fr 1fr; min-height: 500px; }
+  .bar-image { background: url('../docs/foto zaal beneden.jpg') center/cover; position: relative; }
+  .bar-image::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(to left, var(--charcoal) 0%, transparent 30%);
+  }
+  .bar-content {
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 4rem; color: var(--sand);
+  }
+  .bar-content .overline {
+    font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase;
+    color: var(--cognac); margin-bottom: 0.5rem;
+  }
+  .bar-content h2 {
+    font-family: 'DM Serif Display', serif; font-size: 2.5rem;
+    color: var(--off-white); margin-bottom: 1rem;
+  }
+  .bar-content h2 em { color: var(--cognac-light); }
+  .bar-content p { color: var(--warm-gray); line-height: 1.8; margin-bottom: 1rem; font-size: 0.95rem; }
+  .bar-content .no-reserv {
+    display: inline-block; padding: 0.5rem 1.2rem; border: 1px solid var(--cognac);
+    color: var(--cognac); border-radius: 100px; font-size: 0.8rem; margin-top: 0.5rem;
+  }
+
+  /* ========== RESERVEREN ========== */
+  .reserveer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .reserveer-card {
+    background: white; border-radius: 16px; padding: 2.5rem;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.04); border: 1px solid rgba(0,0,0,0.04);
+  }
+  .reserveer-card h3 { font-family: 'DM Serif Display', serif; font-size: 1.4rem; margin-bottom: 1rem; }
+  .reserveer-card p { color: var(--warm-gray); font-size: 0.9rem; line-height: 1.7; margin-bottom: 1rem; }
+
+  .uren-table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  .uren-table td { padding: 0.4rem 0; font-size: 0.85rem; border-bottom: 1px solid rgba(0,0,0,0.04); }
+  .uren-table .dag { font-weight: 500; color: var(--charcoal); }
+  .uren-table .tijd { color: var(--warm-gray); text-align: right; }
+  .uren-table .gesloten { color: var(--warm-gray); opacity: 0.5; font-style: italic; }
+
+  .contact-row { display: flex; flex-direction: column; gap: 0.3rem; margin-top: 1rem; }
+  .contact-row a { color: var(--cognac); text-decoration: none; font-size: 0.85rem; }
+  .contact-row a:hover { text-decoration: underline; }
+
+  /* ========== CADEAUBON ========== */
+  .cadeaubon-banner {
+    background: linear-gradient(135deg, var(--cognac), var(--cognac-light));
+    border-radius: 16px; padding: 3rem; text-align: center; color: white;
+    margin-top: 2rem;
+  }
+  .cadeaubon-banner h3 { font-family: 'DM Serif Display', serif; font-size: 1.8rem; margin-bottom: 0.5rem; }
+  .cadeaubon-banner p { opacity: 0.9; font-size: 0.9rem; max-width: 500px; margin: 0 auto; }
+
+  /* ========== PARKING ========== */
+  .parking-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+  .park-card {
+    background: white; border-radius: 12px; padding: 1.5rem; text-align: center;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.03); border: 1px solid rgba(0,0,0,0.04);
+  }
+  .park-card .p-icon {
+    width: 48px; height: 48px; background: var(--teal); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-weight: 700; font-size: 1.1rem; margin: 0 auto 1rem;
+  }
+  .park-card h4 { font-family: 'DM Serif Display', serif; font-size: 1rem; margin-bottom: 0.2rem; }
+  .park-card .dist { color: var(--cognac); font-size: 0.8rem; margin-bottom: 0.6rem; }
+  .park-card .rates { color: var(--warm-gray); font-size: 0.78rem; line-height: 1.6; }
+
+  /* ========== FOOTER ========== */
+  footer { background: var(--charcoal); color: var(--sand); padding: 4rem 3rem; }
+  .footer-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr 1fr; gap: 3rem; max-width: 1200px; margin: 0 auto; }
+  .footer-col h4 { font-family: 'DM Serif Display', serif; color: var(--off-white); font-size: 1.2rem; margin-bottom: 1rem; }
+  .footer-col p, .footer-col a { color: var(--warm-gray); font-size: 0.85rem; line-height: 2; text-decoration: none; display: block; transition: color 0.3s; }
+  .footer-col a:hover { color: var(--cognac-light); }
+  .footer-badges {
+    display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;
+  }
+  .footer-badge {
+    padding: 0.3rem 0.8rem; border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 4px; font-size: 0.65rem; color: var(--warm-gray);
+    letter-spacing: 0.1em; text-transform: uppercase;
+  }
+  .footer-bottom {
+    max-width: 1200px; margin: 2rem auto 0; padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    font-size: 0.7rem; color: var(--warm-gray); opacity: 0.5; text-align: center;
+  }
+
+  /* ========== RESPONSIVE ========== */
+  @media (max-width: 900px) {
+    .hero { grid-template-columns: 1fr; height: auto; }
+    .hero-left { padding: 7rem 2rem 3rem; }
+    .hero-left h1 { font-size: 2.8rem; }
+    .hero-right { height: 50vh; }
+    .hero-right::after { background: linear-gradient(to bottom, var(--teal) 0%, transparent 20%); }
+    .features { grid-template-columns: 1fr; }
+    .feature { border-right: none; border-bottom: 1px solid rgba(0,0,0,0.06); }
+    .menu-list { grid-template-columns: 1fr; }
+    .formula-grid { grid-template-columns: 1fr; }
+    .bar-split { grid-template-columns: 1fr; }
+    .bar-image { height: 300px; }
+    .bar-image::after { background: linear-gradient(to bottom, transparent 50%, var(--charcoal) 100%); }
+    .reserveer-grid { grid-template-columns: 1fr; }
+    .parking-cards { grid-template-columns: 1fr; }
+    .gallery-strip { grid-template-columns: 1fr 1fr; }
+    .navbar nav { display: none; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .section-title h2 { font-size: 2rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+  <a href="#" class="brand">
+    <span class="brand-split">
+      <span>amu</span>
+    </span>
+  </a>
+  <nav>
+    <a href="#restaurant-m">Restaurant</a>
+    <a href="#bar-m">Bar</a>
+    <a href="#wine-m">Wijnen</a>
+    <a href="#reserve-m">Openingsuren</a>
+    <a href="#park-m">Parking</a>
+    <a href="#reserve-m" class="cta-btn">Reserveren</a>
+  </nav>
+</header>
+
+<!-- Hero Split -->
+<section class="hero">
+  <div class="hero-left">
+    <h1>Restaurant &<br><em>Bar Amu</em></h1>
+    <p>
+      Twee werelden onder één dak. Verfijnd verrassingsmenu bij Restaurant Amu,
+      of spontaan genieten van wijn en barfood bij Bar Amu.
+    </p>
+    <div class="hero-btns">
+      <a href="#restaurant-m" class="hero-btn primary">Restaurant Amu</a>
+      <a href="#bar-m" class="hero-btn secondary">Bar Amu</a>
+    </div>
+  </div>
+  <div class="hero-right"></div>
+</section>
+
+<!-- Features -->
+<div class="features">
+  <div class="feature">
+    <div class="feature-icon">🍷</div>
+    <h3>Bijzondere wijnen</h3>
+    <p>Pareltjes uit Slovenië, Turkije, Kreta en meer</p>
+  </div>
+  <div class="feature">
+    <div class="feature-icon">👩‍🍳</div>
+    <h3>Chef Marjanne</h3>
+    <p>Verrassingsmenu's met seizoensgebonden ingrediënten</p>
+  </div>
+  <div class="feature">
+    <div class="feature-icon">🛋️</div>
+    <h3>Bar zonder reservatie</h3>
+    <p>Spontaan langskomen voor wijn, sfeer en barfood</p>
+  </div>
+</div>
+
+<!-- Restaurant: Formulas -->
+<section class="content-section" id="restaurant-m">
+  <div class="section-title">
+    <h2>Restaurant Amu</h2>
+    <span class="line"></span>
+    <span class="tag">Verrassingsmenu's</span>
+  </div>
+
+  <p class="gerechten-intro">
+    Bij Restaurant Amu staat beleving centraal — een samenspel van verfijning, verrassing en puur genot.
+    Chef Marjanne stelt elk menu met zorg samen. Elke twee maanden wordt het menu volledig vernieuwd.
+  </p>
+
+  <div class="formula-grid">
+    <div class="formula-card">
+      <h4>Amu Lunch 3</h4>
+      <div class="price"><small>€</small> 37,50</div>
+      <div class="detail">3 verrassingsgerechten (excl. dessert)<br>Lunch 12u – 14u</div>
+      <div class="wine-opt">3 wijnen + € 21</div>
+    </div>
+    <div class="formula-card">
+      <h4>Amu Lunch 4</h4>
+      <div class="price"><small>€</small> 45</div>
+      <div class="detail">4 verrassingsgerechten (incl. dessert)<br>Lunch 12u – 14u</div>
+      <div class="wine-opt">4 wijnen + € 28</div>
+    </div>
+    <div class="formula-card">
+      <h4>Little Gourmand</h4>
+      <div class="price"><small>€</small> 65</div>
+      <div class="detail">5 verrassingsgerechten (incl. dessert)</div>
+      <div class="wine-opt">5 wijnen + € 35</div>
+    </div>
+    <div class="formula-card">
+      <h4>Amu Free Style</h4>
+      <div class="price"><small>€</small> 75</div>
+      <div class="detail">6 verrassingsgerechten (excl. dessert)</div>
+      <div class="wine-opt">6 wijnen + € 42</div>
+    </div>
+    <div class="formula-card highlight">
+      <span class="badge-special">Iedere maandag</span>
+      <h4>Greedy Monday</h4>
+      <div class="price"><small>€</small> 87,50</div>
+      <div class="detail">8 verrassingsgerechten (incl. dessert)</div>
+      <div class="wine-opt">8 wijnen + € 56</div>
+    </div>
+    <div class="formula-card highlight">
+      <span class="badge-special">Iedere donderdag</span>
+      <h4>Thirsty Thursday</h4>
+      <div class="price"><small>€</small> 110</div>
+      <div class="detail">6 verrassingsgerechten (excl. dessert) met aangepaste wijnen</div>
+      <div class="wine-opt">Wijnen inbegrepen</div>
+    </div>
+    <div class="formula-card highlight">
+      <span class="badge-special">Signature</span>
+      <h4>Amu Happyness</h4>
+      <div class="price"><small>€</small> 120</div>
+      <div class="detail">10 verrassingsgerechten (incl. dessert)<br>Te bestellen tot 20u</div>
+      <div class="wine-opt">10 wijnen + € 70</div>
+    </div>
+  </div>
+
+  <div class="allergie-box">
+    Ons culinair concept laat tijdens de service geen wijzigingen toe. Heeft u een levensbedreigende allergie of volgt u een vegetarisch dieet? Vermeld dit bij uw reservatie zodat wij de nodige aanpassingen kunnen garanderen.
+  </div>
+</section>
+
+<!-- Gerechten -->
+<section class="content-section">
+  <div class="section-title">
+    <h2>Seizoensgerechten</h2>
+    <span class="line"></span>
+    <span class="tag">Door chef Marjanne</span>
+  </div>
+  <p class="gerechten-intro">Al onze menu's worden samengesteld uit onderstaande wisselende selectie gerechten.</p>
+  <div class="menu-list">
+    <div class="menu-dish"><h4>Zwaardvis — zoet zure venkel — bloedsinaasappel</h4></div>
+    <div class="menu-dish"><h4>Coppa de boeuf — citroen ricotta — pijnboompit</h4></div>
+    <div class="menu-dish"><h4>Gerookte brebis — saffraan — koolrabi</h4></div>
+    <div class="menu-dish"><h4>Skrei — morieljes — spinazie</h4></div>
+    <div class="menu-dish"><h4>Dorade — romanesco — sorpressa</h4></div>
+    <div class="menu-dish"><h4>Kokkels — spek — zeespaghetti</h4></div>
+    <div class="menu-dish"><h4>Ramen noedels — kimchi — gehaktballetjes — miso bouillon</h4></div>
+    <div class="menu-dish"><h4>Chantenay worteltjes — tahin — zoete aardappel</h4></div>
+    <div class="menu-dish"><h4>Gegrilde runderfilet — gebakken slahartjes — knolselder remoulade</h4></div>
+  </div>
+</section>
+
+<!-- Food Gallery -->
+<div class="gallery-strip">
+  <img src="../docs/food.jpg" alt="Food 1">
+  <img src="../docs/food2.jpg" alt="Food 2">
+  <img src="../docs/food 3.jpg" alt="Food 3">
+  <img src="../docs/food 4.jpg" alt="Food 4">
+</div>
+
+<!-- Wine Carousel -->
+<section class="wine-bg" id="wine-m">
+  <div class="section-title" style="padding: 0 3rem;">
+    <h2>Wijnsuggesties</h2>
+    <span class="line"></span>
+    <span class="tag">Scroll →</span>
+  </div>
+  <div class="wine-carousel">
+    <div class="wine-card">
+      <span class="type-badge badge-wit">Wit</span>
+      <h4>Hahnmühle 2023</h4>
+      <div class="grape">weissburgunder</div>
+      <div class="origin">Duitsland, Nahe (Pfalz)</div>
+      <div class="desc">Frisse, minerale en levendige wijn met aroma's van onrijpe peer, meloen en abrikoos.</div>
+      <div class="prices"><div class="price-item">Fles<strong>€ 37,50</strong></div><div class="price-item">Glas<strong>€ 7,50</strong></div></div>
+    </div>
+    <div class="wine-card">
+      <span class="type-badge badge-wit">Wit</span>
+      <h4>Jordi Miro 2024</h4>
+      <div class="grape">grenache blanc</div>
+      <div class="origin">Spanje, Catalunya</div>
+      <div class="desc">Frivole wijn met geroosterde noten, licht rijp fruit en vanille.</div>
+      <div class="prices"><div class="price-item">Fles<strong>€ 37,50</strong></div><div class="price-item">Glas<strong>€ 7,50</strong></div></div>
+    </div>
+    <div class="wine-card">
+      <span class="type-badge badge-wit">Wit</span>
+      <h4>Maison Ventenac 'Préjugés' 2024</h4>
+      <div class="grape">chardonnay</div>
+      <div class="origin">Frankrijk, Languedoc-Roussillon</div>
+      <div class="desc">Elegante chardonnay met rijp geel fruit, gebrande toast en vanille.</div>
+      <div class="prices"><div class="price-item">Fles<strong>€ 40,00</strong></div><div class="price-item">Glas<strong>€ 8,00</strong></div></div>
+    </div>
+    <div class="wine-card">
+      <span class="type-badge badge-orange">Orange</span>
+      <h4>Lyrarakis 2023</h4>
+      <div class="grape">assyrtiko, vidiano</div>
+      <div class="origin">Griekenland, Kreta</div>
+      <div class="desc">Amberkleurige fijne wijn met steenfruit en sinaasappelschil.</div>
+      <div class="prices"><div class="price-item">Fles<strong>€ 36,00</strong></div><div class="price-item">Glas<strong>€ 7,20</strong></div></div>
+    </div>
+    <div class="wine-card">
+      <span class="type-badge badge-rose">Rosé</span>
+      <h4>Ellermann Windrosé 2023</h4>
+      <div class="grape">cabernet sauvignon, pinot noir</div>
+      <div class="origin">Duitsland, Pfalz</div>
+      <div class="desc">Fruitige neus met aroma's van aardbeien en frambozen.</div>
+      <div class="prices"><div class="price-item">Fles<strong>€ 37,50</strong></div><div class="price-item">Glas<strong>€ 7,50</strong></div></div>
+    </div>
+    <div class="wine-card">
+      <span class="type-badge badge-rood">Rood</span>
+      <h4>Antik 2023</h4>
+      <div class="grape">cabernet sauvignon, syrah</div>
+      <div class="origin">Turkije, Denizli</div>
+      <div class="desc">Rijpe pruimen, zwarte kersen, hints van mokka en leer.</div>
+      <div class="prices"><div class="price-item">Fles<strong>€ 40,00</strong></div><div class="price-item">Glas<strong>€ 8,00</strong></div></div>
+    </div>
+    <div class="wine-card">
+      <span class="type-badge badge-vrij">Alcoholvrij</span>
+      <h4>La Colombette, Born to be Free</h4>
+      <div class="grape">chardonnay</div>
+      <div class="origin">Frankrijk, Béziers</div>
+      <div class="desc">Citrus en appel met een vleugje perzik en fruitige afdronk.</div>
+      <div class="prices"><div class="price-item">Fles<strong>€ 35,00</strong></div><div class="price-item">Glas<strong>€ 7,00</strong></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Bar Section -->
+<section class="bar-section" id="bar-m">
+  <div class="bar-split">
+    <div class="bar-image"></div>
+    <div class="bar-content">
+      <div class="overline">Bar Amu</div>
+      <h2>Wijn, sfeer & <em>barfood</em></h2>
+      <p>Neem plaats aan één van onze twee gezellige bars of laat u onderdompelen in het comfort van onze zeteltjes.</p>
+      <p>Bar Amu biedt een elegante setting waar u kunt genieten van een zorgvuldig geselecteerde wijnkaart, verfijnde aperitieven en bijpassende barfood om te delen.</p>
+      <p>Ideaal voor een aperitief, een informele avond of een spontane tussenstop.</p>
+      <span class="no-reserv">Geen reservatie nodig</span>
+    </div>
+  </div>
+</section>
+
+<!-- Reserveren -->
+<section class="content-section" id="reserve-m">
+  <div class="section-title">
+    <h2>Reserveren</h2>
+    <span class="line"></span>
+    <span class="tag">Openingsuren & contact</span>
+  </div>
+
+  <div class="reserveer-grid">
+    <div class="reserveer-card">
+      <h3>Restaurant Amu</h3>
+      <p>Reserveren wordt sterk aanbevolen. Vermeld eventuele allergieën of dieetvoorkeuren.</p>
+      <table class="uren-table">
+        <tr><td class="dag">Maandag</td><td class="tijd">Lunch 12u · Diner 18u</td></tr>
+        <tr><td class="dag">Donderdag</td><td class="tijd">Diner 18u</td></tr>
+        <tr><td class="dag">Vrijdag</td><td class="tijd">Lunch 12u · Diner 18u</td></tr>
+        <tr><td class="dag">Zaterdag</td><td class="tijd">Diner 18u</td></tr>
+        <tr><td class="dag">Zondag</td><td class="tijd">Lunch 12u · Diner 17u30</td></tr>
+        <tr><td class="dag gesloten">Di & Wo</td><td class="tijd gesloten">Gesloten</td></tr>
+      </table>
+      <div class="contact-row">
+        <a href="tel:014412489">014 / 41 24 89</a>
+        <a href="tel:0486320521">0486 / 32 05 21 (ook WhatsApp)</a>
+        <a href="mailto:info@amu-turnhout.be">info@amu-turnhout.be</a>
+      </div>
+    </div>
+    <div class="reserveer-card">
+      <h3>Bar Amu</h3>
+      <p>Bij Bar Amu laten wij het toeval spreken. Zonder reservatie verwelkomen wij u graag, precies wanneer u ons weet te vinden.</p>
+      <table class="uren-table">
+        <tr><td class="dag">Maandag</td><td class="tijd">Lunch 12u · Diner 18u</td></tr>
+        <tr><td class="dag">Donderdag</td><td class="tijd">Diner 18u</td></tr>
+        <tr><td class="dag">Vrijdag</td><td class="tijd">Lunch 12u · Diner 18u</td></tr>
+        <tr><td class="dag">Zaterdag</td><td class="tijd">Diner 18u</td></tr>
+        <tr><td class="dag">Zondag</td><td class="tijd">Lunch 12u · Diner 17u30</td></tr>
+        <tr><td class="dag gesloten">Di & Wo</td><td class="tijd gesloten">Gesloten</td></tr>
+      </table>
+      <p style="margin-top: 1rem; font-style: italic; font-size: 0.85rem;">Gewoon langskomen!</p>
+    </div>
+  </div>
+
+  <div class="cadeaubon-banner">
+    <h3>Amu Cadeaubon</h3>
+    <p>Op zoek naar een verfijnd geschenk? De Amu cadeaubon is een culinair gebaar dat altijd in de smaak valt. Verkrijgbaar met een bedrag naar keuze.</p>
+  </div>
+</section>
+
+<!-- Parking -->
+<section class="content-section" id="park-m">
+  <div class="section-title">
+    <h2>Parking</h2>
+    <span class="line"></span>
+    <span class="tag">Op wandelafstand</span>
+  </div>
+  <div class="parking-cards">
+    <div class="park-card">
+      <div class="p-icon">P</div>
+      <h4>Parking PP41</h4>
+      <div class="dist">150 meter</div>
+      <div class="rates">€ 1,70 / uur<br>Max. € 7 / dag<br>Zondag max. € 3,50</div>
+    </div>
+    <div class="park-card">
+      <div class="p-icon">P</div>
+      <h4>Parking Patersstraat</h4>
+      <div class="dist">230 meter</div>
+      <div class="rates">€ 1,70 / uur<br>Vanaf 20u gratis</div>
+    </div>
+    <div class="park-card">
+      <div class="p-icon">P</div>
+      <h4>Parking Den Bond</h4>
+      <div class="dist">100 meter</div>
+      <div class="rates">€ 2,00 / uur<br>Vanaf 18u € 1,50<br>Weekend € 1,50</div>
+    </div>
+  </div>
+  <p style="text-align: center; margin-top: 1rem; font-size: 0.7rem; color: var(--warm-gray); opacity: 0.5;">Tarieven opgesteld op 01/04/2026</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>amu</h4>
+      <p>Patersstraat 79 – 81<br>2300 Turnhout</p>
+      <p>BTW: BE0785.889.842</p>
+      <div class="footer-badges">
+        <span class="footer-badge">Gault & Millau</span>
+        <span class="footer-badge">Michelin</span>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Restaurant</h4>
+      <a href="#restaurant-m">Menu & Formules</a>
+      <a href="#wine-m">Wijnsuggesties</a>
+      <a href="#reserve-m">Reserveren</a>
+    </div>
+    <div class="footer-col">
+      <h4>Bar</h4>
+      <a href="#bar-m">Barfood & Sfeer</a>
+      <a href="#wine-m">Drankenkaart</a>
+    </div>
+    <div class="footer-col">
+      <h4>Volg ons</h4>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2026 AMU Turnhout — Mockup 2: Modern Bistro</div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+});
+</script>
+</body>
+</html>
