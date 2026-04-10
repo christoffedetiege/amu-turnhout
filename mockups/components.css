@@ -211,6 +211,14 @@ a:hover { opacity: 0.85; }
   margin-bottom: 1.5rem;
   border: 1px solid var(--card-border);
 }
+.dual-card .overline {
+  font-size: var(--text-xs);
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--text-accent);
+  font-weight: 500;
+  margin-bottom: var(--space-sm);
+}
 .dual-card h3 {
   font-family: var(--font-heading);
   font-size: var(--text-2xl);
