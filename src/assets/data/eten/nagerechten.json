@@ -1,18 +1,18 @@
 [
   {
-    "titel" : "Pistache panna cotta – chocolade – Dubai style",
+    "titel" : "Rabarber – citroen  – meringue",
     "prijs": "15"
   },
   {
-    "titel" : "Sinaasappelparfait – meringue – venkelzaad",
+    "titel" : "Mokkaparfait – chocolade bonbon  – koffie crumble",
     "prijs": "15"
   },
   {
-    "titel" : "Ijs – ijsbereiding volgens dag aanbod",
+    "titel" : "Kokosijs – gegrilde ananas – chocolade saus",
     "prijs": "15"
   },
-  {
-    "titel" : "Timanoix kaas – opgelegde walnoten – doyenne peer",
-    "prijs": "17"
+{
+  "titel" : "Brillat Savarain – peperkoek – pompoen marmelade",
+  "prijs": "17"
   }
 ]

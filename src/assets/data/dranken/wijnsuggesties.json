@@ -7,38 +7,10 @@
           "titel": "",
           "items": [
             {
-              "titel": "Pulp Fiction Green 2022",
-              "omschrijving1": "Druiven: grüner veltliner, riesling ",
-              "omschrijving2": "oostenrijk",
-              "omschrijving3": "Funky en frisse ‘out of the box’ wijn. Complex met uiteenlopende aroma’s. Wijn voor de durvers! Hints van gebakken appel, kruiden, wilde bloemen, gember en citrus.",
-              "fles": {
-                "prijs": "41.25",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "8.25",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Borovitza Bella Rada 2024",
-              "omschrijving1": "Druiven: rkatsiteli, aligoté",
-              "omschrijving2": "Bulgarije",
-              "omschrijving3": "Medium body wijn met een goede balans tussen het rijpe steenfruit en meloen, gevolgd een subtiele romige toets en voldoende fraîcheur. 6 maanden houtopvoeding.",
-              "fles": {
-                "prijs": "40.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Domaine De Coursac, Les Garriguettes 2024",
-              "omschrijving1": "Druiven: grenache blanc, petit manseng, roussanne, viognier",
-              "omschrijving2": "Frankrijk, Languedoc",
-              "omschrijving3": "Harmonieuze wijn, rond en rijkelijk met aroma’s van rijp geel fruit, peer en perzik gevolgd door een zachte mineraliteit. 6 maanden houtopvoeding.",
+              "titel": "Hahnmühle 2023",
+              "omschrijving1": "Druiven: weissburgunder",
+              "omschrijving2": "Duitsland, Nahe (Pfalz)",
+              "omschrijving3": "Frisse, minerale en levendige wijn met fijne en strakke aroma’s van onrijpe peer, meloen en abrikoos. Deze wijn heeft genoten van een inox opvoeding ‘sur lies’.",
               "fles": {
                 "prijs": "37.50",
                 "volume": ""
@@ -49,10 +21,38 @@
               }
             },
             {
-              "titel": "Bodegas Fabregas Familia 2024",
+              "titel": "Jordi Miro 2024",
               "omschrijving1": "Druiven: grenache blanc",
-              "omschrijving2": "Spanje, Somontano",
-              "omschrijving3": "Kanjer van een wijn! Intens, kruidig en fris tegelijk met hints van licht fruit, witte bloemen en appel, gevolgd door een vleugje hout afkomstig van de houtopvoeding.",
+              "omschrijving2": "Spanje, Catalunya (NO)",
+              "omschrijving3": "Frivole wijn met een perfecte samensmelting van geroosterde noten, licht rijp fruit en vanille. 90% heeft genoten van een inoxopvoeding en 10% vergist ‘sur lies’ op Franse eiken vaten.",
+              "fles": {
+                "prijs": "37.50",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "7.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Lepa Vida 2024",
+              "omschrijving1": "Druiven: pinot gris",
+              "omschrijving2": "Slovenië, Vipava vallei",
+              "omschrijving3": "Puur plezier in je glas! Intense fruitige en kruidige aroma’s waar gedroogd fruit centraal staan.",
+              "fles": {
+                "prijs": "37.50",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "7.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Maison Ventenac ‘Préjugés’ 2024",
+              "omschrijving1": "Druiven: chardonnay",
+              "omschrijving2": "Frankrijk, Languedoc-Rousillon",
+              "omschrijving3": "Mooie ronde, doch elegante chardonnay met aroma’s van rijp geel fruit, rijpe appel, gebrande toast en hints van vanille. De wijn heeft genoten van een houtopvoeding maar op een zeer fijne en subtiele manier.",
               "fles": {
                 "prijs": "40.00",
                 "volume": ""
@@ -63,16 +63,16 @@
               }
             },
             {
-              "titel": "Antik 2023",
-              "omschrijving1": "Druiven: narice, emir",
-              "omschrijving2": "Turkije, centraal Anatolië ",
-              "omschrijving3": "Een verfijnde witte wijn met frisse aroma’s van groene appel, citrus en honingmeloen, een mooie minerale afdronk met zachte houttonen.",
+              "titel": "Frasca La Guaragna Sej 2024",
+              "omschrijving1": "Druiven: roero arneïs, riesling",
+              "omschrijving2": "Italië Piëmonte, Moferrato bianco DOC",
+              "omschrijving3": "Een blend van 85% roero arneis en 15% riesling wat zorgt voor een fris en aromatische wijn met verleidelijke aroma’s van citrusvruchten, groene appel, florale hints en een vleugje honing.",
               "fles": {
-                "prijs": "37.50",
+                "prijs": "47.50",
                 "volume": ""
               },
               "glas": {
-                "prijs": "7.50",
+                "prijs": "9.50",
                 "volume": ""
               }
             },
@@ -111,7 +111,7 @@
                 "volume": ""
               },
               "glas": {
-                "prijs": "7.2",
+                "prijs": "7.20",
                 "volume": ""
               }
             },
@@ -155,24 +155,10 @@
           "titel": "",
           "items": [
             {
-              "titel": "KAV 2021",
-              "omschrijving1": "Druiven: bogazkere, öküzgözü ",
-              "omschrijving2": "Turkije, Zuidoost-Anatolië",
-              "omschrijving3": "Karaktervolle wijn met duidelijke aroma’s van viooltjes, wilde kruiden en zwarte pruimen. Een authentieke Turkse wijn met diepgang en finesse. 12 maanden houtopvoeding.",
-              "fles": {
-                "prijs": "45.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "9.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Rossidi CMS 2024",
-              "omschrijving1": " cabernet sauvignon, merlot, syrah",
-              "omschrijving2": "Bulgarije",
-              "omschrijving3": "Medium body wijn die genoten heeft van een inox opvoeding. Aroma’s van zwarte bramen, bosbessen en cassis gevolgd door een warme mooie kruidigheid.",
+              "titel": "Antik 2023",
+              "omschrijving1": "cabernet sauvignon, syrah",
+              "omschrijving2": "Turkije, Denizli égëische regio",
+              "omschrijving3": "Vol, rond en evenwichtige wijn met duidelijke aroma’s van rijpe pruimen, zwarte kersen, hints van subtiele mokka en leer. Deze wijn heeft genoten van een houtopvoeding van 8 maanden.",
               "fles": {
                 "prijs": "40.00",
                 "volume": ""
@@ -183,10 +169,10 @@
               }
             },
             {
-              "titel": "Bodegas Tampesta 2021",
-              "omschrijving1": "Druiven: prieto picudo",
-              "omschrijving2": "Spanje Leon",
-              "omschrijving3": "Deze wijn doet denken aan een ‘old school’ Bordeaux wijn. 12 maanden houtopvoeding op gebruikte vaten. Complex en toch elegant met aroma’s van fris, rijp rood fruit met een zachte ondertoon van eik en tabak.",
+              "titel": "Gabernik 23 2020",
+              "omschrijving1": "zweigelt",
+              "omschrijving2": "Slovenië",
+              "omschrijving3": "Weelderig en geconcentreerd zonder zwaar te zijn. Charmante aroma’s van donkere kers, bramen, zwarte peper en hints van brioche. Knisperige afdronk met de nodige fraîcheur. 1 jaar houtopvoeding.",
               "fles": {
                 "prijs": "37.50",
                 "volume": ""
@@ -197,10 +183,24 @@
               }
             },
             {
-              "titel": "Camas Anne de Joyeuse 2024",
-              "omschrijving1": "Druiven: pinot noir",
-              "omschrijving2": " Frankrijk, Limoux",
-              "omschrijving3": "Elegantie ten top, een bom vol bramen, kersen, morellen en klein rood fruit met hints van hazelnoot en vanille, gevolgd door een Kirchachtige afdronk. 12 maanden houtopvoeding en heerlijk licht gekoeld.",
+              "titel": "Teatro Latino 2022",
+              "omschrijving1": "Druiven: primitivo",
+              "omschrijving2": "Italië, Puglia",
+              "omschrijving3": "Medium body wijn en iedereens vriend! Jammy aroma’s van pruim, bosbessen, cassis, braambessen en kersen met hints van kruidnagel en zoete specerijen. 9 maanden houtopvoeding.",
+              "fles": {
+                "prijs": "40.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Weingut Gesllmann Gols Cuvée Speciale 2023",
+              "omschrijving1": "Druiven: blaufrankisch, pinot noir, rosler",
+              "omschrijving2": "Oostenrijk, Burgerland",
+              "omschrijving3": "Andreas Gsellmann maakt een fijne, zomerse, blend: fris, heerlijk fruitig en elegant. Heel veel fruit in de mond, sappig, met een licht pepertje in de afdronk. De duidelijke aroma’s van bessen is vooral te danken aan de Rösler-druif. Een lichtvoetige rode wijn om gekoeld te schenken.",
               "fles": {
                 "prijs": "37.50",
                 "volume": ""
@@ -231,4 +231,3 @@
     }
   ]
 }
-
