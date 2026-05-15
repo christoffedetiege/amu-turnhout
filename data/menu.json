@@ -1,0 +1,103 @@
+{
+  "formules": [
+    {
+      "naam": "Amu Lunch",
+      "prijs": 45,
+      "detail": "4 verrassingsgerechten (incl. dessert)",
+      "detail2": "Lunch 12u – 14u",
+      "wijn": "4 begeleidende wijnen + €28"
+    },
+    {
+      "naam": "Amu Lunch",
+      "prijs": 37.5,
+      "detail": "3 verrassingsgerechten (excl. dessert)",
+      "detail2": "Lunch 12u – 14u",
+      "wijn": "3 begeleidende wijnen + €21"
+    },
+    {
+      "naam": "Amu Happyness",
+      "prijs": 120,
+      "detail": "10 verrassingsgerechten (incl. dessert)",
+      "detail2": "Te bestellen tot 20u",
+      "wijn": "10 glazen begeleidende wijnen €75",
+      "badge": "Onze Signature"
+    },
+    {
+      "naam": "Amu Free Style",
+      "prijs": 75,
+      "detail": "6 verrassingsgerechten (excl. dessert)",
+      "detail2": null,
+      "wijn": "6 begeleidende wijnen + €42"
+    },
+    {
+      "naam": "Little Gourmand",
+      "prijs": 65,
+      "detail": "5 verrassingsgerechten (incl. dessert)",
+      "detail2": null,
+      "wijn": "5 begeleidende wijnen + €35"
+    },
+    {
+      "naam": "Thirsty Thursday",
+      "prijs": 110,
+      "detail": "6 verrassingsgerechten (excl. dessert)",
+      "detail2": "met aangepaste wijnen",
+      "wijn": "Wijnen inbegrepen",
+      "badge": "Iedere Donderdag"
+    },
+    {
+      "naam": "Greedy Monday",
+      "prijs": 87.5,
+      "detail": "8 verrassingsgerechten (incl. dessert)",
+      "detail2": null,
+      "wijn": "8 begeleidende wijnen + €56",
+      "badge": "Iedere Maandag"
+    }
+  ],
+  "menuproducten": [
+    {
+      "product": "Gerookte paling – radijs – pompernikkel"
+    },
+    {
+      "product": "Gepekelde artisjok – walnootmosterd – Parmezaan"
+    },
+    {
+      "product": "Kalfslende – tonijn dressing – gepofte kappertjes"
+    },
+    {
+      "product": "Zwaardvis – gerookte aubergine – bleekselder"
+    },
+    {
+      "product": "Zalmforel – asperges – mierikswortel"
+    },
+    {
+      "product": "Groene asperges – basilicum ricotta – tomaatjes"
+    },
+    {
+      "product": "Orecchiette pasta – nduja – knolselder"
+    },
+    {
+      "product": "Lamsrollade – cannellini bonen – daslook"
+    },
+    {
+      "product": "Canette filet – paksoy – miso"
+    }
+  ],
+  "nagerechten": [
+    {
+      "titel": "Amandel basilicum panna cotta – aardbeien salsa",
+      "prijs": "15"
+    },
+    {
+      "titel": "Mousse van pure chocolade – framboos – macaron",
+      "prijs": "15"
+    },
+    {
+      "titel": "Walnootijs – muffin – vanille room",
+      "prijs": "15"
+    },
+    {
+      "titel": "Taleggio DOP kaas uit Noord-Italië, roodgewassen koemelkkaas – tomaten chutney – crostino",
+      "prijs": "17"
+    }
+  ]
+}

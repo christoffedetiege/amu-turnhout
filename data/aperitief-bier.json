@@ -1,0 +1,867 @@
+{
+  "rubrieken": [
+    {
+      "titel": "Aperitief",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "suggestie: Fourchette 7,5%",
+              "omschrijving1": "Fourchette is een bijzonder elegant bier, ontstaan uit een harmonieuze blend van witbier en tripel. Verfijnde aroma’s van citrus en koriander gaan naadloos samen met een volle, evenwichtige smaak. De aangename gistfruitigheid en zachte bitterheid zorgen voor een fris maar karaktervol aperitiefbier.",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Aperitief Amu. ",
+              "omschrijving1": "spumante, Martini rosato, sinaasappel",
+              "fles": {},
+              "glas": {
+                "prijs": "11.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Aperitief Amu Zero 0.0%. ",
+              "omschrijving1": "Versin vermouth, Indian tonic, rozemarijn",
+              "fles": {},
+              "glas": {
+                "prijs": "11.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Champagne Pommery Apanage",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "19.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Spumante Radacini Moldavië",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "10.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Pornstar Martini",
+              "omschrijving1": "vanille vodka, passievrucht, spumante, eiwit, limoensap",
+              "fles": {},
+              "glas": {
+                "prijs": "15.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Witte porto",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Rode porto",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Sherry Grande Fiesta Fino dry",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Pineau de Charentes de Louvard blanc",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Martini bianco",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Martini rosso",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Vermouth Rosso di torino",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Vermouth bianco Del Professore",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "9.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Vermouth Roteglia 1848 rose ",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "10.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Campari",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Campari soda",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "13.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Campari orange",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "12.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Kir",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Kir Royal",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "19.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Ricard",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Belvedere vodka",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "12",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Bacardi cola",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Bacardi reserva 8 jaar cola",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "14.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Picon vin blanc",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ],
+      "volume": "8cl / glas",
+      "hideGlas": true
+    },
+    {
+      "titel": "Alcoholvrije aperitief",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Bonheur 0.0 %",
+              "omschrijving1": "Een heerlijk alcoholvrij aperitief op basis van gamay druiven uit de Beaujolais streek, gecombineerd met pittige kruiden afkomstig van dezelfde wijngaard. Perfect uitgebalanceerde smaakbom die al je zintuigen stimuleert!",
+              "fles": {},
+              "glas": {
+                "prijs": "9",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Aperitief Amu Zero 0.0%. ",
+              "omschrijving1": "Versin vermouth, Indian tonic, rozemarijn",
+              "fles": {},
+              "glas": {
+                "prijs": "11.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Copperhead - elderflower",
+              "omschrijving1": "Heerlijke non alcoholic gin met een boost aan verschillende kruiden, en heerlijke kardemom tonen in de afdronk.\nPerfecte mix met een elderflower tonic.",
+              "fles": {},
+              "glas": {
+                "prijs": "13.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Opius Albedo",
+              "omschrijving1": "Lekker kruidig met duidelijke smaken van zachte anijs en venkelzaad. Kan perfect gedronken worden on-the-rocks of in de mix met een ginger ale.",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Opius Amaro",
+              "omschrijving1": "Frisse aroma's van citrus en zachte honing met een stevige en aangename bittere finish.\nPerfecte mix met een indian tonic.",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Rum Cola",
+              "omschrijving1": "Opius Nigredo met cola.",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Dark 'n Stormy",
+              "omschrijving1": "Opius Nigredo met gingerbeer.",
+              "fles": {},
+              "glas": {
+                "prijs": "13.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Pacific",
+              "omschrijving1": "Verfrissende anijs aperitief. 0% suiker, 0% alcohol, 0% caloriën",
+              "fles": {},
+              "glas": {
+                "prijs": "6.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "San Bitter 17cl",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Crodino (zoet) 17cl",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Nogroni",
+              "omschrijving1": "Een combinatie van Campari 0.0 en Opius Amaro.",
+              "fles": {},
+              "glas": {
+                "prijs": "12.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Campari 0,0% orange",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "11.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Campari 0,0% soda",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "12.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Nordes 0,0% gin tonic",
+              "omschrijving1": "Heerlijke verfrissende 0,0 gin met frisse citrus en eucalyptus aroma’s gemixt met een Indian Fever Tree tonic. Onze favoriete alcoholvrije gin tonic!",
+              "fles": {},
+              "glas": {
+                "prijs": "15.00",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ],
+      "hideGlas": true
+    },
+    {
+      "titel": "Eens iets anders",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Negroni",
+              "omschrijving1": "Martini rosso, campari, gin",
+              "fles": {},
+              "glas": {
+                "prijs": "15.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Americano",
+              "omschrijving1": "Martini rosso, campari, soda",
+              "fles": {},
+              "glas": {
+                "prijs": "14.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Cynar",
+              "omschrijving1": "Bitter likeur op basis van 13 kruiden en artisjok",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Rosso Antico",
+              "omschrijving1": "Italiaans aperitief op basis van rode wijn",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ],
+      "hideGlas": true
+    },
+    {
+      "titel": "Gins",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "The Drunken Horse",
+              "omschrijving1": "België",
+              "omschrijving2": "De botanicals van The Drunken Horse komen uit alle delen van de wereld. Eén botanical springt er echt uit: Timut, een uitzonderlijk zeldzame peper uit de Nepalese bergen, met toetsen van citrus en pompelmoes.",
+              "omschrijving3": "Fever Tree Indian",
+              "fles": {},
+              "glas": {
+                "prijs": "16.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Uppercut",
+              "omschrijving1": "Nederland",
+              "omschrijving2": "Zeer kruidige en verfijnde gin met alcoholgehalte van 49.6%. Uppercut is gemaakt van medicinale botanicals zoals damiaanblad, netelblad, zoethoutwortel, verveine, jeneverbes en tal van andere geneeskrachtige kruiden.",
+              "omschrijving3": "Fever Tree Indian",
+              "fles": {},
+              "glas": {
+                "prijs": "15.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Crafters Wild Forest",
+              "omschrijving1": "Estland",
+              "omschrijving2": "Gin uit Estland, vol plantenextracten en rokerige jeneverbessmaak. Het resultaat is een frisse, botanische mix van jeneverbessen, sparrendoornen en dennenscheuten.",
+              "omschrijving3": "Fever Tree Indian",
+              "fles": {},
+              "glas": {
+                "prijs": "14.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Gunpowder Brazilian Pine apple",
+              "omschrijving1": "Ierland",
+              "omschrijving2": "Deze unieke gin combineert frisse en zachte citrus met de zwoele zoetheid van Braziliaanse ananas en subtiele gunpowder thee. Verrassende en verfrissende Gin! ",
+              "omschrijving3": "Fever Tree Indian",
+              "fles": {},
+              "glas": {
+                "prijs": "16.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Monkey 47",
+              "omschrijving1": "Duitsland",
+              "omschrijving2": "De 47 in de naam vertelt u al heel wat over deze gin, namelijk dat deze 47% alcohol bevat en dat er maar liefst 47 met de hand geplukte ingrediënten in werden verwerkt die behandeld worden met bronwater van het Zwarte Woud.",
+              "omschrijving3": "Fever Tree Mediterraan",
+              "fles": {},
+              "glas": {
+                "prijs": "18.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Bobby's",
+              "omschrijving1": "Nederland",
+              "omschrijving2": "Gin uit Nederland, complexe smaken van exotische kruiden, rozenbottel, kruidnagel en citroengras. Mooie kruidenbalans.",
+              "omschrijving3": "Fever Tree Clementine",
+              "fles": {},
+              "glas": {
+                "prijs": "14.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Nordes",
+              "omschrijving1": "Spanje",
+              "omschrijving2": "Kruidige gin met toetsen van eucalyptus, laurier, munt en wit fruit.",
+              "omschrijving3": "Fever Tree Mediterraan",
+              "fles": {},
+              "glas": {
+                "prijs": "15.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Gunpowder Irish Gin",
+              "omschrijving1": "Ierland",
+              "omschrijving2": "Frisse gin met een fijne citrussmaak en kruidige noten van gunpowder extract, pompelmoes en de Noord-Amerikaanse bloem meadowsweet.",
+              "omschrijving3": "Fever Tree Indian",
+              "fles": {},
+              "glas": {
+                "prijs": "15.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Marula",
+              "omschrijving1": "België",
+              "omschrijving2": "Marula gin is geïnspireerd op de Afrikaanse marulavrucht, ook bekend als de verboden vrucht van de olifantenboom. Hints van lavendel, bloesem, roze blaadjes, honing en houtaroma’s.",
+              "omschrijving3": "Fever Tree Clementine",
+              "fles": {},
+              "glas": {
+                "prijs": "15.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Marula Pomegranate",
+              "omschrijving1": "België",
+              "omschrijving2": "De basis is de reguliere Marula gin met toevoeging van granaatappel, frambozen, bosaardbei en bramen die een zoete draai geeft aan deze gin.",
+              "omschrijving3": "Fever Tree Indian",
+              "fles": {},
+              "glas": {
+                "prijs": "15.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Crafter's Aromatic Flower Gin",
+              "omschrijving1": "Estland",
+              "omschrijving2": "Gin uit Estland gemaakt door 12 zorgvuldig uitgezochte botanicals. Zeer frisse en bloemige gin met een klein bittertje van de sinaasappelschil. Deze gin verandert van kleur nadat de tonic is toegevoegd.",
+              "omschrijving3": "Fever Tree Mediterraan",
+              "fles": {},
+              "glas": {
+                "prijs": "14.00",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ],
+      "volume": "5cl / glas",
+      "hideGlas": true
+    },
+    {
+      "titel": "Stoere bubbels",
+      "items": [
+        {
+          "titel": "Blond",
+          "items": [
+            {
+              "titel": "Fourchette Grand Cru sauvignon blanc 7,5% 75cl.",
+              "omschrijving1": "Deze Fourchette Grand Cru sauvignon blanc bouwt voort op het klassieke Fourchette bier, maar heeft een unieke twist gekregen. Voor deze speciale editie heeft het bier meer dan 15 maanden gerijpt op sauvignon blanc vaten.\nBij het proeven van dit bier ontdek je subtiele lichtzure tonen en een vleugje agrumes. De rijping op sauvignon blanc vaten heeft het bier een verfrissende dimensie gegeven. Het is zacht en tegelijk krachtig, complex, maar ook uitgebalanceerd.",
+              "fles": {},
+              "glas": {
+                "prijs": "52.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Pils Cristal Alken 5%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "3.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Duvel 8.5%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "St. Bernardus wit 5.5%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.20",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Cornet 8.5%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.20",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Gardiaan Blond 5.8%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Schuppenboer Tripel 8%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Noblesse De Dochter van de Korenaar 5,5%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "6.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Tripel 888 8,8%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "7.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Westmalle Tripel 9.5%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.20",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Belle Fleur IPA De Dochter van de Korenaar 6%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "6.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Delta IPA 6%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "N.A. Cristal",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "3.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "N.A. GOD Good old Days",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "N.A. Super 8 Flandrien ",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.00",
+                "volume": ""
+              }
+            }
+          ]
+        },
+        {
+          "titel": "Geuze",
+          "items": [
+            {
+              "titel": "Oud Beersel oude geuze 6,0 % ",
+              "omschrijving1": "",
+              "fles": {
+                "prijs": "10.50",
+                "volume": "37,5cl"
+              },
+              "glas": {}
+            }
+          ]
+        },
+        {
+          "titel": "Kriek",
+          "items": [
+            {
+              "titel": "Oud Beersel Kriek 6,0 % ",
+              "omschrijving1": "",
+              "fles": {
+                "prijs": "11.50",
+                "volume": "37,5cl"
+              },
+              "glas": {}
+            }
+          ]
+        },
+        {
+          "titel": "Donker",
+          "items": [
+            {
+              "titel": "St. Bernardus Abt 12 10,5 %",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.20",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Kempisch vuur 3 dubbel 7,5%",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.20",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ],
+      "hideGlas": true
+    },
+    {
+      "titel": "Water",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Earth 0,75 cl bruisend/niet bruisend",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ],
+      "hideGlas": true
+    },
+    {
+      "titel": "Frisdrank",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Ritchie Cola 27,50 cl.",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.25",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Ritchie Cola zero 27,50 cl.",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.25",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Lipton Ice-tea",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "3.80",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Looza sinaasappel",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "3.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Fever-Tree Ginger ale",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Vers sinaasappelsap",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "6.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Ritchie Limonade orange 27,50 cl.",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.25",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Ritchie Limonade lemon & raspberry 27,50 cl.",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.25",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Fever-Tree Indian tonic",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "4.50",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ],
+      "hideGlas": true
+    }
+  ]
+}

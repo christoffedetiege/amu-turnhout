@@ -1,0 +1,55 @@
+{
+  "naam": "Amu",
+  "adres": "Patersstraat 79-81, 2300 Turnhout",
+  "tel": "014/41.24.89",
+  "gsm": "0486/32.05.21",
+  "email": "info@amu-turnhout.be",
+  "btw": "BE0785.889.842",
+  "uren": [
+    {
+      "dag": "Maandag",
+      "tijd": "Lunch: 12u — Diner: 18u"
+    },
+    {
+      "dag": "Dinsdag",
+      "tijd": "gesloten"
+    },
+    {
+      "dag": "Woensdag",
+      "tijd": "gesloten"
+    },
+    {
+      "dag": "Donderdag",
+      "tijd": "Diner: 18u"
+    },
+    {
+      "dag": "Vrijdag",
+      "tijd": "Lunch: 12u — Diner: 18u"
+    },
+    {
+      "dag": "Zaterdag",
+      "tijd": "Diner: 18u"
+    },
+    {
+      "dag": "Zondag",
+      "tijd": "Lunch: 12u — Diner: 17u30"
+    }
+  ],
+  "parking": [
+    {
+      "naam": "Parking PP41",
+      "afstand": "150 meter",
+      "tarief": "1,70 €/uur, max 7 €/dag, zondag max 3,50 €/dag"
+    },
+    {
+      "naam": "Parking Patersstraat",
+      "afstand": "230 meter",
+      "tarief": "1,70 €/uur, vanaf 20:00u gratis"
+    },
+    {
+      "naam": "Parking Den Bond",
+      "afstand": "100 meter",
+      "tarief": "2,00 €/uur, vanaf 18:00u 1,50 €/uur. Weekend en feestdagen 1,50 €/uur"
+    }
+  ]
+}

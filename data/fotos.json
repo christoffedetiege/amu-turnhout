@@ -1,0 +1,20 @@
+{
+  "fotos": [
+    { "src": "img/fotos/20251017_183611.jpg", "alt": "Chef Marjanne aan het werk", "featured": true },
+    { "src": "img/fotos/20250903_083816.jpg", "alt": "Sfeerbeeld Amu Turnhout" },
+    { "src": "img/fotos/20251024_141222.jpg", "alt": "Gerechten bij Amu", "featured": true },
+    { "src": "img/fotos/20260425_102103.jpg", "alt": "Culinaire creatie" },
+    { "src": "img/fotos/20260227_151210.jpg", "alt": "Seizoensgerecht" },
+    { "src": "img/fotos/20260414_213300.jpg", "alt": "Interieur Amu Turnhout", "featured": true },
+    { "src": "img/fotos/20260414_213432.jpg", "alt": "Gezellige sfeer aan tafel" },
+    { "src": "img/fotos/20260425_100629.jpg", "alt": "Verfijnd gerecht" },
+    { "src": "img/fotos/20260414_214309.jpg", "alt": "Wijnbeleving bij Amu" },
+    { "src": "img/fotos/20260125_153008.jpg", "alt": "Wintergerecht" },
+    { "src": "img/fotos/20260425_095717.jpg", "alt": "Verse ingredienten", "featured": true },
+    { "src": "img/fotos/20260414_214821.jpg", "alt": "Tafelsetting Amu" },
+    { "src": "img/fotos/20260414_214938.jpg", "alt": "Dessert presentatie" },
+    { "src": "img/fotos/20260414_214953.jpg", "alt": "Bar Amu Turnhout" },
+    { "src": "img/fotos/20260425_105546.jpg", "alt": "Gastronomisch detail" },
+    { "src": "img/fotos/20251017_164420.jpg", "alt": "Keuken in actie" }
+  ]
+}

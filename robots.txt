@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://amu-turnhout.be/sitemap.xml

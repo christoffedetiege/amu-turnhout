@@ -1,0 +1,95 @@
+{
+  "rubrieken": [
+    {
+      "titel": "Bar Food",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Gerookte paling – radijs – pompernikkel",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "18.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Gepekelde artisjok – walnootmosterd – Parmezaan",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "14.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Kalfslende – tonijn dressing – gepofte kappertjes",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "18.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Grissini – hummus – granaatappel",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "8.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Coppa de boeuf – gedroogde ricotta – truffel",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "18.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Alpenkaas \"Tommette de Yenne\" – peren chutney – crostino",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "12.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Kalamata olijven",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Geroosterde hazelnootjes – zeezout",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Krokante aardappelchips",
+              "omschrijving1": "",
+              "fles": {},
+              "glas": {
+                "prijs": "5.50",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
