@@ -322,6 +322,11 @@ function renderDrankenPanel(cat) {
     if (rubriek.volume) {
       html += '<div style="color:var(--text-secondary);font-size:var(--text-xs);margin:-0.5rem 0 0.5rem;font-style:italic;">' + rubriek.volume + '</div>';
     }
+    if (rubriek.intro && rubriek.intro.length) {
+      html += '<div class="drink-section-intro">' + rubriek.intro.map(function(p) {
+        return '<p>' + p + '</p>';
+      }).join('') + '</div>';
+    }
     rubriek.items.forEach(function(sub) {
       if (sub.titel) html += '<div class="drink-subsection">' + sub.titel + '</div>';
       if (sub.items) html += sub.items.map(renderItem).join('');

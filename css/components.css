@@ -499,6 +499,18 @@ a:hover { opacity: 0.85; }
   font-style: italic;
   margin: var(--space-md) 0 var(--space-sm);
 }
+.drink-section-intro {
+  color: var(--text-secondary);
+  font-size: var(--text-base);
+  line-height: 1.7;
+  margin: 0 0 var(--space-lg);
+}
+.drink-section-intro p {
+  margin-bottom: var(--space-sm);
+}
+.drink-section-intro p:last-child {
+  margin-bottom: 0;
+}
 .drink-item {
   display: flex;
   justify-content: space-between;
