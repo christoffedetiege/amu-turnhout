@@ -20,7 +20,7 @@
               "omschrijving1": "spumante, Martini rosato, sinaasappel",
               "fles": {},
               "glas": {
-                "prijs": "11.50",
+                "prijs": "12.50",
                 "volume": ""
               }
             },
@@ -29,7 +29,7 @@
               "omschrijving1": "Versin vermouth, Indian tonic, rozemarijn",
               "fles": {},
               "glas": {
-                "prijs": "11.50",
+                "prijs": "12.50",
                 "volume": ""
               }
             },
@@ -38,7 +38,7 @@
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "19.00",
+                "prijs": "20.00",
                 "volume": ""
               }
             },
@@ -164,7 +164,7 @@
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "12.00",
+                "prijs": "13.00",
                 "volume": ""
               }
             },
@@ -182,7 +182,7 @@
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "19.00",
+                "prijs": "20.00",
                 "volume": ""
               }
             },
@@ -209,7 +209,7 @@
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "12.50",
+                "prijs": "13.00",
                 "volume": ""
               }
             },
@@ -248,7 +248,7 @@
               "omschrijving1": "Een heerlijk alcoholvrij aperitief op basis van gamay druiven uit de Beaujolais streek, gecombineerd met pittige kruiden afkomstig van dezelfde wijngaard. Perfect uitgebalanceerde smaakbom die al je zintuigen stimuleert!",
               "fles": {},
               "glas": {
-                "prijs": "9",
+                "prijs": "10",
                 "volume": ""
               }
             },
@@ -257,7 +257,7 @@
               "omschrijving1": "Versin vermouth, Indian tonic, rozemarijn",
               "fles": {},
               "glas": {
-                "prijs": "11.50",
+                "prijs": "12.50",
                 "volume": ""
               }
             },
@@ -266,7 +266,7 @@
               "omschrijving1": "Heerlijke non alcoholic gin met een boost aan verschillende kruiden, en heerlijke kardemom tonen in de afdronk.\nPerfecte mix met een elderflower tonic.",
               "fles": {},
               "glas": {
-                "prijs": "13.50",
+                "prijs": "14.25",
                 "volume": ""
               }
             },
@@ -275,7 +275,7 @@
               "omschrijving1": "Lekker kruidig met duidelijke smaken van zachte anijs en venkelzaad. Kan perfect gedronken worden on-the-rocks of in de mix met een ginger ale.",
               "fles": {},
               "glas": {
-                "prijs": "12.50",
+                "prijs": "13.50",
                 "volume": ""
               }
             },
@@ -284,7 +284,7 @@
               "omschrijving1": "Frisse aroma's van citrus en zachte honing met een stevige en aangename bittere finish.\nPerfecte mix met een indian tonic.",
               "fles": {},
               "glas": {
-                "prijs": "12.50",
+                "prijs": "13.50",
                 "volume": ""
               }
             },
@@ -293,7 +293,7 @@
               "omschrijving1": "Opius Nigredo met cola.",
               "fles": {},
               "glas": {
-                "prijs": "12.50",
+                "prijs": "13.50",
                 "volume": ""
               }
             },
@@ -302,7 +302,7 @@
               "omschrijving1": "Opius Nigredo met gingerbeer.",
               "fles": {},
               "glas": {
-                "prijs": "13.50",
+                "prijs": "14.50",
                 "volume": ""
               }
             },
@@ -338,7 +338,7 @@
               "omschrijving1": "Een combinatie van Campari 0.0 en Opius Amaro.",
               "fles": {},
               "glas": {
-                "prijs": "12.50",
+                "prijs": "13.50",
                 "volume": ""
               }
             },
@@ -347,7 +347,7 @@
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "11.00",
+                "prijs": "12.00",
                 "volume": ""
               }
             },
@@ -356,7 +356,7 @@
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "12.00",
+                "prijs": "13.00",
                 "volume": ""
               }
             },
@@ -387,6 +387,16 @@
               "glas": {
                 "prijs": "15.00",
                 "volume": ""
+              }
+            },
+            {
+              "titel": "Amu-groni",
+              "omschrijving1": "Cynar, campari, gin",
+              "fles": {},
+              "glas": {
+                "prijs": "15.00",
+                "volume": ""
+
               }
             },
             {
@@ -434,7 +444,7 @@
               "omschrijving3": "Fever Tree Indian",
               "fles": {},
               "glas": {
-                "prijs": "16.50",
+                "prijs": "17.50",
                 "volume": ""
               }
             },
@@ -445,7 +455,7 @@
               "omschrijving3": "Fever Tree Indian",
               "fles": {},
               "glas": {
-                "prijs": "15.50",
+                "prijs": "16.50",
                 "volume": ""
               }
             },
@@ -456,7 +466,7 @@
               "omschrijving3": "Fever Tree Indian",
               "fles": {},
               "glas": {
-                "prijs": "14.50",
+                "prijs": "15.50",
                 "volume": ""
               }
             },
@@ -478,7 +488,7 @@
               "omschrijving3": "Fever Tree Mediterraan",
               "fles": {},
               "glas": {
-                "prijs": "18.50",
+                "prijs": "17.50",
                 "volume": ""
               }
             },
@@ -489,7 +499,7 @@
               "omschrijving3": "Fever Tree Clementine",
               "fles": {},
               "glas": {
-                "prijs": "14.00",
+                "prijs": "16.50",
                 "volume": ""
               }
             },
@@ -500,7 +510,7 @@
               "omschrijving3": "Fever Tree Mediterraan",
               "fles": {},
               "glas": {
-                "prijs": "15.00",
+                "prijs": "16.00",
                 "volume": ""
               }
             },
@@ -511,7 +521,7 @@
               "omschrijving3": "Fever Tree Indian",
               "fles": {},
               "glas": {
-                "prijs": "15.50",
+                "prijs": "16.50",
                 "volume": ""
               }
             },
@@ -522,7 +532,7 @@
               "omschrijving3": "Fever Tree Clementine",
               "fles": {},
               "glas": {
-                "prijs": "15.00",
+                "prijs": "16.50",
                 "volume": ""
               }
             },
@@ -533,7 +543,7 @@
               "omschrijving3": "Fever Tree Indian",
               "fles": {},
               "glas": {
-                "prijs": "15.00",
+                "prijs": "16.50",
                 "volume": ""
               }
             },
@@ -544,7 +554,7 @@
               "omschrijving3": "Fever Tree Mediterraan",
               "fles": {},
               "glas": {
-                "prijs": "14.00",
+                "prijs": "15.50",
                 "volume": ""
               }
             }
@@ -619,7 +629,7 @@
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "5.00",
+                "prijs": "5.50",
                 "volume": ""
               }
             },
@@ -628,16 +638,16 @@
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "6.00",
+                "prijs": "6.50",
                 "volume": ""
               }
             },
             {
-              "titel": "Tripel 888 8,8%",
+              "titel": "Tripel 888 8%",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "7.00",
+                "prijs": "6.00",
                 "volume": ""
               }
             },
@@ -655,7 +665,7 @@
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "6.50",
+                "prijs": "6.80",
                 "volume": ""
               }
             },
@@ -664,16 +674,16 @@
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "5.00",
+                "prijs": "5.50",
                 "volume": ""
               }
             },
             {
-              "titel": "N.A. Cristal",
+              "titel": "N.A. Vedett",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "3.50",
+                "prijs": "5.50",
                 "volume": ""
               }
             },
@@ -704,7 +714,7 @@
               "titel": "Oud Beersel oude geuze 6,0 % ",
               "omschrijving1": "",
               "fles": {
-                "prijs": "10.50",
+                "prijs": "12.00",
                 "volume": "37,5cl"
               },
               "glas": {}
@@ -718,7 +728,7 @@
               "titel": "Oud Beersel Kriek 6,0 % ",
               "omschrijving1": "",
               "fles": {
-                "prijs": "11.50",
+                "prijs": "14.70",
                 "volume": "37,5cl"
               },
               "glas": {}
@@ -758,12 +768,12 @@
           "titel": "",
           "items": [
             {
-              "titel": "Earth 0,75 cl bruisend/niet bruisend",
+              "titel": "Earth bruisend/niet bruisend",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "8.00",
-                "volume": ""
+                "prijs": "9.00",
+                "volume": "75 cl."
               }
             }
           ]
@@ -778,21 +788,21 @@
           "titel": "",
           "items": [
             {
-              "titel": "Ritchie Cola 27,50 cl.",
+              "titel": "Ritchie Cola",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "4.25",
-                "volume": ""
+                "prijs": "4.50",
+                "volume": "27.50 cl."
               }
             },
             {
-              "titel": "Ritchie Cola zero 27,50 cl.",
+              "titel": "Ritchie Cola zero",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "4.25",
-                "volume": ""
+                "prijs": "4.50",
+                "volume": "27.50 cl."
               }
             },
             {
@@ -801,15 +811,6 @@
               "fles": {},
               "glas": {
                 "prijs": "3.80",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Looza sinaasappel",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "3.50",
                 "volume": ""
               }
             },
@@ -832,21 +833,21 @@
               }
             },
             {
-              "titel": "Ritchie Limonade orange 27,50 cl.",
+              "titel": "Ritchie Limonade orange",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "4.25",
-                "volume": ""
+                "prijs": "4.50",
+                "volume": "27.50 cl."
               }
             },
             {
-              "titel": "Ritchie Limonade lemon & raspberry 27,50 cl.",
+              "titel": "Ritchie Limonade lemon & raspberry",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "4.25",
-                "volume": ""
+                "prijs": "4.50",
+                "volume": "27.50 cl."
               }
             },
             {

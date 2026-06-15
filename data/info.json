@@ -51,5 +51,10 @@
       "afstand": "100 meter",
       "tarief": "2,00 €/uur, vanaf 18:00u 1,50 €/uur. Weekend en feestdagen 1,50 €/uur"
     }
-  ]
+  ],
+  "vakantie": {
+    "lijn1": "Amu sluit de deuren voor een korte zomerpauze van zondag 26 juli tot en met woensdag 5 augustus.",
+    "lijn2": "Vanaf donderdag 6 augustus verwelkomen wij u graag opnieuw voor een verfijnde culinaire beleving.",
+    "lijn3": "Daarnaast zijn wij uitzonderlijk gesloten op zaterdag 15 augustus."
+  }
 }

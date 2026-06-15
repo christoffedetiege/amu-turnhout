@@ -24,7 +24,8 @@ function initAmu() {
     loadJSON('data/digestieven.json'),
     loadJSON('data/dessertwijnen.json'),
     loadJSON('data/warme-dranken.json'),
-    loadJSON('data/barfood.json')
+    loadJSON('data/barfood.json'),
+    loadJSON('data/zero.json')
   ]).then(function(results) {
     var info = results[0];
     var menu = results[1];
@@ -37,6 +38,7 @@ function initAmu() {
     var dessertwijnen = results[8];
     var warmeDranken = results[9];
     var barfood = results[10];
+    var zero = results[11];
 
     AMU.info = info;
     AMU.parking = info.parking;
@@ -51,6 +53,7 @@ function initAmu() {
     AMU.dessertwijnen = dessertwijnen;
     AMU.warmeDranken = warmeDranken;
     AMU.barfood = barfood;
+    AMU.zero = zero;
     AMU.fotos = fotos.fotos.map(function(f) {
       if (typeof f === 'string') return { src: f, alt: 'Amu Turnhout' };
       return f;
@@ -63,6 +66,7 @@ function initAmu() {
       { id: "aperitief",      label: "Aperitief, Bier & Frisdrank", data: function(){ return AMU.aperoBierFris; },    type: "drink" },
       { id: "wijnsuggesties", label: "Wijnsuggesties",   data: function(){ return AMU.wijnsuggesties; },  type: "wine" },
       { id: "wijnkaart",      label: "Wijnkaart",        data: function(){ return AMU.wijnkaartCompleet; }, type: "wine" },
+      { id: "zero",           label: "The Zero Experience", data: function(){ return AMU.zero; },          type: "wine" },
       { id: "warmedranken",   label: "Warme Dranken",    data: function(){ return AMU.warmeDranken; },    type: "drink" },
       { id: "digestieven",    label: "Digestieven",      data: function(){ return AMU.digestieven; },     type: "drink" },
       { id: "whisky",         label: "Whisky",           data: function(){ return AMU.whisky; },          type: "detail" }
@@ -87,6 +91,7 @@ function renderFormules(container) {
       '<div class="detail">' + f.detail + '</div>' +
       (f.detail2 ? '<div class="detail">' + f.detail2 + '</div>' : '') +
       (f.wijn ? '<div class="wine-pairing">' + f.wijn + '</div>' : '') +
+      (f.wijn2 ? '<div class="wine-pairing">' + f.wijn2 + '</div>' : '') +
     '</div>';
   }).join('');
 }
@@ -115,6 +120,15 @@ function renderUren(container) {
     var cls = gesloten ? ' uren-gesloten' : '';
     return '<span class="uren-dag' + cls + '">' + u.dag + '</span>' +
            '<span class="uren-tijd' + cls + '">' + u.tijd + '</span>';
+  }).join('');
+}
+
+function renderVakantie(container) {
+  var el = document.getElementById(container);
+  if (!el || !AMU.info || !AMU.info.vakantie) return;
+  var v = AMU.info.vakantie;
+  el.innerHTML = ['lijn1', 'lijn2', 'lijn3'].map(function(k) {
+    return v[k] ? '<p>' + v[k] + '</p>' : '';
   }).join('');
 }
 
@@ -250,7 +264,8 @@ function renderDrinkItem(item) {
 
 function renderWineItem(item) {
   var glasPrice = (item.glas && item.glas.prijs) ? '<span class="wine-price-tag"><svg class="wine-price-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8M12 3v18M7 8h10l-1.5-5h-7L7 8z"/></svg>' + formatPrice(item.glas.prijs) + '</span>' : '';
-  var flesPrice = (item.fles && item.fles.prijs) ? '<span class="wine-price-tag"><svg class="wine-price-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2h4v4l2 4v10a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V10l2-4V2z"/></svg>' + formatPrice(item.fles.prijs) + '</span>' : '';
+  var flesVol = (item.fles && item.fles.volume) ? ' <small>(' + item.fles.volume + ')</small>' : '';
+  var flesPrice = (item.fles && item.fles.prijs) ? '<span class="wine-price-tag"><svg class="wine-price-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2h4v4l2 4v10a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V10l2-4V2z"/></svg>' + formatPrice(item.fles.prijs) + flesVol + '</span>' : '';
   var prices = [glasPrice, flesPrice].filter(Boolean).join('');
   return '<div class="wine-item">' +
     '<div class="wine-item-header">' +

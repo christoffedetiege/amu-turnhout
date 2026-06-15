@@ -1,0 +1,91 @@
+{
+  "rubrieken": [
+    {
+      "titel": "The Zero Experience",
+      "items": [
+        {
+          "titel": "",
+          "items": [
+            {
+              "titel": "Sancho",
+              "omschrijving1": "",
+              "omschrijving2": "België, Antwerpen",
+              "omschrijving3": "Verfrissend en strak met karakter. Een levendige begeleider voor zonnige dagen en frisse, verfijnde gerechten. Aroma's van citrusvruchten, vlierbloesem en witte bloemen worden ondersteund door een subtiele kruidigheid van witte peper, wat zorgt voor een elegante spanning en een lange, frisse afdronk.",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Tamarind",
+              "omschrijving1": "",
+              "omschrijving2": "België, Antwerpen",
+              "omschrijving3": "Fris, maar matuur en gelaagd. Een complexe drank met subtiele geroosterde toetsen en een verfijnd oxidatief karakter. De frisse zuren worden mooi in balans gebracht door de aromatische diepte van gedroogde zwarte limoen. Een expressieve combinatie die doet denken aan natuurwijnen en de karaktervolle sherry uit grootmoeders kast.",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Vent du Sud",
+              "omschrijving1": "",
+              "omschrijving2": "België, Antwerpen",
+              "omschrijving3": "Verfijnd en verfrissend, met een elegante fruitigheid. Aroma's van roze en witte peper, citroen, rabarber, granaatappel en kers zorgen voor een levendig en expressief karakter. In de mond komen tonen van rode bessen en kers naar voren, ondersteund door frisse zuren en een subtiel bittertje dat voor een mooie balans en lengte zorgt.",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Red Velvet",
+              "omschrijving1": "",
+              "omschrijving2": "België, Antwerpen",
+              "omschrijving3": "Rijk, warm en uitnodigend. Een fluweelzachte drank met aardse toetsen en een volle expressie van zwart fruit en bosvruchten. Kruidige accenten en een subtiele houttoets zorgen voor extra diepgang en complexiteit. Een karaktervolle begeleider die doet denken aan een elegante rode wijn op een gezellige avond.",
+              "fles": {},
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "La Colombette, Born to be Free Blanc",
+              "omschrijving1": "chardonnay",
+              "omschrijving2": "Frankrijk, Languedoc",
+              "omschrijving3": "Elegant en toegankelijk. Deze gedealcoholiseerde Chardonnay combineert bloemige aroma's met rijp geel fruit en een zachte, romige textuur. Subtiele hints van vanille zorgen voor extra rondheid en een verfijnde afdronk, terwijl het frisse karakter mooi behouden blijft.",
+              "fles": {},
+              "glas": {
+                "prijs": "7.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "La Colombette Born to be Free Rouge",
+              "omschrijving1": "cabernet sauvignon, merlot",
+              "omschrijving2": "Frankrijk, Languedoc",
+              "omschrijving3": "Karaktervol en soepel. Deze gedealcoholiseerde blend van Cabernet Sauvignon en Merlot komt het best tot zijn recht licht gekoeld. Aroma's van rijp rood en zwart fruit worden aangevuld met subtiele kruidige toetsen. In de mond zorgen zachte tannines voor structuur en een aangename rondheid, met een evenwichtige en elegante afdronk.",
+              "fles": {},
+              "glas": {
+                "prijs": "7.50",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Castillo de Salobreña",
+              "omschrijving1": "druivenmost, appel",
+              "omschrijving2": "Spanje, Granada",
+              "omschrijving3": "Fris, fruitig en zoet. Deze Spaanse klassieker wordt gemaakt op basis van druivenmost en appel, en bevat van nature geen alcohol. De combinatie van rijpe druiven en fruit zorgt voor een toegankelijke stijl met frisse zuren, een zachte zoetheid en een aangenaam vol mondgevoel. Aroma's van appel, wit fruit en rijpe druiven komen mooi naar voren, terwijl de levendige frisheid voor een evenwichtige afdronk zorgt. Een ideale keuze voor wie houdt van een fruitige, zoete en verfrissende alcoholvrije beleving.",
+              "fles": {},
+              "glas": {
+                "prijs": "7.50",
+                "volume": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

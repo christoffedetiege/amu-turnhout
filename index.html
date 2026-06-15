@@ -307,6 +307,20 @@
   border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
+/* ========== VAKANTIE CARD ========== */
+.reserveer-card.vakantie-card {
+  grid-column: 1 / -1;
+}
+.reserveer-card.vakantie-card h3 {
+  color: var(--text-accent);
+}
+.reserveer-card.vakantie-card p {
+  margin-bottom: var(--space-sm);
+}
+.reserveer-card.vakantie-card p:last-child {
+  margin-bottom: 0;
+}
+
 /* ========== HERO SPLIT LOGO ========== */
 .hero-split-logo {
   position: absolute;
@@ -704,13 +718,13 @@
       <div class="accent-line"></div>
     </div>
     <div class="formula-grid" id="formules-grid">
-      <div class="formula-card glass-card"><h4>Amu Lunch</h4><div class="price">€ 45</div><div class="detail">4 verrassingsgerechten (incl. dessert)</div><div class="detail">Lunch 12u – 14u</div><div class="wine-pairing">4 begeleidende wijnen + €28</div></div>
-      <div class="formula-card glass-card"><h4>Amu Lunch</h4><div class="price">€ 37,50</div><div class="detail">3 verrassingsgerechten (excl. dessert)</div><div class="detail">Lunch 12u – 14u</div><div class="wine-pairing">3 begeleidende wijnen + €21</div></div>
-      <div class="formula-card glass-card"><h4>Amu Happyness</h4><div class="price">€ 120</div><div class="detail">10 verrassingsgerechten (incl. dessert)</div><div class="detail">Te bestellen tot 20u</div><div class="wine-pairing">10 glazen begeleidende wijnen €75</div></div>
-      <div class="formula-card glass-card"><h4>Amu Free Style</h4><div class="price">€ 75</div><div class="detail">6 verrassingsgerechten (excl. dessert)</div><div class="wine-pairing">6 begeleidende wijnen + €42</div></div>
-      <div class="formula-card glass-card"><h4>Little Gourmand</h4><div class="price">€ 65</div><div class="detail">5 verrassingsgerechten (incl. dessert)</div><div class="wine-pairing">5 begeleidende wijnen + €35</div></div>
-      <div class="formula-card glass-card"><h4>Thirsty Thursday</h4><div class="price">€ 110</div><div class="detail">6 verrassingsgerechten (excl. dessert)</div><div class="detail">met aangepaste wijnen</div><div class="wine-pairing">Wijnen inbegrepen</div></div>
-      <div class="formula-card glass-card"><h4>Greedy Monday</h4><div class="price">€ 87,50</div><div class="detail">8 verrassingsgerechten (incl. dessert)</div><div class="wine-pairing">8 begeleidende wijnen + €56</div></div>
+      <div class="formula-card glass-card"><h4>Amu Lunch</h4><div class="price">€ 45</div><div class="detail">4 verrassingsgerechten (incl. dessert)</div><div class="detail">Lunch 12u – 14u</div><div class="wine-pairing">4 begeleidende wijnen + €30</div><div class="wine-pairing">Non-alcoholische pairing + €30</div></div>
+      <div class="formula-card glass-card"><h4>Amu Lunch</h4><div class="price">€ 37,50</div><div class="detail">3 verrassingsgerechten (excl. dessert)</div><div class="detail">Lunch 12u – 14u</div><div class="wine-pairing">3 begeleidende wijnen + €22.5</div><div class="wine-pairing">Non-alcoholische pairing + €22.5</div></div>
+      <div class="formula-card glass-card"><h4>Amu Happyness</h4><div class="price">€ 120</div><div class="detail">10 verrassingsgerechten (incl. dessert)</div><div class="detail">Te bestellen tot 20u</div><div class="wine-pairing">10 begeleidende wijnen + €75</div></div>
+      <div class="formula-card glass-card"><h4>Amu Free Style</h4><div class="price">€ 75</div><div class="detail">6 verrassingsgerechten (excl. dessert)</div><div class="wine-pairing">6 begeleidende wijnen + €45</div><div class="wine-pairing">Non-alcoholische pairing + €45</div></div>
+      <div class="formula-card glass-card"><h4>Little Gourmand</h4><div class="price">€ 65</div><div class="detail">5 verrassingsgerechten (incl. dessert)</div><div class="wine-pairing">5 begeleidende wijnen + €37.5</div><div class="wine-pairing">Non-alcoholische pairing + €37.5</div></div>
+      <div class="formula-card glass-card"><h4>Thirsty Thursday</h4><div class="price">€ 112,50</div><div class="detail">6 verrassingsgerechten (excl. dessert)</div><div class="detail">met aangepaste wijnen</div><div class="wine-pairing">Wijnen inbegrepen</div></div>
+      <div class="formula-card glass-card"><h4>Greedy Monday</h4><div class="price">€ 87,50</div><div class="detail">8 verrassingsgerechten (incl. dessert)</div><div class="detail">Te bestellen tot 19u</div><div class="wine-pairing">8 begeleidende wijnen + €60</div></div>
     
     </div>
   </div>
@@ -726,15 +740,16 @@
     </div>
     <p class="gerecht-note"><em>Al onze menu's worden door chef Marjanne geïnspireerd en samengesteld op basis van onderstaande gerechten.</em></p>
     <div class="gerecht-list" id="gerechten-list">
-      <div class="gerecht-item">Gerookte paling – radijs – pompernikkel</div>
-      <div class="gerecht-item">Gepekelde artisjok – walnootmosterd – Parmezaan</div>
-      <div class="gerecht-item">Kalfslende – tonijn dressing – gepofte kappertjes</div>
-      <div class="gerecht-item">Zwaardvis – gerookte aubergine – bleekselder</div>
-      <div class="gerecht-item">Zalmforel – asperges – mierikswortel</div>
-      <div class="gerecht-item">Groene asperges – basilicum ricotta – tomaatjes</div>
-      <div class="gerecht-item">Orecchiette pasta – nduja – knolselder</div>
-      <div class="gerecht-item">Lamsrollade – cannellini bonen – daslook</div>
-      <div class="gerecht-item">Canette filet – paksoy – miso</div>
+      <div class="gerecht-item">Gemarineerde maatjes – zoet zure komkommer – Madras curry</div>
+      <div class="gerecht-item">Pastrami – stracciatella di burrata - courgette</div>
+      <div class="gerecht-item">Vijgen carpaccio – roquefort – brioche</div>
+      <div class="gerecht-item">Snoekbaars – venkel – tijgergarnalenjus</div>
+      <div class="gerecht-item">Kabeljauw – artisjok – gekonfijte citroen</div>
+      <div class="gerecht-item">Aubergine rolletjes – basilicum ricotta – kerstomaatjes</div>
+      <div class="gerecht-item">Ravioli mozzarella – Alpenspeck – rabarber</div>
+      <div class="gerecht-item">Konijnrollade – gegrilde perzik – sherry</div>
+      <div class="gerecht-item">Presa Duroc – jalapeño – maïs – geroosterde paprika</div>
+      <div class="gerecht-item">Bij de start van uw menu serveren wij ambachtelijk zuurdesembrood, met zorg gebakken door Kaat Roels van Bakkerij Het Maal, vergezeld van za'atarboter en een seizoensgebonden dip. Indien gewenst kan extra brood worden bijgeplaatst aan € 2,50 per persoon.</div>
     
     </div>
   </div>
@@ -749,10 +764,10 @@
       <div class="accent-line"></div>
     </div>
     <div class="gerecht-list" id="nagerechten-grid">
-      <div class="gerecht-item">Amandel basilicum panna cotta – aardbeien salsa &mdash; &euro;15</div>
-      <div class="gerecht-item">Mousse van pure chocolade – framboos – macaron &mdash; &euro;15</div>
-      <div class="gerecht-item">Walnootijs – muffin – vanille room &mdash; &euro;15</div>
-      <div class="gerecht-item">Taleggio DOP kaas uit Noord-Italië, roodgewassen koemelkkaas – tomaten chutney – crostino &mdash; &euro;17</div>
+      <div class="gerecht-item">Abrikozen parfait – citroen – vanille saus – honeycomb &mdash; &euro;15</div>
+      <div class="gerecht-item">Witte chocolade ijs – aardbei – suikerwafel &mdash; &euro;15</div>
+      <div class="gerecht-item">Frambozen – meringue – platte kaas &mdash; &euro;15</div>
+      <div class="gerecht-item">Verse geitenkaas – gegrilde perzik – peperkoek &mdash; &euro;17</div>
     
     </div>
   </div>
@@ -839,6 +854,15 @@
       <div class="accent-line"></div>
     </div>
     <div class="reserveer-grid">
+      <div class="reserveer-card vakantie-card">
+        <h3>Zomervakantie</h3>
+        <div id="vakantie-content">
+      <p>Amu sluit de deuren voor een korte zomerpauze van zondag 26 juli tot en met woensdag 5 augustus.</p>
+      <p>Vanaf donderdag 6 augustus verwelkomen wij u graag opnieuw voor een verfijnde culinaire beleving.</p>
+      <p>Daarnaast zijn wij uitzonderlijk gesloten op zaterdag 15 augustus.</p>
+    
+        </div>
+      </div>
       <div class="reserveer-card glass-uren">
         <h3>Openingsuren</h3>
         <div class="uren-grid" id="uren-grid">
@@ -946,6 +970,7 @@ document.addEventListener('DOMContentLoaded', function() {
     renderUren('uren-grid');
     renderParking('parking-grid');
     renderBarfood('barfood-list');
+    renderVakantie('vakantie-content');
   });
 
   // Navbar scroll effect

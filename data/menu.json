@@ -5,98 +5,113 @@
       "prijs": 45,
       "detail": "4 verrassingsgerechten (incl. dessert)",
       "detail2": "Lunch 12u – 14u",
-      "wijn": "4 begeleidende wijnen + €28"
+      "wijn": "4 begeleidende wijnen + €30",
+      "wijn2": "Non-alcoholische pairing + €30",
+      "badge":""
     },
     {
       "naam": "Amu Lunch",
       "prijs": 37.5,
       "detail": "3 verrassingsgerechten (excl. dessert)",
       "detail2": "Lunch 12u – 14u",
-      "wijn": "3 begeleidende wijnen + €21"
+      "wijn": "3 begeleidende wijnen + €22.5",
+      "wijn2": "Non-alcoholische pairing + €22.5",
+      "badge":""
     },
     {
       "naam": "Amu Happyness",
       "prijs": 120,
       "detail": "10 verrassingsgerechten (incl. dessert)",
       "detail2": "Te bestellen tot 20u",
-      "wijn": "10 glazen begeleidende wijnen €75",
-      "badge": "Onze Signature"
+      "wijn": "10 begeleidende wijnen + €75",
+      "wijn2":"",
+      "badge":""
     },
     {
       "naam": "Amu Free Style",
       "prijs": 75,
       "detail": "6 verrassingsgerechten (excl. dessert)",
       "detail2": null,
-      "wijn": "6 begeleidende wijnen + €42"
+      "wijn": "6 begeleidende wijnen + €45",
+      "wijn2": "Non-alcoholische pairing + €45",
+      "badge":""
     },
     {
       "naam": "Little Gourmand",
       "prijs": 65,
       "detail": "5 verrassingsgerechten (incl. dessert)",
       "detail2": null,
-      "wijn": "5 begeleidende wijnen + €35"
+      "wijn": "5 begeleidende wijnen + €37.5",
+      "wijn2": "Non-alcoholische pairing + €37.5",
+      "badge":""
     },
     {
       "naam": "Thirsty Thursday",
-      "prijs": 110,
+      "prijs": 112.5,
       "detail": "6 verrassingsgerechten (excl. dessert)",
       "detail2": "met aangepaste wijnen",
       "wijn": "Wijnen inbegrepen",
-      "badge": "Iedere Donderdag"
+      "wijn2":"",
+      "badge":""
     },
     {
       "naam": "Greedy Monday",
       "prijs": 87.5,
       "detail": "8 verrassingsgerechten (incl. dessert)",
-      "detail2": null,
-      "wijn": "8 begeleidende wijnen + €56",
-      "badge": "Iedere Maandag"
+      "detail2": "Te bestellen tot 19u",
+      "wijn": "8 begeleidende wijnen + €60",
+      "wijn2":"",
+      "badge": ""
     }
   ],
   "menuproducten": [
     {
-      "product": "Gerookte paling – radijs – pompernikkel"
+      "product": "Gemarineerde maatjes – zoet zure komkommer – Madras curry"
     },
     {
-      "product": "Gepekelde artisjok – walnootmosterd – Parmezaan"
+      "product": "Pastrami – stracciatella di burrata - courgette"
     },
     {
-      "product": "Kalfslende – tonijn dressing – gepofte kappertjes"
+      "product": "Vijgen carpaccio – roquefort – brioche"
     },
     {
-      "product": "Zwaardvis – gerookte aubergine – bleekselder"
+      "product": "Snoekbaars – venkel – tijgergarnalenjus"
     },
     {
-      "product": "Zalmforel – asperges – mierikswortel"
+      "product": "Kabeljauw – artisjok – gekonfijte citroen"
     },
     {
-      "product": "Groene asperges – basilicum ricotta – tomaatjes"
+      "product": "Aubergine rolletjes – basilicum ricotta – kerstomaatjes"
     },
     {
-      "product": "Orecchiette pasta – nduja – knolselder"
+      "product": "Ravioli mozzarella – Alpenspeck – rabarber"
     },
     {
-      "product": "Lamsrollade – cannellini bonen – daslook"
+      "product": "Konijnrollade – gegrilde perzik – sherry"
     },
     {
-      "product": "Canette filet – paksoy – miso"
+      "product": "Presa Duroc – jalapeño – maïs – geroosterde paprika"
+    },
+    {
+      "product": "Bij de start van uw menu serveren wij ambachtelijk zuurdesembrood, met zorg gebakken door Kaat Roels van Bakkerij Het Maal, vergezeld van za'atarboter en een seizoensgebonden dip. Indien gewenst kan extra brood worden bijgeplaatst aan € 2,50 per persoon."
+
     }
   ],
   "nagerechten": [
     {
-      "titel": "Amandel basilicum panna cotta – aardbeien salsa",
+      "titel": "Abrikozen parfait – citroen – vanille saus – honeycomb",
       "prijs": "15"
     },
     {
-      "titel": "Mousse van pure chocolade – framboos – macaron",
+      "titel": "Witte chocolade ijs – aardbei – suikerwafel",
       "prijs": "15"
     },
     {
-      "titel": "Walnootijs – muffin – vanille room",
+      "titel": "Frambozen – meringue – platte kaas",
       "prijs": "15"
     },
     {
-      "titel": "Taleggio DOP kaas uit Noord-Italië, roodgewassen koemelkkaas – tomaten chutney – crostino",
+      "titel": "Verse geitenkaas – gegrilde perzik – peperkoek",
       "prijs": "17"
     }
   ]

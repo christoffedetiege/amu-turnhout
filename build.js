@@ -29,6 +29,7 @@ function renderFormules(formules) {
       '<div class="detail">' + f.detail + '</div>' +
       (f.detail2 ? '<div class="detail">' + f.detail2 + '</div>' : '') +
       (f.wijn ? '<div class="wine-pairing">' + f.wijn + '</div>' : '') +
+      (f.wijn2 ? '<div class="wine-pairing">' + f.wijn2 + '</div>' : '') +
     '</div>';
   }).join('\n      ');
 }
@@ -54,6 +55,13 @@ function renderUren(uren) {
   }).join('\n          ');
 }
 
+function renderVakantie(v) {
+  if (!v) return '';
+  return ['lijn1', 'lijn2', 'lijn3'].map(k =>
+    v[k] ? '<p>' + v[k] + '</p>' : ''
+  ).filter(Boolean).join('\n      ');
+}
+
 function renderParking(parking) {
   return parking.map(p =>
     '<div class="parking-card glass-card">' +
@@ -73,6 +81,7 @@ const replacements = [
   { id: 'nagerechten-grid', html: renderNagerechten(menu.nagerechten) },
   { id: 'uren-grid',        html: renderUren(info.uren) },
   { id: 'parking-grid',     html: renderParking(info.parking) },
+  { id: 'vakantie-content', html: renderVakantie(info.vakantie) },
 ];
 
 let count = 0;

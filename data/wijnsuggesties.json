@@ -7,38 +7,10 @@
           "titel": "",
           "items": [
             {
-              "titel": " Tech Unpugged 2022",
-              "omschrijving1": "Druiven: riesling",
-              "omschrijving2": "Duitsland, Nahe (Pfalz)",
-              "omschrijving3": "Heerlijke droge riesling met verfijnde aroma’s van gele rijpe appel en frisse kruiden. De wijn is strak en levendig, met een minerale, ziltige afdronk. Gerijpt op inox, sur lie.",
-              "fles": {
-                "prijs": "40.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "8.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Pasji Rep 2023",
-              "omschrijving1": "Druiven: malvasia",
-              "omschrijving2": "Slovenië, Vipava",
-              "omschrijving3": "Deze wijn betovert met een lichtgouden kleur en delicate bloemige aroma’s, aangevuld met een subtiele toets van citrus. De droge, minerale accenten monden uit in een harmonieuze en verfrissende afdronk. De wijn rijpte 12 maanden in grote houten vaten.",
-              "fles": {
-                "prijs": "42.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "8.40",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Domaine Fontaine du Clos ‘Aura’ 2024",
-              "omschrijving1": "Druiven: chardonnay, gros manseng, petite manseng, souvignier gris",
-              "omschrijving2": "Frankrijk, Vaucluse, Provence",
-              "omschrijving3": "Een verrassende wijn met een ongewone druivenblend. Complex en vol, met aroma’s van gekonfijt fruit, boter en subtiel gebrande toast. De chardonnay kreeg houtopvoeding, terwijl de overige druiven op inox werden gerijpt.",
+              "titel": "Lepa Vida 2025",
+              "omschrijving1": "Druiven: zelen",
+              "omschrijving2": "Slovenië, Vipava Vallei",
+              "omschrijving3": "Deze elegante witte wijn charmeert met een aromatisch en harmonieus karakter. In de neus ontvouwen zich frisse aroma's van wit fruit, groene appel, citroen, limoen en kiwi, ondersteund door subtiele vegetale toetsen die zorgen voor extra complexiteit. In de mond is de wijn levendig, fruitig en mooi in balans, met een verfrissende zuurgraad en een verfijnde structuur. Het resultaat is een terroir gedreven wijn die op authentieke wijze het unieke karakter van deze bijzondere Sloveense druivensoort tot uiting brengt.",
               "fles": {
                 "prijs": "37.50",
                 "volume": ""
@@ -49,10 +21,10 @@
               }
             },
             {
-              "titel": "Radacini Reserve 2020",
-              "omschrijving1": "Druiven: chardonnay, pinot gris",
-              "omschrijving2": "Moldavie",
-              "omschrijving3": "Bij de eerste slok ontvouwen zich verrukkelijke aroma’s van rijpe peer, sappige appel en frisse citrus. Deze worden gevolgd door subtiele toetsen van zoete vanille en een verfijnde kruidigheid, afkomstig van rijping op Franse eik.",
+              "titel": "Jung Roger et Fils 2020",
+              "omschrijving1": "Druiven: riesling, muscat, pinot gris ",
+              "omschrijving2": "Frankrijk Elzas",
+              "omschrijving3": "Een originele aromatische blend uit de Elzas, een regio waar traditioneel vooral monocépage wijnen de toon zetten. Deze wijn is een uitnodiging voor liefhebbers van nieuwe ontdekkingen en verrassende smaakervaringen. In de neus komen frisse aroma's van licht fruit en citrus naar voren, ondersteund door verfijnde minerale toetsen. De mondaanzet is soepel en rond, met een aangename textuur die mooi contrasteert met de droge, strakke afdronk. Een elegante en evenwichtige wijn die frisheid, fruit en mineraliteit harmonieus verenigt.",
               "fles": {
                 "prijs": "40.00",
                 "volume": ""
@@ -63,10 +35,10 @@
               }
             },
             {
-              "titel": "Bodegas Tampesta Neko 2025",
-              "omschrijving1": "Druiven: godello",
-              "omschrijving2": "Spanje, Leon, NW",
-              "omschrijving3": "Een frisse en aromatische wijn met levendige toetsen van citrus, steenfruit en kruisbes. Zonder houtopvoeding, maar gerijpt ‘sur lie’, wat zorgt voor extra aromatische complexiteit en een rond, vol mondgevoel.",
+              "titel": "Tenuta Bellafonte ‘Sperella’ 2023",
+              "omschrijving1": "Druiven: trebbiano",
+              "omschrijving2": "Italië, Ubrië",
+              "omschrijving3": "Deze wijn presenteert zich met een intens en harmonieus aromaprofiel, waarin rijpe citrusvruchten, florale nuances en subtiele toetsen van toast mooi samensmelten. Na de vergisting rijpt de wijn gedurende ongeveer vijf maanden op de fijne lies in inox tanks, wat zorgt voor extra diepgang, complexiteit en textuur. Vervolgens krijgt hij nog enkele maanden flesrust om volledig tot zijn recht te komen. Ongefilterd gebotteld behoudt de wijn zijn pure karakter en expressie. In de mond combineert hij een opmerkelijke frisheid met een intrigerende structuur, wat resulteert in een elegante, levendige en karaktervolle afdronk.",
               "fles": {
                 "prijs": "37.50",
                 "volume": ""
@@ -77,10 +49,24 @@
               }
             },
             {
-              "titel": "Domaine La Colombette, Born to be Free (alcoholvrij)",
-              "omschrijving1": "Druiven: chardonnay",
-              "omschrijving2": "Frankrijk, Béziers",
-              "omschrijving3": "Deze alcoholvrije chardonnay combineert nobele tonen van citrus en appel met een vleugje perzik gevolgd door een intens fruitige afdronk.",
+              "titel": "llamalo X 2024",
+              "omschrijving1": "Druiven: airen, macabeo, pardilla",
+              "omschrijving2": "Spanje, Castilla-La Mancha",
+              "omschrijving3": "Een karaktervolle en complexe wijn met een uitgesproken mineraal profiel. In de neus komen aroma's van rijpe steenvruchten, gekonfijt fruit en subtiele toetsen van cederhout naar voren. De wijn rijpt gedurende drie maanden in traditionele tinajas van 320 liter, vervaardigd in Villarrobledo, hetzelfde dorp waar de wijngaarden zich bevinden. Deze bijzondere rijpingsmethode verleent de wijn extra diepgang, textuur en een authentieke expressie van zijn herkomst. Verrassend anders, eigenzinnig en bovenal bijzonder genietbaar.",
+              "fles": {
+                "prijs": "40.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Waltner 2025",
+              "omschrijving1": "Druiven: Grüner Veltliner",
+              "omschrijving2": "Oostenrijk, Wagram",
+              "omschrijving3": "Frisse en levendige wijn met een expressief, fruitig karakter. In de neus springen aroma's van groene appel en kruisbessen onmiddellijk naar voren, aangevuld met een subtiele toets van witte peper die voor extra spanning en verfijning zorgt. In de mond presenteert de wijn zich sappig en verkwikkend, met een mooie balans tussen fruitige fraîcheur en levendige zuren. Een toegankelijke, energieke wijn met een zuivere en verfrissende afdronk.",
               "fles": {
                 "prijs": "37.50",
                 "volume": ""
@@ -155,10 +141,24 @@
           "titel": "",
           "items": [
             {
-              "titel": "Domaine Cederick Bardin 2023",
-              "omschrijving1": "Druiven: pinot noir, gamay",
-              "omschrijving2": "Frankrijk, Loire",
-              "omschrijving3": "Een soepele aanzet met verrassende aroma’s van zwart fruit, gevolgd door nuances van tabak, laurier en gekonfijt fruit. De aromatische afdronk wordt gedragen door een subtiel geroosterde toets. De wijn rijpte deels op inox en deels op hout.",
+              "titel": " Sutter Dominator 2022",
+              "omschrijving1": "Druiven: zweigelt",
+              "omschrijving2": "Oostenrijk",
+              "omschrijving3": "Robijnrode wijn met verleidelijke aroma's van rode bessen en cassis, ondersteund door subtiele kruidige toetsen. Na 24 maanden houtopvoeding presenteert deze wijn zich vol en gestructureerd, met een fluweelzachte textuur en verfijnde houttonen. De lange afdronk mondt uit in een prachtige finale.",
+              "fles": {
+                "prijs": "40.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "8.00",
+                "volume": ""
+              }
+            },
+            {
+              "titel": "Domaine l’Amourier ‘Al Bosc’ 2024",
+              "omschrijving1": "Druiven: grenache, mourvèdre, syrah",
+              "omschrijving2": "Frankrijk, Minervois",
+              "omschrijving3": "In de mond is de wijn rond en evenwichtig, met een mooie frisheid en fijne finesse. Sappige tonen van rood fruit, zoals aardbei en framboos, zorgen voor een soepele en toegankelijke smaakbeleving. De fijne, zachte tannines geven structuur zonder aan elegantie in te boeten.",
               "fles": {
                 "prijs": "37.50",
                 "volume": ""
@@ -169,58 +169,30 @@
               }
             },
             {
-              "titel": "Borovitza Gamza 2022",
-              "omschrijving1": "Druiven: gamza",
-              "omschrijving2": "Bulgarije",
-              "omschrijving3": "Verwacht een expressie van fris rood fruit waaronder kers, framboos en aardbei, aangevuld met een verfijnde kruidigheid. Pure finesse en elegantie. De wijn rijpte 12 maanden in gebruikte houten vaten.",
+              "titel": "Finca Collado ‘Fet A Ma Tinto ‘ 2020",
+              "omschrijving1": "Druiven: bobal, grenache, forcallá",
+              "omschrijving2": "Spanje, Valencia",
+              "omschrijving3": "Een krachtige maar verfijnde wijn met een complex en intens aromatisch profiel. Rijpe tonen van zwart fruit worden harmonieus aangevuld door specerijen, drop, koffie, toast en balsamico. In de mond is de wijn krachtig en geconcentreerd, met stevige maar rijpe tannines die voor structuur en diepgang zorgen. Na 12 maanden rijping in eikenhouten vaten heeft de wijn extra complexiteit en elegantie ontwikkeld. De lange, aanhoudende afdronk benadrukt zijn karakter en finesse.",
               "fles": {
-                "prijs": "37.50",
+                "prijs": "40.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "7.50",
+                "prijs": "8.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Idivini ‘Pian di Rös’ 2020",
-              "omschrijving1": "Druiven: barbera",
-              "omschrijving2": "Italië, Piemonte",
-              "omschrijving3": "Deze wijn presenteert zich met een schitterende robijnrode kleur en expressieve aroma’s van zure krieken en rijpe kersen, aangevuld met fijne zuurtjes en zachte tannine’s. De wijn heeft genoten van een inox opvoeding.",
+              "titel": "Klopfer 2021",
+              "omschrijving1": "Druiven: lemberger",
+              "omschrijving2": "Duitsland, Wurtemberg",
+              "omschrijving3": "Speelse en fruit gedreven Lemberger met een explosie van kersenfruit, aangevuld met toetsen van jeneverbes en een vleugje groene paprika. De 6 maanden rijping op inox bewaren het frisse en pure karakter van de wijn. Heerlijk licht gekoeld geserveerd.",
               "fles": {
-                "prijs": "37.50",
+                "prijs": "40.00",
                 "volume": ""
               },
               "glas": {
-                "prijs": "7.50",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Los Mores, D’Hora 2022",
-              "omschrijving1": "Druiven: grenache, carignan",
-              "omschrijving2": "Spanje, Priorat",
-              "omschrijving3": "Een toonbeeld van elegantie, met levendige aroma’s van kleine rode vruchten en bessen, subtiel ondersteund door zachte kruidigheid en een fijne houttoets. Jeugdige frisheid, een medium body en een verfijnde, elegante afdronk. De wijn rijpte 6 maanden op hout.",
-              "fles": {
-                "prijs": "42.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "8.40",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Domaine La Colombette, Born to be Free (alcoholvrij)",
-              "omschrijving1": "Druiven: cabernet sauvignon, merlot",
-              "omschrijving2": "Frankrijk, Béziers",
-              "omschrijving3": "Frisse en sappige rode wijn met aroma’s van rode bessen, kersen en aardbeien en zachte kruiden. Deze wijn is licht gekoeld.",
-              "fles": {
-                "prijs": "35.00",
-                "volume": ""
-              },
-              "glas": {
-                "prijs": "7.00",
+                "prijs": "8.80",
                 "volume": ""
               }
             }

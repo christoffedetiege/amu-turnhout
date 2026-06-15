@@ -12,7 +12,7 @@
               "omschrijving2": "Elegante champagne, met toetsen van citrus, toast, hazelnoot en gedroogde abrikozen licht boterig met een vleugje rokerigheid in de finale.",
               "omschrijving3": "",
               "fles": {
-                "prijs": "95.00",
+                "prijs": "100.00",
                 "volume": ""
               },
               "glas": {
@@ -75,12 +75,12 @@
           "titel": "Wit fris en fruitig",
           "items": [
             {
-              "titel": "Cantine Benvenuto 2021",
-              "omschrijving1": "zibibbo",
-              "omschrijving2": "Italië, Calabrië",
-              "omschrijving3": "Frisse, fruitige, aromatische en elegante wijn met duidelijke aroma's van licht fruit, lychee, rozen en witte bloemen. Pittig en verfrissend in de afdronk.",
+              "titel": "Hoenshof 2024",
+              "omschrijving1": "muscaris",
+              "omschrijving2": "België, Limburg",
+              "omschrijving3": "Deze muscaris verleidt met expressieve aroma's van honingmeloen, ananas en rijpe Doyenné peer. In de neus zorgen frisse toetsen van citroen en mandarijn voor een levendige en uitnodigende indruk. In de mond is de wijn mooi in balans, fruitig en verfrissend, met een aangename spanning tussen rijp fruit en frisse zuren. De afdronk wordt gekenmerkt door een subtiele kruidigheid, waarin een fijne toets van gember voor extra diepgang en karakter zorgt.",
               "fles": {
-                "prijs": "36.00",
+                "prijs": "42.00",
                 "volume": ""
               },
               "glas": {
@@ -94,7 +94,7 @@
               "omschrijving2": "Frankrijk, Cévennes",
               "omschrijving3": "Romige aangename en fijne viognier, met aroma’s van perzik, abrikoos en necatrine gevolgd door subtiele hints van mango.",
               "fles": {
-                "prijs": "36.00",
+                "prijs": "38.00",
                 "volume": ""
               },
               "glas": {
@@ -103,12 +103,12 @@
               }
             },
             {
-              "titel": "Tamaral 2024",
+              "titel": "Tamaral 2025",
               "omschrijving1": "verdejo",
               "omschrijving2": "Spanje, Rueda",
               "omschrijving3": "Frisse, florale en aromatische wijn met aroma’s van steenfruit, ananas en een zachte kruidigheid. Typische zomerwijn.",
               "fles": {
-                "prijs": "36.00",
+                "prijs": "38.00",
                 "volume": ""
               },
               "glas": {
@@ -122,7 +122,7 @@
               "omschrijving2": "Duitsland, Pfalz",
               "omschrijving3": "Verrassende wijn met rijpe aroma's van mirabelle, passievrucht en groene appel. Frisfruitige aanzet die lang aanhoudt.",
               "fles": {
-                "prijs": "36.00",
+                "prijs": "38.00",
                 "volume": ""
               },
               "glas": {
@@ -136,12 +136,27 @@
               "omschrijving2": "Spanje, Galicië",
               "omschrijving3": "Lagar De Besada is zeer fris en kruidig met aroma's van verse groene kruiden, limoen en groene appel, in de afdronk zacht ziltig met fijne mineralen. Inox opvoeding met een rijping van 6 maanden 'sur lies'.",
               "fles": {
-                "prijs": "36.00",
+                "prijs": "38.00",
                 "volume": ""
               },
               "glas": {
                 "prijs": "",
                 "volume": ""
+              }
+            },
+            {
+              "titel": "Domein Hoenshof Dry Hopped 2023",
+              "omschrijving1": "chardonnay",
+              "omschrijving2": "België, Limburg",
+              "omschrijving3": "Een helder aroma van tropische vruchten, aangevuld met frisse tonen van vers gemaaid gras en limoenschil. De smaak is fris en strak, met citrus accenten die elegant nazinderen in de afdronk. De wijn rijpt in eikenhouten vaten van 200 liter, waarin wordt geëxperimenteerd met verschillende hopsoorten. Door de hop gedurende de rijping in de wijn te laten trekken, ontstaat een uniek smaakprofiel met subtiele kruidige en aromatische nuances die extra diepgang en complexiteit geven",
+              "fles": {
+                "prijs": "40.00",
+                "volume": ""
+              },
+              "glas": {
+                "prijs": "",
+                "volume": ""
+
               }
             }
           ]
@@ -253,7 +268,7 @@
               "omschrijving2": "Cyprus",
               "omschrijving3": "Elegante wijn met frisse en intense aroma's van citrusvruchten, meloen, mango en jasmijn. Lichte minerale toetsen en een afdronk met karakter. 8 maanden 'sur lies' rijping.",
               "fles": {
-                "prijs": "36.00",
+                "prijs": "38.00",
                 "volume": ""
               },
               "glas": {
@@ -262,12 +277,12 @@
               }
             },
             {
-              "titel": "Kapittelberg 2020",
-              "omschrijving1": "chardonnay",
-              "omschrijving2": "België, Herselt",
-              "omschrijving3": "Vleugje eik, zuivere aroma's van citrus, hints van hazelnoot. Kempische wijn gemaakt met uiterst respect voor product, natuur en omgeving. Zeldzaam en schaars.",
+              "titel": "Teperberg 2023",
+              "omschrijving1": "sauvignon blanc, colombard",
+              "omschrijving2": "Israël, Jeruzalem",
+              "omschrijving3": "Een expressief bouquet van groene appel, citrusvruchten en subtiele bloemige toetsen, typerend voor sauvignon blanc, harmonieus aangevuld met de tropische aroma's en sappige perziknuances van colombard. In de mond presenteert de wijn zich levendig en verfrissend, met een mooie, frisse zuurgraad die het fruit perfect in balans houdt. Dit resulteert in een zuivere, elegante afdronk met een aangename lengte en een karaktervolle finale.",
               "fles": {
-                "prijs": "36.00",
+                "prijs": "42.00",
                 "volume": ""
               },
               "glas": {
@@ -632,7 +647,7 @@
               "omschrijving2": "Duitsland, Pfalz",
               "omschrijving3": "Helderrode wijn met een mooie kruidigheid. Rijpe aanzet met een klein zoetje en aroma's van bosfruit en kersen. Ook lekker gekoeld.",
               "fles": {
-                "prijs": "36.00",
+                "prijs": "38.00",
                 "volume": ""
               },
               "glas": {
@@ -646,7 +661,7 @@
               "omschrijving2": "Slovenië, Štajerska",
               "omschrijving3": "Lekkere lichtvoetige wijn met de nodige finesse. Een ongewone blend van verschillende druiven en jaartallen. Aroma's van klein rood fruit, aangevuld met een zekere kruidigheid, witte peper en een fijne rokerige toets. Houtopvoeding van 12 maanden op gebruikte vaten.",
               "fles": {
-                "prijs": "36.00",
+                "prijs": "38.00",
                 "volume": ""
               },
               "glas": {
@@ -707,7 +722,7 @@
               "omschrijving2": "Italië, Piemonte",
               "omschrijving3": "Complexe aroma’s van klein rood fruit, vanille en kruiden. De afdronk vol met een klein zoetje. Top Barbera met een houtopvoeding van 12 maanden.",
               "fles": {
-                "prijs": "45.00",
+                "prijs": "47.00",
                 "volume": ""
               },
               "glas": {
@@ -917,12 +932,12 @@
               }
             },
             {
-              "titel": "Pasji Rep Jebacin Red 2022",
-              "omschrijving1": "merlot, cabernet franc",
-              "omschrijving2": "Slovenië, Vipava vallei",
-              "omschrijving3": "Heerlijke volle, fruitgedreven wijn die genoten heeft van een houtopvoeding van 15 maanden op eiken vaten. Langdurige afdronk met een smokey toets en een lichte tannine's. ",
+              "titel": "Teperberg 2021",
+              "omschrijving1": "malbec",
+              "omschrijving2": "Israël, Jeruzalem",
+              "omschrijving3": "Deze malbec onderscheidt zich door zijn elegante stijl en vermijdt de typische zwaarte die vaak met de druif wordt geassocieerd. In de neus komen verfijnde aroma's van rijpe kersen en sappige bramen naar voren. Het mondgevoel is vol en rond, maar blijft tegelijkertijd zacht en toegankelijk. Fluweelzachte tannines zorgen voor een aangename structuur, terwijl een subtiele houtopvoeding van drie maanden extra complexiteit en een verfijnde kruidigheid toevoegt. De afdronk is harmonieus, fruit gedreven en mooi in balans.",
               "fles": {
-                "prijs": "65.00",
+                "prijs": "42.00",
                 "volume": ""
               },
               "glas": {
