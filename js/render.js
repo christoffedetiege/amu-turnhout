@@ -251,7 +251,8 @@ function formatPrice(prijs) {
 
 function renderDrinkItem(item) {
   var price = (item.glas && item.glas.prijs) || (item.fles && item.fles.prijs) || '';
-  var vol = (item.fles && item.fles.volume) ? ' <small>(' + item.fles.volume + ')</small>' : '';
+  var volRaw = (item.fles && item.fles.volume) || (item.glas && item.glas.volume) || '';
+  var vol = volRaw ? ' <small>(' + volRaw + ')</small>' : '';
   var desc = item.omschrijving1 || '';
   return '<div class="drink-item">' +
     '<div class="drink-item-info">' +
