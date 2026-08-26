@@ -81,7 +81,7 @@ const replacements = [
   { id: 'nagerechten-grid', html: renderNagerechten(menu.nagerechten) },
   { id: 'uren-grid',        html: renderUren(info.uren) },
   { id: 'parking-grid',     html: renderParking(info.parking) },
-  { id: 'vakantie-content', html: renderVakantie(info.vakantie) },
+  // { id: 'vakantie-content', html: renderVakantie(info.vakantie) }, // uitgeschakeld — zie vakantie-card comment in index.html
 ];
 
 let count = 0;

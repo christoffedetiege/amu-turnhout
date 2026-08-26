@@ -90,11 +90,39 @@
 <link rel="stylesheet" href="css/design-tokens.css">
 <link rel="stylesheet" href="css/components.css">
 <style>
-/* ========== SPLIT-BRAND NAVBAR — DARK LUXE ========== */
-.split-navbar {
+/* ========== SITE HEADER (TOP BANNER + NAVBAR) ========== */
+.site-header {
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
+}
+
+/* ========== TOP ANNOUNCEMENT BANNER ========== */
+.top-banner {
+  background: rgba(12, 15, 15, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(176, 120, 64, 0.25);
+  padding: 0.55rem 2.5rem;
+  text-align: center;
+}
+.top-banner p {
+  margin: 0;
+  color: var(--color-cream);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+.top-banner strong {
+  color: var(--color-accent-light);
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .top-banner { padding: 0.55rem 1.2rem; }
+}
+
+/* ========== SPLIT-BRAND NAVBAR — DARK LUXE ========== */
+.split-navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -624,27 +652,35 @@
 </head>
 <body>
 
-<!-- ============================== NAVBAR ============================== -->
-<nav class="split-navbar" id="navbar">
-  <a href="#hero" class="brand-left">AMU</a>
-  <div class="nav-center">
-    <a href="#hero">Home</a>
-    <a href="#restaurant">Restaurant</a>
-    <a href="#bar-amu">Bar Amu</a>
-    <a href="#formules">Menu</a>
-    <a href="#drankenkaart">Drankenkaart</a>
-    <a href="#impressies">Impressies</a>
-    <a href="#reserveren">Reserveren</a>
-    <a href="#cadeaubon">Cadeaubon</a>
-    <a href="#parking">Parking</a>
-    <a href="#contact">Contact</a>
+<!-- ============================== SITE HEADER (BANNER + NAVBAR) ============================== -->
+<div class="site-header" id="site-header">
+  <!-- ============================== KERMIS BANNER ============================== -->
+  <div class="top-banner" id="top-banner">
+    <p><strong>Amu is open tijdens Turnhout kermis (6/08 t.e.m. 23/08).</strong> Door een gewijzigde verkeerssituatie bereik je ons met de wagen via de Steenweg op Oosthoven. Parkeren is mogelijk op 🅿️ Patersstraat of 🅿️ CM Korte Begijnenstraat.</p>
   </div>
-  <button class="hamburger" id="hamburger" aria-label="Menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-</nav>
+
+  <!-- ============================== NAVBAR ============================== -->
+  <nav class="split-navbar" id="navbar">
+    <a href="#hero" class="brand-left">AMU</a>
+    <div class="nav-center">
+      <a href="#hero">Home</a>
+      <a href="#restaurant">Restaurant</a>
+      <a href="#bar-amu">Bar Amu</a>
+      <a href="#formules">Menu</a>
+      <a href="#drankenkaart">Drankenkaart</a>
+      <a href="#impressies">Impressies</a>
+      <a href="#reserveren">Reserveren</a>
+      <a href="#cadeaubon">Cadeaubon</a>
+      <a href="#parking">Parking</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+</div>
 
 <!-- Mobile Menu -->
 <div class="mobile-overlay" id="mobile-overlay"></div>
@@ -854,15 +890,17 @@
       <div class="accent-line"></div>
     </div>
     <div class="reserveer-grid">
+      <!-- VAKANTIE-CARD — uitgeschakeld na zomervakantie 2026. Terug activeren voor volgende vakantie:
       <div class="reserveer-card vakantie-card">
         <h3>Zomervakantie</h3>
         <div id="vakantie-content">
       <p>Amu sluit de deuren voor een korte zomerpauze van zondag 26 juli tot en met woensdag 5 augustus.</p>
       <p>Vanaf donderdag 6 augustus verwelkomen wij u graag opnieuw voor een verfijnde culinaire beleving.</p>
       <p>Daarnaast zijn wij uitzonderlijk gesloten op zaterdag 15 augustus.</p>
-    
+
         </div>
       </div>
+      -->
       <div class="reserveer-card glass-uren">
         <h3>Openingsuren</h3>
         <div class="uren-grid" id="uren-grid">
@@ -970,11 +1008,12 @@ document.addEventListener('DOMContentLoaded', function() {
     renderUren('uren-grid');
     renderParking('parking-grid');
     renderBarfood('barfood-list');
-    renderVakantie('vakantie-content');
+    // renderVakantie('vakantie-content'); // uitgeschakeld — zie vakantie-card comment in Reserveren-sectie
   });
 
   // Navbar scroll effect
   var navbar = document.getElementById('navbar');
+  var siteHeader = document.getElementById('site-header');
   window.addEventListener('scroll', function() {
     if (window.scrollY > 60) {
       navbar.classList.add('scrolled');
@@ -1014,7 +1053,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var target = document.querySelector(this.getAttribute('href'));
       if (target) {
         e.preventDefault();
-        var offset = navbar.offsetHeight + 10;
+        var offset = siteHeader.offsetHeight + 10;
         var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
         window.scrollTo({ top: top, behavior: 'smooth' });
       }
