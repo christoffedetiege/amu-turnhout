@@ -19,7 +19,7 @@
       "badge":""
     },
     {
-      "naam": "Amu Happyness",
+      "naam": "Amu Happiness",
       "prijs": 120,
       "detail": "10 verrassingsgerechten (incl. dessert)",
       "detail2": "Te bestellen tot 20u",
@@ -66,31 +66,31 @@
   ],
   "menuproducten": [
     {
-      "product": "Gemarineerde maatjes – zoet zure komkommer – Madras curry"
+      "product": "Zoet zuur gemarineerde makreel – rilette gerookte makreel – groenten crunch"
     },
     {
-      "product": "Pastrami – stracciatella di burrata - courgette"
+      "product": "Kalfs carpaccio – rozemarijn - salie - knolselder"
     },
     {
-      "product": "Vijgen carpaccio – roquefort – brioche"
+      "product": "Broodsalade – ansjovis – tomaat"
     },
     {
-      "product": "Snoekbaars – venkel – tijgergarnalenjus"
+      "product": "Corvina – paprika – basilicum"
     },
     {
-      "product": "Kabeljauw – artisjok – gekonfijte citroen"
+      "product": "Scholrollade – groene asperge – morieltjes - truffel"
     },
     {
-      "product": "Aubergine rolletjes – basilicum ricotta – kerstomaatjes"
+      "product": "Zeeuwse mosselen – gefermenteerde daslook – shi take"
     },
     {
-      "product": "Ravioli mozzarella – Alpenspeck – rabarber"
+      "product": "Gerookte eend – vijg – cottage cheese"
     },
     {
-      "product": "Konijnrollade – gegrilde perzik – sherry"
+      "product": "Cannelloni lams gehakt – spinazie – feta"
     },
     {
-      "product": "Presa Duroc – jalapeño – maïs – geroosterde paprika"
+      "product": "Entrecote – pompoen – girolles – framboos - lavendel"
     },
     {
       "product": "Bij de start van uw menu serveren wij ambachtelijk zuurdesembrood, met zorg gebakken door Kaat Roels van Bakkerij Het Maal, vergezeld van za'atarboter en een seizoensgebonden dip. Indien gewenst kan extra brood worden bijgeplaatst aan € 2,50 per persoon."
@@ -99,20 +99,20 @@
   ],
   "nagerechten": [
     {
-      "titel": "Abrikozen parfait – citroen – vanille saus – honeycomb",
+      "titel": "Limoncello parfait – citroen cremeux– gebrande meringue – amaretti",
       "prijs": "15"
     },
     {
-      "titel": "Witte chocolade ijs – aardbei – suikerwafel",
+      "titel": "Pistache ijs – opal pruim – cardamon room – Turks fruit",
       "prijs": "15"
     },
     {
-      "titel": "Frambozen – meringue – platte kaas",
+      "titel": "Ganache pure chocolade – frambozen – steranijs",
       "prijs": "15"
     },
     {
-      "titel": "Verse geitenkaas – gegrilde perzik – peperkoek",
-      "prijs": "17"
+      "titel": "Camembert gerijpt in calvados – appel chutney – opgelegde rozijntjes",
+      "prijs": "18"
     }
   ]
 }

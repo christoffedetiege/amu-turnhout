@@ -7,16 +7,7 @@
           "titel": "",
           "items": [
             {
-              "titel": "Gemarineerde maatjes – zoet zure komkommer – Madras curry",
-              "omschrijving1": "",
-              "fles": {},
-              "glas": {
-                "prijs": "23.00",
-                "volume": ""
-              }
-            },
-            {
-              "titel": "Pastrami – burrata – courgette",
+              "titel": "Kalfs carpaccio – rozemarijn - salie – knolselder",
               "omschrijving1": "",
               "fles": {},
               "glas": {
@@ -25,56 +16,56 @@
               }
             },
             {
-              "titel": "Vijgen carpaccio – gorgonzola – brioche",
+              "titel": "Broodsalade – ansjovis – tomaat - komkommer",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "16.00",
+                "prijs": "14.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Coppa de boeuf – gedroogde ricotta",
+              "titel": "Charcuterie – walnootvinaigrette – crostino",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "18.50",
+                "prijs": "18.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Alpenkaas \"Tommette de Yenne\" – peren chutney – crostino",
+              "titel": "Makreel rilette – crostino",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "12.00",
+                "prijs": "14.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Kalamata olijven",
+              "titel": "Kruidenkaas – tahin - granaatappel – crostino",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "5.50",
+                "prijs": "10.00",
                 "volume": ""
               }
             },
             {
-              "titel": "Gerookte amandelen – paprika",
+              "titel": "Zoete Siciliaanse groene olijven",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "5.50",
+                "prijs": "6.50",
                 "volume": ""
               }
             },
             {
-              "titel": "Krokante aardappelchips",
+              "titel": "Camembert gerijpt in calvados – appel chutney",
               "omschrijving1": "",
               "fles": {},
               "glas": {
-                "prijs": "5.50",
+                "prijs": "18.00",
                 "volume": ""
               }
             }
